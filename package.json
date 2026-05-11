@@ -8,7 +8,7 @@
     "validate": "ts-node scripts/validate.ts",
     "dev": "wrangler dev",
     "build:index": "ts-node scripts/build-index.ts",
-    "add:images": "ts-node scripts/add-images.ts"
+    "add:images": "FAL_API_KEY=$(grep FAL_API_KEY .dev.vars | cut -d '=' -f2) ts-node scripts/add-images.ts"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/eigdoyr/filipino-food-api#readme",
   "dependencies": {
+    "@fal-ai/client": "^1.10.1",
     "@hono/swagger-ui": "^0.6.1",
     "hono": "^4.12.18",
     "zod": "^4.4.3",

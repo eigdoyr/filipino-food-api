@@ -1,5 +1,7 @@
 packages/data/dishes/index.json
 
+.dev.vars
+
 # Logs
 logs
 *.log

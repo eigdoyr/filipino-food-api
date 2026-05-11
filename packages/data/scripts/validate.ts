@@ -3,7 +3,9 @@ import path from "path";
 import { DishSchema } from "../schema/dish.schema";
 
 const dishesDir = path.join(__dirname, "../dishes");
-const files = fs.readdirSync(dishesDir).filter((f) => f.endsWith(".json"));
+const files = fs
+  .readdirSync(dishesDir)
+  .filter((f) => f.endsWith(".json") && f !== "index.json");
 
 let passed = 0;
 let failed = 0;

@@ -1,0 +1,11 @@
+{
+  "id": "pinaputok",
+  "name": "Pinaputok na Tilapia",
+  "description": "Whole tilapia stuffed with tomatoes, onions, and ginger then grilled or baked until the skin bursts open. A simple and flavorful Filipino fish dish.",
+  "type": ["main_dish"],
+  "main_ingredients": ["tilapia", "tomato", "onion", "ginger"],
+  "occasion": ["everyday"],
+  "flavor_profile": ["savory", "umami"],
+  "cooking_method": ["grilled", "baked"],
+  "tags": ["fish", "tilapia", "stuffed", "grilled"]
+}

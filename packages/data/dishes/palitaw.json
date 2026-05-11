@@ -1,0 +1,16 @@
+{
+  "id": "palitaw",
+  "name": "Palitaw",
+  "description": "Flat glutinous rice cakes boiled until they float, then rolled in grated coconut, sugar, and sesame seeds. The name comes from the Tagalog word litaw meaning to float.",
+  "type": ["kakanin", "snack"],
+  "main_ingredients": [
+    "glutinous rice flour",
+    "grated coconut",
+    "sugar",
+    "sesame seeds"
+  ],
+  "occasion": ["merienda", "everyday"],
+  "flavor_profile": ["sweet"],
+  "cooking_method": ["boiled"],
+  "tags": ["rice cake", "kakanin", "coconut", "sesame"]
+}

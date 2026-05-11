@@ -1,0 +1,11 @@
+{
+  "id": "tortang-talong",
+  "name": "Tortang Talong",
+  "description": "A Filipino omelette made with grilled eggplant dipped in egg and pan-fried until golden. A simple, budget-friendly everyday dish often served with rice and banana ketchup.",
+  "type": ["main_dish", "breakfast"],
+  "main_ingredients": ["eggplant", "egg", "garlic", "onion"],
+  "occasion": ["everyday", "breakfast"],
+  "flavor_profile": ["savory"],
+  "cooking_method": ["grilled", "fried"],
+  "tags": ["eggplant", "omelette", "budget meal", "everyday"]
+}

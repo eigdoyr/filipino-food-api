@@ -1,0 +1,11 @@
+{
+  "id": "suman",
+  "name": "Suman",
+  "description": "Sticky rice cooked in coconut milk and wrapped in banana leaves or palm leaves, then steamed. A classic kakanin enjoyed with ripe mango or sugar.",
+  "type": ["kakanin", "snack", "breakfast"],
+  "main_ingredients": ["glutinous rice", "coconut milk", "banana leaves"],
+  "occasion": ["merienda", "fiesta", "everyday"],
+  "flavor_profile": ["sweet", "savory"],
+  "cooking_method": ["steamed"],
+  "tags": ["sticky rice", "banana leaf", "kakanin", "mango pairing"]
+}

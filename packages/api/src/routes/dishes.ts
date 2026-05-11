@@ -40,6 +40,29 @@ router.get("/", (c) => {
   });
 });
 
+router.get("/search", (c) => {
+  const q = c.req.query("q")?.toLowerCase();
+
+  if (!q) {
+    return c.json({ error: "Query parameter q is required" }, 400);
+  }
+
+  const results = dishes.filter((d) => {
+    return (
+      d.name.toLowerCase().includes(q) ||
+      d.description.toLowerCase().includes(q) ||
+      d.tags.some((t) => t.toLowerCase().includes(q)) ||
+      d.main_ingredients.some((i) => i.toLowerCase().includes(q))
+    );
+  });
+
+  return c.json({
+    data: results,
+    query: q,
+    total: results.length,
+  });
+});
+
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes.find((d) => d.id === id);

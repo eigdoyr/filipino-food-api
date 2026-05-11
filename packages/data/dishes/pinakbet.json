@@ -1,0 +1,13 @@
+{
+  "id": "pinakbet",
+  "name": "Pinakbet",
+  "local_name": "Pakbet",
+  "description": "An Ilocano vegetable dish of bitter melon, eggplant, okra, and string beans cooked with bagoong and pork. Named from the Ilocano word pinakebbet meaning shriveled.",
+  "type": ["main_dish", "side_dish"],
+  "main_ingredients": ["bitter melon", "eggplant", "bagoong", "okra", "pork"],
+  "occasion": ["everyday"],
+  "flavor_profile": ["savory", "bitter", "salty", "umami"],
+  "cooking_method": ["stewed", "sauteed"],
+  "origin_region": "Ilocos",
+  "tags": ["vegetables", "bagoong", "ilocano"]
+}

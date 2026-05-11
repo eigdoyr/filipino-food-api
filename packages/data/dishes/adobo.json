@@ -1,0 +1,11 @@
+{
+  "id": "adobo",
+  "name": "Adobo",
+  "description": "A savory Filipino dish of meat braised in vinegar, soy sauce, garlic, and bay leaves. Considered the unofficial national dish of the Philippines.",
+  "type": ["main_dish"],
+  "main_ingredients": ["pork", "vinegar", "soy sauce", "garlic", "bay leaves"],
+  "occasion": ["everyday", "party", "potluck"],
+  "flavor_profile": ["savory", "sour", "salty"],
+  "cooking_method": ["stewed"],
+  "tags": ["pork", "chicken", "classic", "national dish"]
+}

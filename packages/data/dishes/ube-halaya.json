@@ -1,0 +1,35 @@
+{
+  "id": "ube-halaya",
+  "name": "Ube Halaya",
+  "description": "A thick purple yam jam made by slowly cooking mashed ube with coconut milk, condensed milk, and butter. A versatile Filipino dessert eaten on its own or used as a topping.",
+  "type": [
+    "dessert",
+    "kakanin"
+  ],
+  "main_ingredients": [
+    "purple yam",
+    "coconut milk",
+    "condensed milk",
+    "butter"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta",
+    "christmas",
+    "birthday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "ube",
+    "purple yam",
+    "jam",
+    "dessert"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Ube%20Halaya%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

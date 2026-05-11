@@ -1,0 +1,34 @@
+{
+  "id": "sinigang-na-hipon",
+  "name": "Sinigang na Hipon",
+  "description": "A sour tamarind soup with shrimp as the main protein, cooked with kangkong, radish, and eggplant. Lighter than pork sinigang with a naturally sweet shrimp flavor.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "shrimp",
+    "tamarind",
+    "kangkong",
+    "radish",
+    "eggplant"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sour",
+    "savory"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "sinigang",
+    "shrimp",
+    "tamarind",
+    "seafood"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sinigang%20na%20Hipon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

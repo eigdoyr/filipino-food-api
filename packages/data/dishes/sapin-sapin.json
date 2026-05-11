@@ -1,0 +1,34 @@
+{
+  "id": "sapin-sapin",
+  "name": "Sapin-Sapin",
+  "description": "A layered sticky rice cake made with glutinous rice flour and coconut milk, each layer colored and flavored differently — ube, coconut, and jackfruit.",
+  "type": [
+    "kakanin",
+    "dessert"
+  ],
+  "main_ingredients": [
+    "glutinous rice flour",
+    "coconut milk",
+    "ube",
+    "jackfruit"
+  ],
+  "occasion": [
+    "fiesta",
+    "birthday",
+    "party"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "tags": [
+    "layered rice cake",
+    "kakanin",
+    "ube",
+    "colorful"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sapin-Sapin%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

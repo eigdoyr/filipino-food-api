@@ -1,0 +1,35 @@
+{
+  "id": "binagoongan",
+  "name": "Binagoongan",
+  "description": "Pork belly sauteed with bagoong alamang shrimp paste and tomatoes, sometimes with a touch of vinegar. An intensely salty and savory dish best paired with green mango.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork belly",
+    "bagoong alamang",
+    "tomato",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "salty",
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "sauteed",
+    "stewed"
+  ],
+  "tags": [
+    "bagoong",
+    "shrimp paste",
+    "pork",
+    "salty"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Binagoongan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

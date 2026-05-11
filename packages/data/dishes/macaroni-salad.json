@@ -1,0 +1,37 @@
+{
+  "id": "macaroni-salad",
+  "name": "Macaroni Salad",
+  "description": "A sweet Filipino pasta salad with elbow macaroni, shredded chicken, pineapple, raisins, and mayonnaise. A staple at every Filipino celebration and holiday spread.",
+  "type": [
+    "side_dish",
+    "appetizer"
+  ],
+  "main_ingredients": [
+    "elbow macaroni",
+    "chicken",
+    "pineapple",
+    "mayonnaise",
+    "raisins"
+  ],
+  "occasion": [
+    "christmas",
+    "birthday",
+    "party",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "savory"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "pasta salad",
+    "sweet",
+    "mayonnaise",
+    "party food"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Macaroni%20Salad%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

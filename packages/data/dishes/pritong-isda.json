@@ -1,0 +1,33 @@
+{
+  "id": "pritong-isda",
+  "name": "Pritong Isda",
+  "description": "Simple whole fried fish seasoned with salt and rubbed with garlic. A staple everyday Filipino dish served with steamed rice, tomatoes, and bagoong or sawsawan.",
+  "type": [
+    "main_dish",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "whole fish",
+    "salt",
+    "garlic",
+    "cooking oil"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "fried fish",
+    "simple",
+    "everyday",
+    "budget meal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pritong%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

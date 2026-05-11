@@ -1,0 +1,35 @@
+{
+  "id": "cassava-cake",
+  "name": "Cassava Cake",
+  "description": "A moist and chewy baked cake made from grated cassava, coconut milk, and condensed milk with a custard topping. A popular Filipino dessert at parties and fiestas.",
+  "type": [
+    "dessert",
+    "kakanin"
+  ],
+  "main_ingredients": [
+    "grated cassava",
+    "coconut milk",
+    "condensed milk",
+    "egg"
+  ],
+  "occasion": [
+    "fiesta",
+    "birthday",
+    "party",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "baked"
+  ],
+  "tags": [
+    "cassava",
+    "kakanin",
+    "baked",
+    "custard"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Cassava%20Cake%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bagnet",
+  "name": "Bagnet",
+  "description": "Ilocano deep-fried pork belly boiled and dried before frying until the skin is extra crispy and bubbly. Crunchier and more intensely flavored than lechon kawali.",
+  "type": [
+    "main_dish",
+    "appetizer"
+  ],
+  "main_ingredients": [
+    "pork belly",
+    "garlic",
+    "peppercorn",
+    "bay leaves"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta",
+    "pulutan"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "boiled",
+    "fried"
+  ],
+  "origin_region": "Ilocos",
+  "tags": [
+    "ilocano",
+    "crispy pork",
+    "fried",
+    "pulutan"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Bagnet%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "buko-pandan",
+  "name": "Buko Pandan",
+  "description": "A refreshing Filipino dessert salad of young coconut strips, pandan-flavored green gelatin, cream, and condensed milk. A staple at parties and fiestas.",
+  "type": [
+    "dessert"
+  ],
+  "main_ingredients": [
+    "young coconut",
+    "pandan gelatin",
+    "all purpose cream",
+    "condensed milk"
+  ],
+  "occasion": [
+    "party",
+    "birthday",
+    "fiesta",
+    "christmas"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "raw"
+  ],
+  "tags": [
+    "coconut",
+    "pandan",
+    "green",
+    "cold dessert"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Buko%20Pandan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

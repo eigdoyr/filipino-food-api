@@ -1,0 +1,35 @@
+{
+  "id": "ginataan",
+  "name": "Ginataan",
+  "description": "A warm Filipino dessert soup of glutinous rice balls, saba banana, taro, sweet potato, and jackfruit cooked in sweet coconut milk. Served hot or cold.",
+  "type": [
+    "dessert",
+    "kakanin"
+  ],
+  "main_ingredients": [
+    "coconut milk",
+    "glutinous rice balls",
+    "saba banana",
+    "taro",
+    "jackfruit"
+  ],
+  "occasion": [
+    "merienda",
+    "everyday",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "coconut milk",
+    "bilo-bilo",
+    "warm dessert",
+    "kakanin"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Ginataan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

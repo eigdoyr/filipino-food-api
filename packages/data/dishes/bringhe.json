@@ -1,0 +1,37 @@
+{
+  "id": "bringhe",
+  "name": "Bringhe",
+  "description": "A Kapampangan festive rice dish cooked in coconut milk and turmeric wrapped in banana leaves. Often called the Filipino paella and served at weddings and fiestas.",
+  "type": [
+    "rice_dish",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "glutinous rice",
+    "coconut milk",
+    "turmeric",
+    "chicken"
+  ],
+  "occasion": [
+    "fiesta",
+    "wedding",
+    "christmas",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sweet"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "origin_region": "Pampanga",
+  "tags": [
+    "kapampangan",
+    "rice",
+    "banana leaf",
+    "turmeric"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Bringhe%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

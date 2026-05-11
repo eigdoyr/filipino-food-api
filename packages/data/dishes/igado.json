@@ -1,0 +1,37 @@
+{
+  "id": "igado",
+  "name": "Igado",
+  "description": "An Ilocano dish of pork tenderloin and liver cooked in vinegar, soy sauce, and spices with bell peppers and green peas. A tangy and savory organ meat dish.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork",
+    "pork liver",
+    "vinegar",
+    "soy sauce",
+    "bell pepper"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "salty"
+  ],
+  "cooking_method": [
+    "sauteed",
+    "stewed"
+  ],
+  "origin_region": "Ilocos",
+  "tags": [
+    "ilocano",
+    "liver",
+    "offal",
+    "vinegar"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Igado%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

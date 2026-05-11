@@ -1,0 +1,34 @@
+{
+  "id": "misua-soup",
+  "name": "Misua Soup",
+  "description": "A light soup of thin wheat noodles cooked with patola sponge gourd, shrimp, and garlic. Often served to new mothers or the sick for its comforting and nourishing qualities.",
+  "type": [
+    "soup",
+    "noodle_dish"
+  ],
+  "main_ingredients": [
+    "misua noodles",
+    "patola",
+    "shrimp",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday",
+    "cold_weather"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "thin noodles",
+    "light soup",
+    "comfort food",
+    "patola"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Misua%20Soup%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

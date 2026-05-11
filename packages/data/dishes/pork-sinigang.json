@@ -1,0 +1,36 @@
+{
+  "id": "pork-sinigang",
+  "name": "Pork Sinigang",
+  "description": "The most common version of sinigang using pork ribs or belly as the main protein, soured with tamarind. The quintessential Filipino comfort soup.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork ribs",
+    "tamarind",
+    "kangkong",
+    "eggplant",
+    "radish"
+  ],
+  "occasion": [
+    "everyday",
+    "cold_weather"
+  ],
+  "flavor_profile": [
+    "sour",
+    "savory"
+  ],
+  "cooking_method": [
+    "boiled",
+    "stewed"
+  ],
+  "tags": [
+    "sinigang",
+    "pork",
+    "tamarind",
+    "comfort food"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pork%20Sinigang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

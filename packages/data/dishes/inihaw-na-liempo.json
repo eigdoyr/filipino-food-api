@@ -1,0 +1,37 @@
+{
+  "id": "inihaw-na-liempo",
+  "name": "Inihaw na Liempo",
+  "description": "Grilled pork belly marinated in soy sauce, calamansi, garlic, and banana ketchup. A staple Filipino barbecue dish served with rice and spiced vinegar dipping sauce.",
+  "type": [
+    "main_dish",
+    "street_food"
+  ],
+  "main_ingredients": [
+    "pork belly",
+    "soy sauce",
+    "calamansi",
+    "garlic",
+    "banana ketchup"
+  ],
+  "occasion": [
+    "everyday",
+    "party",
+    "pulutan"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sweet",
+    "salty"
+  ],
+  "cooking_method": [
+    "grilled"
+  ],
+  "tags": [
+    "grilled pork",
+    "bbq",
+    "liempo",
+    "inihaw"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Inihaw%20na%20Liempo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

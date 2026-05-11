@@ -1,0 +1,37 @@
+{
+  "id": "tiyula-itum",
+  "name": "Tiyula Itum",
+  "description": "A black beef soup from the Tausug people of Sulu, darkened with burnt coconut and seasoned with ginger and turmeric. A significant dish in Muslim Filipino cuisine.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "beef",
+    "burnt coconut",
+    "ginger",
+    "turmeric"
+  ],
+  "occasion": [
+    "fiesta",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "bitter",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled",
+    "stewed"
+  ],
+  "origin_region": "Sulu",
+  "tags": [
+    "tausug",
+    "mindanao",
+    "muslim filipino",
+    "black soup"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Tiyula%20Itum%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "adobong-manok-sa-gata",
+  "name": "Adobong Manok sa Gata",
+  "description": "A creamy Bicolano variation of chicken adobo finished with coconut milk and chili. Combines the classic adobo tang with the rich creaminess of gata.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "chicken",
+    "coconut milk",
+    "vinegar",
+    "soy sauce",
+    "chili"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "spicy"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
+  "origin_region": "Bicol",
+  "tags": [
+    "adobo variation",
+    "coconut milk",
+    "bicolano",
+    "chicken"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Adobong%20Manok%20sa%20Gata%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

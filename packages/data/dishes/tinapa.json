@@ -1,0 +1,35 @@
+{
+  "id": "tinapa",
+  "name": "Tinapa",
+  "description": "Cold smoked fish, traditionally milkfish or bangus, preserved through a smoking process. Eaten for breakfast with garlic rice and tomatoes or used to flavor soups and stews.",
+  "type": [
+    "breakfast",
+    "main_dish",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "bangus",
+    "salt",
+    "smoke"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "smoky",
+    "salty",
+    "savory"
+  ],
+  "cooking_method": [
+    "smoked"
+  ],
+  "tags": [
+    "smoked fish",
+    "bangus",
+    "breakfast",
+    "preserved"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Tinapa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

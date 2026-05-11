@@ -1,0 +1,36 @@
+{
+  "id": "fried-lumpia",
+  "name": "Lumpiang Gulay",
+  "description": "Deep-fried spring rolls filled with sauteed mixed vegetables including carrots, cabbage, and bean sprouts. A lighter vegetarian version of lumpia shanghai.",
+  "type": [
+    "appetizer",
+    "snack",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "spring roll wrapper",
+    "carrots",
+    "cabbage",
+    "bean sprouts"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory"
+  ],
+  "cooking_method": [
+    "fried",
+    "sauteed"
+  ],
+  "tags": [
+    "vegetable lumpia",
+    "spring roll",
+    "fried",
+    "vegetarian"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Lumpiang%20Gulay%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

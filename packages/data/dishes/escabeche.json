@@ -1,0 +1,37 @@
+{
+  "id": "escabeche",
+  "name": "Escabeche",
+  "description": "A Filipino sweet and sour whole fried fish topped with a sauce of vinegar, sugar, ginger, and bell peppers. A Spanish-influenced dish common at fiestas.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "whole fish",
+    "vinegar",
+    "sugar",
+    "ginger",
+    "bell pepper"
+  ],
+  "occasion": [
+    "fiesta",
+    "everyday",
+    "party"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "sour",
+    "savory"
+  ],
+  "cooking_method": [
+    "fried",
+    "stewed"
+  ],
+  "tags": [
+    "sweet sour fish",
+    "spanish influence",
+    "fiesta",
+    "ginger"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Escabeche%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

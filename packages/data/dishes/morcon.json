@@ -1,0 +1,37 @@
+{
+  "id": "morcon",
+  "name": "Morcon",
+  "description": "A Filipino beef roulade stuffed with hard boiled eggs, sausage, pickles, and carrots then braised in tomato sauce. A Spanish-influenced dish served at special occasions.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "beef",
+    "hard boiled egg",
+    "sausage",
+    "tomato sauce",
+    "carrots"
+  ],
+  "occasion": [
+    "christmas",
+    "fiesta",
+    "birthday",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour"
+  ],
+  "cooking_method": [
+    "stewed",
+    "boiled"
+  ],
+  "tags": [
+    "beef roulade",
+    "spanish influence",
+    "stuffed",
+    "fiesta"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Morcon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

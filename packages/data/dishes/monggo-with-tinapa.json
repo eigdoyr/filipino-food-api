@@ -1,0 +1,36 @@
+{
+  "id": "monggo-with-tinapa",
+  "name": "Monggo with Tinapa",
+  "description": "The classic Friday monggo soup elevated with flaked smoked fish tinapa instead of pork. The smokiness of the tinapa adds a deep umami flavor to the mung bean broth.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "mung beans",
+    "tinapa",
+    "malunggay",
+    "garlic",
+    "onion"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami",
+    "smoky"
+  ],
+  "cooking_method": [
+    "boiled",
+    "sauteed"
+  ],
+  "tags": [
+    "monggo",
+    "tinapa",
+    "smoked fish",
+    "friday dish"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Monggo%20with%20Tinapa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

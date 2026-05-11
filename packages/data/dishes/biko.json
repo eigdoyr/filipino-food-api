@@ -1,0 +1,36 @@
+{
+  "id": "biko",
+  "name": "Biko",
+  "description": "A sweet sticky rice cake cooked in coconut milk and brown sugar, topped with latik coconut caramel. A beloved kakanin served at celebrations and fiestas.",
+  "type": [
+    "kakanin",
+    "dessert"
+  ],
+  "main_ingredients": [
+    "glutinous rice",
+    "coconut milk",
+    "brown sugar",
+    "latik"
+  ],
+  "occasion": [
+    "fiesta",
+    "birthday",
+    "everyday",
+    "merienda"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "boiled",
+    "baked"
+  ],
+  "tags": [
+    "sticky rice",
+    "kakanin",
+    "coconut",
+    "brown sugar"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Biko%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

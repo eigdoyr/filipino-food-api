@@ -1,0 +1,37 @@
+{
+  "id": "pinoy-spaghetti",
+  "name": "Pinoy Spaghetti",
+  "description": "The Filipino version of spaghetti with a distinctly sweet tomato sauce made with banana ketchup, ground pork, hotdog slices, and topped with cheese. A staple at children's parties.",
+  "type": [
+    "noodle_dish",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "spaghetti",
+    "ground pork",
+    "hotdog",
+    "banana ketchup",
+    "cheese"
+  ],
+  "occasion": [
+    "birthday",
+    "party",
+    "christmas"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "savory"
+  ],
+  "cooking_method": [
+    "boiled",
+    "sauteed"
+  ],
+  "tags": [
+    "sweet spaghetti",
+    "banana ketchup",
+    "party food",
+    "kids"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pinoy%20Spaghetti%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

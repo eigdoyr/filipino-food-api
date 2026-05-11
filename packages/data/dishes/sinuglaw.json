@@ -1,0 +1,39 @@
+{
+  "id": "sinuglaw",
+  "name": "Sinuglaw",
+  "description": "A Visayan fusion dish combining sinugba grilled pork belly with kinilaw cured fish in vinegar, onions, ginger, and chili. The name is a portmanteau of the two dishes.",
+  "type": [
+    "appetizer",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork belly",
+    "fresh tuna",
+    "vinegar",
+    "ginger",
+    "chili"
+  ],
+  "occasion": [
+    "pulutan",
+    "everyday",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "spicy"
+  ],
+  "cooking_method": [
+    "grilled",
+    "cured"
+  ],
+  "origin_region": "Visayas",
+  "tags": [
+    "visayan",
+    "fusion",
+    "grilled",
+    "ceviche"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sinuglaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

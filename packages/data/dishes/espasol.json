@@ -1,0 +1,34 @@
+{
+  "id": "espasol",
+  "name": "Espasol",
+  "description": "Cylindrical rice flour rolls cooked in coconut milk and coated in toasted rice flour. A classic Laguna kakanin with a chewy texture and mild coconut flavor.",
+  "type": [
+    "kakanin",
+    "snack"
+  ],
+  "main_ingredients": [
+    "rice flour",
+    "coconut milk",
+    "sugar",
+    "toasted rice flour"
+  ],
+  "occasion": [
+    "merienda",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "origin_region": "Laguna",
+  "tags": [
+    "rice roll",
+    "kakanin",
+    "laguna",
+    "coconut"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Espasol%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "tinolang-isda",
+  "name": "Tinolang Isda",
+  "description": "A light fish ginger soup with green papaya or sayote and malunggay leaves. A seafood version of the classic chicken tinola, equally comforting and nutritious.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "fish",
+    "ginger",
+    "green papaya",
+    "malunggay"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "fish soup",
+    "ginger",
+    "light",
+    "comfort food"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Tinolang%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

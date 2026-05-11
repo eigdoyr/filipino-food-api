@@ -1,0 +1,36 @@
+{
+  "id": "pyanggang",
+  "name": "Pyanggang",
+  "description": "A festive Tausug chicken dish cooked in blackened coconut with ginger, turmeric, and lemongrass. A signature dish of the Muslim Filipino community in Sulu.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "chicken",
+    "burnt coconut",
+    "ginger",
+    "turmeric",
+    "lemongrass"
+  ],
+  "occasion": [
+    "fiesta",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "bitter",
+    "umami"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
+  "origin_region": "Sulu",
+  "tags": [
+    "tausug",
+    "mindanao",
+    "muslim filipino",
+    "coconut"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pyanggang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

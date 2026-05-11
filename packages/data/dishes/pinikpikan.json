@@ -1,0 +1,36 @@
+{
+  "id": "pinikpikan",
+  "name": "Pinikpikan",
+  "description": "A traditional Cordilleran chicken soup prepared through a ritual process, simmered with etag smoked cured meat and vegetables. A significant cultural dish of the Cordillera mountain tribes.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "chicken",
+    "etag",
+    "ginger",
+    "onion"
+  ],
+  "occasion": [
+    "fiesta",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami",
+    "smoky"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "origin_region": "Cordillera",
+  "tags": [
+    "cordillera",
+    "cultural",
+    "smoked meat",
+    "highland"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pinikpikan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

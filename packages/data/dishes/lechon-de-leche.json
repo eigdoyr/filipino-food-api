@@ -1,0 +1,35 @@
+{
+  "id": "lechon-de-leche",
+  "name": "Lechon de Leche",
+  "description": "A whole roasted suckling pig, smaller and more tender than regular lechon. The young pig produces incredibly crispy skin and delicate juicy meat.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "suckling pig",
+    "lemongrass",
+    "garlic",
+    "onion"
+  ],
+  "occasion": [
+    "birthday",
+    "christmas",
+    "wedding",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "roasted"
+  ],
+  "tags": [
+    "suckling pig",
+    "crispy skin",
+    "celebration",
+    "roasted"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Lechon%20de%20Leche%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

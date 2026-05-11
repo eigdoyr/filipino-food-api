@@ -2326,6 +2326,76 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "adobong-kangkong",
+    name: "Adobong Kangkong",
+    description: "Water spinach sauteed in vinegar, soy sauce, and garlic in the style of adobo. A quick, budget-friendly vegetable dish that is popular as an everyday ulam.",
+    type: [
+      "main_dish",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "kangkong",
+      "vinegar",
+      "soy sauce",
+      "garlic"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "salty"
+    ],
+    cooking_method: [
+      "sauteed"
+    ],
+    tags: [
+      "vegetable",
+      "adobo",
+      "kangkong",
+      "budget meal"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Adobong%20Kangkong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "adobong-manok-sa-gata",
+    name: "Adobong Manok sa Gata",
+    description: "A creamy Bicolano variation of chicken adobo finished with coconut milk and chili. Combines the classic adobo tang with the rich creaminess of gata.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "chicken",
+      "coconut milk",
+      "vinegar",
+      "soy sauce",
+      "chili"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "spicy"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    origin_region: "Bicol",
+    tags: [
+      "adobo variation",
+      "coconut milk",
+      "bicolano",
+      "chicken"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Adobong%20Manok%20sa%20Gata%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "adobong-pusit",
     name: "Adobong Pusit",
     description: "Squid cooked in its own ink with vinegar, soy sauce, and garlic. A darker, briny variation of the classic adobo using fresh squid.",
@@ -2396,6 +2466,43 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "bagnet",
+    name: "Bagnet",
+    description: "Ilocano deep-fried pork belly boiled and dried before frying until the skin is extra crispy and bubbly. Crunchier and more intensely flavored than lechon kawali.",
+    type: [
+      "main_dish",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "pork belly",
+      "garlic",
+      "peppercorn",
+      "bay leaves"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta",
+      "pulutan"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled",
+      "fried"
+    ],
+    origin_region: "Ilocos",
+    tags: [
+      "ilocano",
+      "crispy pork",
+      "fried",
+      "pulutan"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bagnet%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "balut",
     name: "Balut",
     description: "A fertilized duck egg with a partially developed embryo, boiled and eaten from the shell. One of the most iconic and adventurous Filipino street foods, typically sold by vendors at night.",
@@ -2461,6 +2568,77 @@ var dishes_default = [
       "pork soup"
     ],
     image_url: "https://image.pollinations.ai/prompt/La%20Paz%20Batchoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "beef-caldereta",
+    name: "Beef Caldereta",
+    description: "A rich and spicy beef stew with liver spread, olives, potatoes, and bell peppers in a tomato-based sauce. A fiesta staple and one of the most popular party dishes.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef",
+      "liver spread",
+      "tomato sauce",
+      "olives",
+      "potatoes"
+    ],
+    occasion: [
+      "fiesta",
+      "party",
+      "birthday",
+      "christmas"
+    ],
+    flavor_profile: [
+      "savory",
+      "spicy",
+      "sour"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    tags: [
+      "beef",
+      "spicy",
+      "fiesta",
+      "tomato"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Beef%20Caldereta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "beef-steak",
+    name: "Bistek Tagalog",
+    description: "Thinly sliced beef marinated and cooked in soy sauce and calamansi juice, topped with caramelized onion rings. The Filipino answer to a beef steak.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef",
+      "soy sauce",
+      "calamansi",
+      "onion"
+    ],
+    occasion: [
+      "everyday",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "salty"
+    ],
+    cooking_method: [
+      "sauteed"
+    ],
+    tags: [
+      "beef",
+      "tagalog",
+      "soy sauce",
+      "onion"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bistek%20Tagalog%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -2569,6 +2747,182 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "biko",
+    name: "Biko",
+    description: "A sweet sticky rice cake cooked in coconut milk and brown sugar, topped with latik coconut caramel. A beloved kakanin served at celebrations and fiestas.",
+    type: [
+      "kakanin",
+      "dessert"
+    ],
+    main_ingredients: [
+      "glutinous rice",
+      "coconut milk",
+      "brown sugar",
+      "latik"
+    ],
+    occasion: [
+      "fiesta",
+      "birthday",
+      "everyday",
+      "merienda"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled",
+      "baked"
+    ],
+    tags: [
+      "sticky rice",
+      "kakanin",
+      "coconut",
+      "brown sugar"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Biko%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "binagoongan",
+    name: "Binagoongan",
+    description: "Pork belly sauteed with bagoong alamang shrimp paste and tomatoes, sometimes with a touch of vinegar. An intensely salty and savory dish best paired with green mango.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork belly",
+      "bagoong alamang",
+      "tomato",
+      "garlic"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "salty",
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "sauteed",
+      "stewed"
+    ],
+    tags: [
+      "bagoong",
+      "shrimp paste",
+      "pork",
+      "salty"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Binagoongan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "bringhe",
+    name: "Bringhe",
+    description: "A Kapampangan festive rice dish cooked in coconut milk and turmeric wrapped in banana leaves. Often called the Filipino paella and served at weddings and fiestas.",
+    type: [
+      "rice_dish",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "glutinous rice",
+      "coconut milk",
+      "turmeric",
+      "chicken"
+    ],
+    occasion: [
+      "fiesta",
+      "wedding",
+      "christmas",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sweet"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    origin_region: "Pampanga",
+    tags: [
+      "kapampangan",
+      "rice",
+      "banana leaf",
+      "turmeric"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bringhe%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "buko-pandan",
+    name: "Buko Pandan",
+    description: "A refreshing Filipino dessert salad of young coconut strips, pandan-flavored green gelatin, cream, and condensed milk. A staple at parties and fiestas.",
+    type: [
+      "dessert"
+    ],
+    main_ingredients: [
+      "young coconut",
+      "pandan gelatin",
+      "all purpose cream",
+      "condensed milk"
+    ],
+    occasion: [
+      "party",
+      "birthday",
+      "fiesta",
+      "christmas"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "raw"
+    ],
+    tags: [
+      "coconut",
+      "pandan",
+      "green",
+      "cold dessert"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Buko%20Pandan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "buko-salad",
+    name: "Buko Salad",
+    description: "A sweet Filipino fruit salad made with young coconut, mixed fruits, cream, and condensed milk. A popular party dessert often confused with buko pandan but without the pandan gelatin.",
+    type: [
+      "dessert"
+    ],
+    main_ingredients: [
+      "young coconut",
+      "mixed fruits",
+      "all purpose cream",
+      "condensed milk"
+    ],
+    occasion: [
+      "party",
+      "birthday",
+      "christmas",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "raw"
+    ],
+    tags: [
+      "coconut",
+      "fruit salad",
+      "creamy",
+      "cold dessert"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Buko%20Salad%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "bulalo",
     name: "Bulalo",
     description: "A rich beef bone marrow soup from Batangas made by slow-boiling beef shanks until the collagen and fat dissolve into a deeply flavorful broth. Best enjoyed during cold weather.",
@@ -2601,6 +2955,74 @@ var dishes_default = [
       "batangas"
     ],
     image_url: "https://image.pollinations.ai/prompt/Bulalo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "carioca",
+    name: "Carioca",
+    description: "Deep-fried glutinous rice balls filled with sweetened coconut and coated in a sweet coconut syrup glaze. A popular street food and merienda snack.",
+    type: [
+      "street_food",
+      "snack",
+      "kakanin"
+    ],
+    main_ingredients: [
+      "glutinous rice flour",
+      "coconut",
+      "sugar"
+    ],
+    occasion: [
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "rice balls",
+      "fried",
+      "street food",
+      "coconut"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Carioca%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "cassava-cake",
+    name: "Cassava Cake",
+    description: "A moist and chewy baked cake made from grated cassava, coconut milk, and condensed milk with a custard topping. A popular Filipino dessert at parties and fiestas.",
+    type: [
+      "dessert",
+      "kakanin"
+    ],
+    main_ingredients: [
+      "grated cassava",
+      "coconut milk",
+      "condensed milk",
+      "egg"
+    ],
+    occasion: [
+      "fiesta",
+      "birthday",
+      "party",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "baked"
+    ],
+    tags: [
+      "cassava",
+      "kakanin",
+      "baked",
+      "custard"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Cassava%20Cake%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -2638,6 +3060,41 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "chicken-inasal",
+    name: "Chicken Inasal",
+    description: "A Visayan grilled chicken marinated in calamansi, vinegar, lemongrass, and annatto oil. Known for its golden color and smoky citrusy flavor, popularized nationwide by fast food chains.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "chicken",
+      "calamansi",
+      "lemongrass",
+      "annatto",
+      "vinegar"
+    ],
+    occasion: [
+      "everyday",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour"
+    ],
+    cooking_method: [
+      "grilled"
+    ],
+    origin_region: "Visayas",
+    tags: [
+      "grilled chicken",
+      "visayan",
+      "annatto",
+      "inasal"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Chicken%20Inasal%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "crispy-pata",
     name: "Crispy Pata",
     description: "Deep-fried pork leg with impossibly crispy skin and tender meat inside. A crowd favorite at parties and a classic pulutan dish.",
@@ -2672,6 +3129,42 @@ var dishes_default = [
       "party food"
     ],
     image_url: "https://image.pollinations.ai/prompt/Crispy%20Pata%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "daing-na-bangus",
+    name: "Daing na Bangus",
+    description: "Butterflied milkfish marinated overnight in vinegar, garlic, and peppercorns then pan-fried until golden and crispy. A beloved Filipino breakfast dish.",
+    type: [
+      "breakfast",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "bangus",
+      "vinegar",
+      "garlic",
+      "peppercorn"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried",
+      "cured"
+    ],
+    tags: [
+      "bangus",
+      "milkfish",
+      "breakfast",
+      "crispy"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Daing%20na%20Bangus%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -2783,6 +3276,148 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "escabeche",
+    name: "Escabeche",
+    description: "A Filipino sweet and sour whole fried fish topped with a sauce of vinegar, sugar, ginger, and bell peppers. A Spanish-influenced dish common at fiestas.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "whole fish",
+      "vinegar",
+      "sugar",
+      "ginger",
+      "bell pepper"
+    ],
+    occasion: [
+      "fiesta",
+      "everyday",
+      "party"
+    ],
+    flavor_profile: [
+      "sweet",
+      "sour",
+      "savory"
+    ],
+    cooking_method: [
+      "fried",
+      "stewed"
+    ],
+    tags: [
+      "sweet sour fish",
+      "spanish influence",
+      "fiesta",
+      "ginger"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Escabeche%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "espasol",
+    name: "Espasol",
+    description: "Cylindrical rice flour rolls cooked in coconut milk and coated in toasted rice flour. A classic Laguna kakanin with a chewy texture and mild coconut flavor.",
+    type: [
+      "kakanin",
+      "snack"
+    ],
+    main_ingredients: [
+      "rice flour",
+      "coconut milk",
+      "sugar",
+      "toasted rice flour"
+    ],
+    occasion: [
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    origin_region: "Laguna",
+    tags: [
+      "rice roll",
+      "kakanin",
+      "laguna",
+      "coconut"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Espasol%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "fried-lumpia",
+    name: "Lumpiang Gulay",
+    description: "Deep-fried spring rolls filled with sauteed mixed vegetables including carrots, cabbage, and bean sprouts. A lighter vegetarian version of lumpia shanghai.",
+    type: [
+      "appetizer",
+      "snack",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "spring roll wrapper",
+      "carrots",
+      "cabbage",
+      "bean sprouts"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta",
+      "party"
+    ],
+    flavor_profile: [
+      "savory"
+    ],
+    cooking_method: [
+      "fried",
+      "sauteed"
+    ],
+    tags: [
+      "vegetable lumpia",
+      "spring roll",
+      "fried",
+      "vegetarian"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lumpiang%20Gulay%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "ginataan",
+    name: "Ginataan",
+    description: "A warm Filipino dessert soup of glutinous rice balls, saba banana, taro, sweet potato, and jackfruit cooked in sweet coconut milk. Served hot or cold.",
+    type: [
+      "dessert",
+      "kakanin"
+    ],
+    main_ingredients: [
+      "coconut milk",
+      "glutinous rice balls",
+      "saba banana",
+      "taro",
+      "jackfruit"
+    ],
+    occasion: [
+      "merienda",
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "coconut milk",
+      "bilo-bilo",
+      "warm dessert",
+      "kakanin"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Ginataan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "ginisang-monggo",
     name: "Ginisang Monggo",
     description: "Sauteed mung bean soup with pork, shrimp, and malunggay leaves. A nutritious everyday dish traditionally cooked every Friday in many Filipino households.",
@@ -2886,6 +3521,80 @@ var dishes_default = [
       "ube"
     ],
     image_url: "https://image.pollinations.ai/prompt/Halo-Halo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "igado",
+    name: "Igado",
+    description: "An Ilocano dish of pork tenderloin and liver cooked in vinegar, soy sauce, and spices with bell peppers and green peas. A tangy and savory organ meat dish.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "pork liver",
+      "vinegar",
+      "soy sauce",
+      "bell pepper"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "salty"
+    ],
+    cooking_method: [
+      "sauteed",
+      "stewed"
+    ],
+    origin_region: "Ilocos",
+    tags: [
+      "ilocano",
+      "liver",
+      "offal",
+      "vinegar"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Igado%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "inihaw-na-liempo",
+    name: "Inihaw na Liempo",
+    description: "Grilled pork belly marinated in soy sauce, calamansi, garlic, and banana ketchup. A staple Filipino barbecue dish served with rice and spiced vinegar dipping sauce.",
+    type: [
+      "main_dish",
+      "street_food"
+    ],
+    main_ingredients: [
+      "pork belly",
+      "soy sauce",
+      "calamansi",
+      "garlic",
+      "banana ketchup"
+    ],
+    occasion: [
+      "everyday",
+      "party",
+      "pulutan"
+    ],
+    flavor_profile: [
+      "savory",
+      "sweet",
+      "salty"
+    ],
+    cooking_method: [
+      "grilled"
+    ],
+    tags: [
+      "grilled pork",
+      "bbq",
+      "liempo",
+      "inihaw"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Inihaw%20na%20Liempo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -2995,6 +3704,43 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "kinalas",
+    name: "Kinalas",
+    description: "A Bicolano noodle soup made with scraped meat from pork or beef head, served in a rich broth thickened with brain and seasoned with spices and chili.",
+    type: [
+      "soup",
+      "noodle_dish"
+    ],
+    main_ingredients: [
+      "noodles",
+      "pork head meat",
+      "pork brain",
+      "chili",
+      "garlic"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "spicy",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    origin_region: "Bicol",
+    tags: [
+      "bicolano",
+      "noodles",
+      "pork",
+      "spicy"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Kinalas%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "kinilaw",
     name: "Kinilaw",
     description: "A Filipino ceviche of raw fresh fish cured in vinegar or calamansi juice with ginger, onion, and chili. A light and refreshing dish common in coastal regions.",
@@ -3029,6 +3775,39 @@ var dishes_default = [
       "coastal"
     ],
     image_url: "https://image.pollinations.ai/prompt/Kinilaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "kutsinta",
+    name: "Kutsinta",
+    description: "Chewy steamed rice cakes made with rice flour and lye water, giving them a distinctive brown color and sticky texture. Served with grated coconut.",
+    type: [
+      "kakanin",
+      "snack"
+    ],
+    main_ingredients: [
+      "rice flour",
+      "brown sugar",
+      "lye water",
+      "grated coconut"
+    ],
+    occasion: [
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "rice cake",
+      "kakanin",
+      "chewy",
+      "coconut"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Kutsinta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -3135,6 +3914,41 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "lechon-de-leche",
+    name: "Lechon de Leche",
+    description: "A whole roasted suckling pig, smaller and more tender than regular lechon. The young pig produces incredibly crispy skin and delicate juicy meat.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "suckling pig",
+      "lemongrass",
+      "garlic",
+      "onion"
+    ],
+    occasion: [
+      "birthday",
+      "christmas",
+      "wedding",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "roasted"
+    ],
+    tags: [
+      "suckling pig",
+      "crispy skin",
+      "celebration",
+      "roasted"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lechon%20de%20Leche%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "lechon-kawali",
     name: "Lechon Kawali",
     description: "Deep-fried pork belly boiled until tender then fried until the skin is shatteringly crispy. A cheaper and more accessible everyday version of whole roasted lechon.",
@@ -3204,6 +4018,44 @@ var dishes_default = [
       "cebu"
     ],
     image_url: "https://image.pollinations.ai/prompt/Lechon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "lomi",
+    name: "Lomi",
+    description: "A thick and hearty noodle soup from Batangas made with fresh egg noodles, pork, liver, and vegetables in a starchy cornstarch-thickened broth.",
+    type: [
+      "soup",
+      "noodle_dish"
+    ],
+    main_ingredients: [
+      "fresh egg noodles",
+      "pork",
+      "pork liver",
+      "cabbage",
+      "cornstarch"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather",
+      "breakfast"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled",
+      "sauteed"
+    ],
+    origin_region: "Batangas",
+    tags: [
+      "noodles",
+      "thick soup",
+      "batangas",
+      "egg noodles"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lomi%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -3280,6 +4132,116 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "lumpiang-sariwa",
+    name: "Lumpiang Sariwa",
+    description: "Fresh spring rolls filled with sauteed vegetables, tofu, and sometimes shrimp or pork, wrapped in a soft crepe-like wrapper and served with a sweet garlic sauce.",
+    type: [
+      "appetizer",
+      "snack",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "spring roll wrapper",
+      "ubod",
+      "carrots",
+      "tofu",
+      "garlic sauce"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sweet"
+    ],
+    cooking_method: [
+      "sauteed",
+      "raw"
+    ],
+    tags: [
+      "fresh lumpia",
+      "vegetables",
+      "tofu",
+      "sweet sauce"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lumpiang%20Sariwa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "macaroni-salad",
+    name: "Macaroni Salad",
+    description: "A sweet Filipino pasta salad with elbow macaroni, shredded chicken, pineapple, raisins, and mayonnaise. A staple at every Filipino celebration and holiday spread.",
+    type: [
+      "side_dish",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "elbow macaroni",
+      "chicken",
+      "pineapple",
+      "mayonnaise",
+      "raisins"
+    ],
+    occasion: [
+      "christmas",
+      "birthday",
+      "party",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "sweet",
+      "savory"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "pasta salad",
+      "sweet",
+      "mayonnaise",
+      "party food"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Macaroni%20Salad%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "maja-blanca",
+    name: "Maja Blanca",
+    description: "A creamy coconut milk pudding thickened with cornstarch and topped with latik or corn kernels. A classic Filipino dessert served at fiestas and holidays.",
+    type: [
+      "dessert",
+      "kakanin"
+    ],
+    main_ingredients: [
+      "coconut milk",
+      "cornstarch",
+      "sugar",
+      "corn kernels"
+    ],
+    occasion: [
+      "fiesta",
+      "christmas",
+      "birthday",
+      "party"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "coconut pudding",
+      "kakanin",
+      "fiesta",
+      "latik"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Maja%20Blanca%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "mami",
     name: "Mami",
     description: "A Filipino-Chinese noodle soup with chicken or beef in a clear savory broth, topped with scallions and fried garlic. A comfort food staple in Filipino eateries and carinderia.",
@@ -3350,6 +4312,113 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "misua-soup",
+    name: "Misua Soup",
+    description: "A light soup of thin wheat noodles cooked with patola sponge gourd, shrimp, and garlic. Often served to new mothers or the sick for its comforting and nourishing qualities.",
+    type: [
+      "soup",
+      "noodle_dish"
+    ],
+    main_ingredients: [
+      "misua noodles",
+      "patola",
+      "shrimp",
+      "garlic"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "thin noodles",
+      "light soup",
+      "comfort food",
+      "patola"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Misua%20Soup%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "monggo-with-tinapa",
+    name: "Monggo with Tinapa",
+    description: "The classic Friday monggo soup elevated with flaked smoked fish tinapa instead of pork. The smokiness of the tinapa adds a deep umami flavor to the mung bean broth.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "mung beans",
+      "tinapa",
+      "malunggay",
+      "garlic",
+      "onion"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami",
+      "smoky"
+    ],
+    cooking_method: [
+      "boiled",
+      "sauteed"
+    ],
+    tags: [
+      "monggo",
+      "tinapa",
+      "smoked fish",
+      "friday dish"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Monggo%20with%20Tinapa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "morcon",
+    name: "Morcon",
+    description: "A Filipino beef roulade stuffed with hard boiled eggs, sausage, pickles, and carrots then braised in tomato sauce. A Spanish-influenced dish served at special occasions.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef",
+      "hard boiled egg",
+      "sausage",
+      "tomato sauce",
+      "carrots"
+    ],
+    occasion: [
+      "christmas",
+      "fiesta",
+      "birthday",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour"
+    ],
+    cooking_method: [
+      "stewed",
+      "boiled"
+    ],
+    tags: [
+      "beef roulade",
+      "spanish influence",
+      "stuffed",
+      "fiesta"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Morcon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "nilaga",
     name: "Nilaga",
     description: "A simple boiled beef or pork soup with potatoes, cabbage, and peppercorns. A no-fuss everyday Filipino comfort dish.",
@@ -3381,6 +4450,42 @@ var dishes_default = [
       "simple"
     ],
     image_url: "https://image.pollinations.ai/prompt/Nilaga%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "paksiw-na-isda",
+    name: "Paksiw na Isda",
+    description: "Fish simmered in vinegar, garlic, ginger, and fish sauce until tender. A simple and budget-friendly everyday dish with a tangy, aromatic broth.",
+    type: [
+      "main_dish",
+      "soup"
+    ],
+    main_ingredients: [
+      "fish",
+      "vinegar",
+      "garlic",
+      "ginger",
+      "fish sauce"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled",
+      "stewed"
+    ],
+    tags: [
+      "fish",
+      "vinegar",
+      "simple",
+      "budget meal"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Paksiw%20na%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -3529,6 +4634,45 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "pancit-malabon",
+    name: "Pancit Malabon",
+    description: "A thick rice noodle dish from Malabon topped with a rich orange seafood sauce, shrimp, squid, oysters, and crushed chicharon. Heartier and more seafood-forward than palabok.",
+    type: [
+      "noodle_dish",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "thick rice noodles",
+      "shrimp",
+      "squid",
+      "oysters",
+      "chicharon"
+    ],
+    occasion: [
+      "birthday",
+      "fiesta",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled",
+      "sauteed"
+    ],
+    origin_region: "Malabon",
+    tags: [
+      "noodles",
+      "seafood",
+      "malabon",
+      "pancit"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pancit%20Malabon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "pinakbet",
     name: "Pinakbet",
     local_name: "Pakbet",
@@ -3636,6 +4780,79 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "pinikpikan",
+    name: "Pinikpikan",
+    description: "A traditional Cordilleran chicken soup prepared through a ritual process, simmered with etag smoked cured meat and vegetables. A significant cultural dish of the Cordillera mountain tribes.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "chicken",
+      "etag",
+      "ginger",
+      "onion"
+    ],
+    occasion: [
+      "fiesta",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami",
+      "smoky"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    origin_region: "Cordillera",
+    tags: [
+      "cordillera",
+      "cultural",
+      "smoked meat",
+      "highland"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pinikpikan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "pinoy-spaghetti",
+    name: "Pinoy Spaghetti",
+    description: "The Filipino version of spaghetti with a distinctly sweet tomato sauce made with banana ketchup, ground pork, hotdog slices, and topped with cheese. A staple at children's parties.",
+    type: [
+      "noodle_dish",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "spaghetti",
+      "ground pork",
+      "hotdog",
+      "banana ketchup",
+      "cheese"
+    ],
+    occasion: [
+      "birthday",
+      "party",
+      "christmas"
+    ],
+    flavor_profile: [
+      "sweet",
+      "savory"
+    ],
+    cooking_method: [
+      "boiled",
+      "sauteed"
+    ],
+    tags: [
+      "sweet spaghetti",
+      "banana ketchup",
+      "party food",
+      "kids"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pinoy%20Spaghetti%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "pochero",
     name: "Pochero",
     description: "A Spanish-influenced Filipino stew of beef or pork with chorizo, vegetables, and banana. A hearty dish commonly served at family gatherings and fiestas.",
@@ -3670,6 +4887,41 @@ var dishes_default = [
       "fiesta"
     ],
     image_url: "https://image.pollinations.ai/prompt/Pochero%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "poqui-poqui",
+    name: "Poqui-Poqui",
+    description: "An Ilocano dish of grilled eggplant sauteed with eggs, tomatoes, and onions. Similar to tortang talong but more scrambled and less structured.",
+    type: [
+      "main_dish",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "eggplant",
+      "egg",
+      "tomato",
+      "onion"
+    ],
+    occasion: [
+      "everyday",
+      "breakfast"
+    ],
+    flavor_profile: [
+      "savory"
+    ],
+    cooking_method: [
+      "grilled",
+      "sauteed"
+    ],
+    origin_region: "Ilocos",
+    tags: [
+      "eggplant",
+      "ilocano",
+      "eggs",
+      "simple"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Poqui-Poqui%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -3711,6 +4963,109 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "pork-sinigang",
+    name: "Pork Sinigang",
+    description: "The most common version of sinigang using pork ribs or belly as the main protein, soured with tamarind. The quintessential Filipino comfort soup.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork ribs",
+      "tamarind",
+      "kangkong",
+      "eggplant",
+      "radish"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory"
+    ],
+    cooking_method: [
+      "boiled",
+      "stewed"
+    ],
+    tags: [
+      "sinigang",
+      "pork",
+      "tamarind",
+      "comfort food"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pork%20Sinigang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "pritong-isda",
+    name: "Pritong Isda",
+    description: "Simple whole fried fish seasoned with salt and rubbed with garlic. A staple everyday Filipino dish served with steamed rice, tomatoes, and bagoong or sawsawan.",
+    type: [
+      "main_dish",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "whole fish",
+      "salt",
+      "garlic",
+      "cooking oil"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "fried fish",
+      "simple",
+      "everyday",
+      "budget meal"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pritong%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "puto-bumbong",
+    name: "Puto Bumbong",
+    description: "Purple steamed rice cakes cooked in bamboo tubes over charcoal, traditionally sold outside churches during Simbang Gabi. Served with butter, muscovado sugar, and grated coconut.",
+    type: [
+      "kakanin",
+      "breakfast",
+      "street_food"
+    ],
+    main_ingredients: [
+      "purple glutinous rice",
+      "grated coconut",
+      "muscovado sugar",
+      "butter"
+    ],
+    occasion: [
+      "christmas",
+      "merienda"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "christmas",
+      "simbang gabi",
+      "bamboo",
+      "purple rice"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Puto%20Bumbong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "puto",
     name: "Puto",
     description: "Soft steamed rice cakes made from rice flour, often topped with cheese or salted egg. A versatile kakanin eaten as a snack or paired with dinuguan.",
@@ -3747,6 +5102,179 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "pyanggang",
+    name: "Pyanggang",
+    description: "A festive Tausug chicken dish cooked in blackened coconut with ginger, turmeric, and lemongrass. A signature dish of the Muslim Filipino community in Sulu.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "chicken",
+      "burnt coconut",
+      "ginger",
+      "turmeric",
+      "lemongrass"
+    ],
+    occasion: [
+      "fiesta",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "bitter",
+      "umami"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    origin_region: "Sulu",
+    tags: [
+      "tausug",
+      "mindanao",
+      "muslim filipino",
+      "coconut"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pyanggang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "sapin-sapin",
+    name: "Sapin-Sapin",
+    description: "A layered sticky rice cake made with glutinous rice flour and coconut milk, each layer colored and flavored differently \u2014 ube, coconut, and jackfruit.",
+    type: [
+      "kakanin",
+      "dessert"
+    ],
+    main_ingredients: [
+      "glutinous rice flour",
+      "coconut milk",
+      "ube",
+      "jackfruit"
+    ],
+    occasion: [
+      "fiesta",
+      "birthday",
+      "party"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "layered rice cake",
+      "kakanin",
+      "ube",
+      "colorful"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sapin-Sapin%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "sinampalukang-manok",
+    name: "Sinampalukang Manok",
+    description: "A sour tamarind chicken soup using young tamarind leaves instead of tamarind broth. Lighter and more aromatic than sinigang, with a distinct herbal tamarind flavor.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "chicken",
+      "young tamarind leaves",
+      "ginger",
+      "onion"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "tamarind",
+      "chicken soup",
+      "sour",
+      "herbal"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sinampalukang%20Manok%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "sinangag",
+    name: "Sinangag",
+    description: "Filipino garlic fried rice made from day-old rice stir-fried with lots of garlic until golden and fragrant. The essential base of every silog breakfast meal.",
+    type: [
+      "rice_dish",
+      "breakfast",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "leftover rice",
+      "garlic",
+      "cooking oil"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried",
+      "sauteed"
+    ],
+    tags: [
+      "garlic rice",
+      "silog",
+      "breakfast",
+      "fried rice"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sinangag%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "sinigang-na-hipon",
+    name: "Sinigang na Hipon",
+    description: "A sour tamarind soup with shrimp as the main protein, cooked with kangkong, radish, and eggplant. Lighter than pork sinigang with a naturally sweet shrimp flavor.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "shrimp",
+      "tamarind",
+      "kangkong",
+      "radish",
+      "eggplant"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "sinigang",
+      "shrimp",
+      "tamarind",
+      "seafood"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sinigang%20na%20Hipon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "sinigang",
     name: "Sinigang",
     description: "A sour tamarind-based soup with pork, shrimp, or fish cooked with vegetables like kangkong, radish, and eggplant. One of the most beloved soups in Filipino cuisine.",
@@ -3779,6 +5307,45 @@ var dishes_default = [
       "comfort food"
     ],
     image_url: "https://image.pollinations.ai/prompt/Sinigang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "sinuglaw",
+    name: "Sinuglaw",
+    description: "A Visayan fusion dish combining sinugba grilled pork belly with kinilaw cured fish in vinegar, onions, ginger, and chili. The name is a portmanteau of the two dishes.",
+    type: [
+      "appetizer",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork belly",
+      "fresh tuna",
+      "vinegar",
+      "ginger",
+      "chili"
+    ],
+    occasion: [
+      "pulutan",
+      "everyday",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "spicy"
+    ],
+    cooking_method: [
+      "grilled",
+      "cured"
+    ],
+    origin_region: "Visayas",
+    tags: [
+      "visayan",
+      "fusion",
+      "grilled",
+      "ceviche"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sinuglaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -3818,6 +5385,42 @@ var dishes_default = [
       "pork"
     ],
     image_url: "https://image.pollinations.ai/prompt/Sisig%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "sopas",
+    name: "Sopas",
+    description: "A creamy Filipino macaroni soup with chicken, vegetables, and evaporated milk. A comforting cold weather dish and the Filipino answer to chicken noodle soup.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "elbow macaroni",
+      "chicken",
+      "evaporated milk",
+      "cabbage",
+      "carrots"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather",
+      "merienda"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "macaroni soup",
+      "creamy",
+      "comfort food",
+      "chicken"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sopas%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -3924,6 +5527,41 @@ var dishes_default = [
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
+    id: "tinapa",
+    name: "Tinapa",
+    description: "Cold smoked fish, traditionally milkfish or bangus, preserved through a smoking process. Eaten for breakfast with garlic rice and tomatoes or used to flavor soups and stews.",
+    type: [
+      "breakfast",
+      "main_dish",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "bangus",
+      "salt",
+      "smoke"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "smoky",
+      "salty",
+      "savory"
+    ],
+    cooking_method: [
+      "smoked"
+    ],
+    tags: [
+      "smoked fish",
+      "bangus",
+      "breakfast",
+      "preserved"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tinapa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
     id: "tinola",
     name: "Tinola",
     description: "A light ginger-based chicken soup with green papaya and chili leaves. A comforting everyday dish and one of the oldest recorded Filipino recipes.",
@@ -3956,6 +5594,76 @@ var dishes_default = [
       "comfort food"
     ],
     image_url: "https://image.pollinations.ai/prompt/Tinola%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "tinolang-isda",
+    name: "Tinolang Isda",
+    description: "A light fish ginger soup with green papaya or sayote and malunggay leaves. A seafood version of the classic chicken tinola, equally comforting and nutritious.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "fish",
+      "ginger",
+      "green papaya",
+      "malunggay"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "fish soup",
+      "ginger",
+      "light",
+      "comfort food"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tinolang%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "tiyula-itum",
+    name: "Tiyula Itum",
+    description: "A black beef soup from the Tausug people of Sulu, darkened with burnt coconut and seasoned with ginger and turmeric. A significant dish in Muslim Filipino cuisine.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef",
+      "burnt coconut",
+      "ginger",
+      "turmeric"
+    ],
+    occasion: [
+      "fiesta",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "bitter",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled",
+      "stewed"
+    ],
+    origin_region: "Sulu",
+    tags: [
+      "tausug",
+      "mindanao",
+      "muslim filipino",
+      "black soup"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tiyula%20Itum%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
@@ -4024,6 +5732,75 @@ var dishes_default = [
       "everyday"
     ],
     image_url: "https://image.pollinations.ai/prompt/Tortang%20Talong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "tuyo",
+    name: "Tuyo",
+    description: "Dried salted fish, typically herring, pan-fried until crispy. A staple Filipino breakfast food known for its intensely salty and pungent flavor.",
+    type: [
+      "breakfast",
+      "main_dish",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "dried herring",
+      "cooking oil"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "salty",
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "dried fish",
+      "salted fish",
+      "breakfast",
+      "budget meal"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tuyo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
+  },
+  {
+    id: "ube-halaya",
+    name: "Ube Halaya",
+    description: "A thick purple yam jam made by slowly cooking mashed ube with coconut milk, condensed milk, and butter. A versatile Filipino dessert eaten on its own or used as a topping.",
+    type: [
+      "dessert",
+      "kakanin"
+    ],
+    main_ingredients: [
+      "purple yam",
+      "coconut milk",
+      "condensed milk",
+      "butter"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta",
+      "christmas",
+      "birthday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "ube",
+      "purple yam",
+      "jam",
+      "dessert"
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Ube%20Halaya%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
     image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {

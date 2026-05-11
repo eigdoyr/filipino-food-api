@@ -1,0 +1,34 @@
+{
+  "id": "beef-steak",
+  "name": "Bistek Tagalog",
+  "description": "Thinly sliced beef marinated and cooked in soy sauce and calamansi juice, topped with caramelized onion rings. The Filipino answer to a beef steak.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "beef",
+    "soy sauce",
+    "calamansi",
+    "onion"
+  ],
+  "occasion": [
+    "everyday",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "salty"
+  ],
+  "cooking_method": [
+    "sauteed"
+  ],
+  "tags": [
+    "beef",
+    "tagalog",
+    "soy sauce",
+    "onion"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Bistek%20Tagalog%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

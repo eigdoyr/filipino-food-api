@@ -43,6 +43,7 @@ export const FlavorProfile = z.enum([
   "bitter",
   "umami",
   "salty",
+  "smoky",
 ]);
 
 export const CookingMethod = z.enum([

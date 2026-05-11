@@ -1,0 +1,33 @@
+{
+  "id": "carioca",
+  "name": "Carioca",
+  "description": "Deep-fried glutinous rice balls filled with sweetened coconut and coated in a sweet coconut syrup glaze. A popular street food and merienda snack.",
+  "type": [
+    "street_food",
+    "snack",
+    "kakanin"
+  ],
+  "main_ingredients": [
+    "glutinous rice flour",
+    "coconut",
+    "sugar"
+  ],
+  "occasion": [
+    "merienda",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "rice balls",
+    "fried",
+    "street food",
+    "coconut"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Carioca%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

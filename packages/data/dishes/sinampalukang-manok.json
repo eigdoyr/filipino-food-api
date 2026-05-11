@@ -1,0 +1,34 @@
+{
+  "id": "sinampalukang-manok",
+  "name": "Sinampalukang Manok",
+  "description": "A sour tamarind chicken soup using young tamarind leaves instead of tamarind broth. Lighter and more aromatic than sinigang, with a distinct herbal tamarind flavor.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "chicken",
+    "young tamarind leaves",
+    "ginger",
+    "onion"
+  ],
+  "occasion": [
+    "everyday",
+    "cold_weather"
+  ],
+  "flavor_profile": [
+    "sour",
+    "savory"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "tamarind",
+    "chicken soup",
+    "sour",
+    "herbal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sinampalukang%20Manok%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

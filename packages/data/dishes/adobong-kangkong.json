@@ -1,0 +1,34 @@
+{
+  "id": "adobong-kangkong",
+  "name": "Adobong Kangkong",
+  "description": "Water spinach sauteed in vinegar, soy sauce, and garlic in the style of adobo. A quick, budget-friendly vegetable dish that is popular as an everyday ulam.",
+  "type": [
+    "main_dish",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "kangkong",
+    "vinegar",
+    "soy sauce",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "salty"
+  ],
+  "cooking_method": [
+    "sauteed"
+  ],
+  "tags": [
+    "vegetable",
+    "adobo",
+    "kangkong",
+    "budget meal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Adobong%20Kangkong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

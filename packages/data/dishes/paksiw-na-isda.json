@@ -1,0 +1,36 @@
+{
+  "id": "paksiw-na-isda",
+  "name": "Paksiw na Isda",
+  "description": "Fish simmered in vinegar, garlic, ginger, and fish sauce until tender. A simple and budget-friendly everyday dish with a tangy, aromatic broth.",
+  "type": [
+    "main_dish",
+    "soup"
+  ],
+  "main_ingredients": [
+    "fish",
+    "vinegar",
+    "garlic",
+    "ginger",
+    "fish sauce"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sour",
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "boiled",
+    "stewed"
+  ],
+  "tags": [
+    "fish",
+    "vinegar",
+    "simple",
+    "budget meal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Paksiw%20na%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

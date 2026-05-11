@@ -1,0 +1,36 @@
+{
+  "id": "sopas",
+  "name": "Sopas",
+  "description": "A creamy Filipino macaroni soup with chicken, vegetables, and evaporated milk. A comforting cold weather dish and the Filipino answer to chicken noodle soup.",
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "elbow macaroni",
+    "chicken",
+    "evaporated milk",
+    "cabbage",
+    "carrots"
+  ],
+  "occasion": [
+    "everyday",
+    "cold_weather",
+    "merienda"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "macaroni soup",
+    "creamy",
+    "comfort food",
+    "chicken"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sopas%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

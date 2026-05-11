@@ -1,0 +1,34 @@
+{
+  "id": "puto-bumbong",
+  "name": "Puto Bumbong",
+  "description": "Purple steamed rice cakes cooked in bamboo tubes over charcoal, traditionally sold outside churches during Simbang Gabi. Served with butter, muscovado sugar, and grated coconut.",
+  "type": [
+    "kakanin",
+    "breakfast",
+    "street_food"
+  ],
+  "main_ingredients": [
+    "purple glutinous rice",
+    "grated coconut",
+    "muscovado sugar",
+    "butter"
+  ],
+  "occasion": [
+    "christmas",
+    "merienda"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "tags": [
+    "christmas",
+    "simbang gabi",
+    "bamboo",
+    "purple rice"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Puto%20Bumbong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

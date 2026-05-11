@@ -1,0 +1,35 @@
+{
+  "id": "poqui-poqui",
+  "name": "Poqui-Poqui",
+  "description": "An Ilocano dish of grilled eggplant sauteed with eggs, tomatoes, and onions. Similar to tortang talong but more scrambled and less structured.",
+  "type": [
+    "main_dish",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "eggplant",
+    "egg",
+    "tomato",
+    "onion"
+  ],
+  "occasion": [
+    "everyday",
+    "breakfast"
+  ],
+  "flavor_profile": [
+    "savory"
+  ],
+  "cooking_method": [
+    "grilled",
+    "sauteed"
+  ],
+  "origin_region": "Ilocos",
+  "tags": [
+    "eggplant",
+    "ilocano",
+    "eggs",
+    "simple"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Poqui-Poqui%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

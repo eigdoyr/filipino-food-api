@@ -1,0 +1,36 @@
+{
+  "id": "daing-na-bangus",
+  "name": "Daing na Bangus",
+  "description": "Butterflied milkfish marinated overnight in vinegar, garlic, and peppercorns then pan-fried until golden and crispy. A beloved Filipino breakfast dish.",
+  "type": [
+    "breakfast",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "bangus",
+    "vinegar",
+    "garlic",
+    "peppercorn"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sour",
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "fried",
+    "cured"
+  ],
+  "tags": [
+    "bangus",
+    "milkfish",
+    "breakfast",
+    "crispy"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Daing%20na%20Bangus%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

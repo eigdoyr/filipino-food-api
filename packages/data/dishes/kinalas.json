@@ -1,0 +1,37 @@
+{
+  "id": "kinalas",
+  "name": "Kinalas",
+  "description": "A Bicolano noodle soup made with scraped meat from pork or beef head, served in a rich broth thickened with brain and seasoned with spices and chili.",
+  "type": [
+    "soup",
+    "noodle_dish"
+  ],
+  "main_ingredients": [
+    "noodles",
+    "pork head meat",
+    "pork brain",
+    "chili",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday",
+    "cold_weather"
+  ],
+  "flavor_profile": [
+    "savory",
+    "spicy",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "origin_region": "Bicol",
+  "tags": [
+    "bicolano",
+    "noodles",
+    "pork",
+    "spicy"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Kinalas%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

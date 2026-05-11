@@ -1,0 +1,33 @@
+{
+  "id": "kutsinta",
+  "name": "Kutsinta",
+  "description": "Chewy steamed rice cakes made with rice flour and lye water, giving them a distinctive brown color and sticky texture. Served with grated coconut.",
+  "type": [
+    "kakanin",
+    "snack"
+  ],
+  "main_ingredients": [
+    "rice flour",
+    "brown sugar",
+    "lye water",
+    "grated coconut"
+  ],
+  "occasion": [
+    "merienda",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "tags": [
+    "rice cake",
+    "kakanin",
+    "chewy",
+    "coconut"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Kutsinta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

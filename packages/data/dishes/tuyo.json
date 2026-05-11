@@ -1,0 +1,34 @@
+{
+  "id": "tuyo",
+  "name": "Tuyo",
+  "description": "Dried salted fish, typically herring, pan-fried until crispy. A staple Filipino breakfast food known for its intensely salty and pungent flavor.",
+  "type": [
+    "breakfast",
+    "main_dish",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "dried herring",
+    "cooking oil"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "salty",
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "dried fish",
+    "salted fish",
+    "breakfast",
+    "budget meal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Tuyo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

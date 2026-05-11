@@ -1,0 +1,35 @@
+{
+  "id": "sinangag",
+  "name": "Sinangag",
+  "description": "Filipino garlic fried rice made from day-old rice stir-fried with lots of garlic until golden and fragrant. The essential base of every silog breakfast meal.",
+  "type": [
+    "rice_dish",
+    "breakfast",
+    "side_dish"
+  ],
+  "main_ingredients": [
+    "leftover rice",
+    "garlic",
+    "cooking oil"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "fried",
+    "sauteed"
+  ],
+  "tags": [
+    "garlic rice",
+    "silog",
+    "breakfast",
+    "fried rice"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sinangag%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

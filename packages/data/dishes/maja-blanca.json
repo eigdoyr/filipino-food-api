@@ -1,0 +1,35 @@
+{
+  "id": "maja-blanca",
+  "name": "Maja Blanca",
+  "description": "A creamy coconut milk pudding thickened with cornstarch and topped with latik or corn kernels. A classic Filipino dessert served at fiestas and holidays.",
+  "type": [
+    "dessert",
+    "kakanin"
+  ],
+  "main_ingredients": [
+    "coconut milk",
+    "cornstarch",
+    "sugar",
+    "corn kernels"
+  ],
+  "occasion": [
+    "fiesta",
+    "christmas",
+    "birthday",
+    "party"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "coconut pudding",
+    "kakanin",
+    "fiesta",
+    "latik"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Maja%20Blanca%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

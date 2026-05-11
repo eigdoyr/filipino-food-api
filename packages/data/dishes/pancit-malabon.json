@@ -1,0 +1,39 @@
+{
+  "id": "pancit-malabon",
+  "name": "Pancit Malabon",
+  "description": "A thick rice noodle dish from Malabon topped with a rich orange seafood sauce, shrimp, squid, oysters, and crushed chicharon. Heartier and more seafood-forward than palabok.",
+  "type": [
+    "noodle_dish",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "thick rice noodles",
+    "shrimp",
+    "squid",
+    "oysters",
+    "chicharon"
+  ],
+  "occasion": [
+    "birthday",
+    "fiesta",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami",
+    "salty"
+  ],
+  "cooking_method": [
+    "boiled",
+    "sauteed"
+  ],
+  "origin_region": "Malabon",
+  "tags": [
+    "noodles",
+    "seafood",
+    "malabon",
+    "pancit"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pancit%20Malabon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

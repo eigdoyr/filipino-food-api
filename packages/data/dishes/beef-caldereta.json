@@ -1,0 +1,37 @@
+{
+  "id": "beef-caldereta",
+  "name": "Beef Caldereta",
+  "description": "A rich and spicy beef stew with liver spread, olives, potatoes, and bell peppers in a tomato-based sauce. A fiesta staple and one of the most popular party dishes.",
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "beef",
+    "liver spread",
+    "tomato sauce",
+    "olives",
+    "potatoes"
+  ],
+  "occasion": [
+    "fiesta",
+    "party",
+    "birthday",
+    "christmas"
+  ],
+  "flavor_profile": [
+    "savory",
+    "spicy",
+    "sour"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
+  "tags": [
+    "beef",
+    "spicy",
+    "fiesta",
+    "tomato"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Beef%20Caldereta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
+}

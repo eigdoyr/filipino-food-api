@@ -25,9 +25,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// .wrangler/tmp/bundle-RBuCXb/checked-fetch.js
+// .wrangler/tmp/bundle-uqpkna/checked-fetch.js
 var require_checked_fetch = __commonJS({
-  ".wrangler/tmp/bundle-RBuCXb/checked-fetch.js"() {
+  ".wrangler/tmp/bundle-uqpkna/checked-fetch.js"() {
     var urls = /* @__PURE__ */ new Set();
     function checkURL(request, init) {
       const url = request instanceof URL ? request : new URL(
@@ -55,17 +55,17 @@ var require_checked_fetch = __commonJS({
   }
 });
 
-// .wrangler/tmp/bundle-RBuCXb/middleware-loader.entry.ts
-var import_checked_fetch32 = __toESM(require_checked_fetch());
+// .wrangler/tmp/bundle-uqpkna/middleware-loader.entry.ts
+var import_checked_fetch33 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
-// .wrangler/tmp/bundle-RBuCXb/middleware-insertion-facade.js
-var import_checked_fetch30 = __toESM(require_checked_fetch());
+// .wrangler/tmp/bundle-uqpkna/middleware-insertion-facade.js
+var import_checked_fetch31 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
-var import_checked_fetch27 = __toESM(require_checked_fetch());
+var import_checked_fetch28 = __toESM(require_checked_fetch());
 
 // node_modules/hono/dist/index.js
 var import_checked_fetch25 = __toESM(require_checked_fetch(), 1);
@@ -3960,8 +3960,40 @@ router.get("/:id", (c) => {
 });
 var dishes_default2 = router;
 
+// packages/api/src/middleware/rateLimit.ts
+var import_checked_fetch27 = __toESM(require_checked_fetch());
+var WINDOW_MS = 60 * 1e3;
+var MAX_REQUESTS = 60;
+async function rateLimit(c, next) {
+  const kv = c.env?.RATE_LIMIT;
+  if (!kv) {
+    await next();
+    return;
+  }
+  const ip = c.req.header("cf-connecting-ip") ?? "unknown";
+  const key = `rate:${ip}`;
+  const now = Date.now();
+  const raw2 = await kv.get(key);
+  const data = raw2 ? JSON.parse(raw2) : { count: 0, start: now };
+  if (now - data.start > WINDOW_MS) {
+    data.count = 0;
+    data.start = now;
+  }
+  if (data.count >= MAX_REQUESTS) {
+    const retryAfter = Math.ceil((WINDOW_MS - (now - data.start)) / 1e3);
+    return c.json({ error: "Rate limit exceeded" }, 429, {
+      "Retry-After": String(retryAfter)
+    });
+  }
+  data.count++;
+  await kv.put(key, JSON.stringify(data), { expirationTtl: 60 });
+  await next();
+}
+__name(rateLimit, "rateLimit");
+
 // packages/api/src/index.ts
 var app = new Hono2();
+app.use("*", rateLimit);
 app.get("/", (c) => {
   return c.json({ status: "ok", message: "Filipino Food API" });
 });
@@ -3969,7 +4001,7 @@ app.route("/dishes", dishes_default2);
 var src_default = app;
 
 // node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
-var import_checked_fetch28 = __toESM(require_checked_fetch());
+var import_checked_fetch29 = __toESM(require_checked_fetch());
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -3988,7 +4020,7 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 var middleware_ensure_req_body_drained_default = drainBody;
 
 // node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
-var import_checked_fetch29 = __toESM(require_checked_fetch());
+var import_checked_fetch30 = __toESM(require_checked_fetch());
 function reduceError(e) {
   return {
     name: e?.name,
@@ -4011,7 +4043,7 @@ var jsonError = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 }, "jsonError");
 var middleware_miniflare3_json_error_default = jsonError;
 
-// .wrangler/tmp/bundle-RBuCXb/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-uqpkna/middleware-insertion-facade.js
 var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
   middleware_ensure_req_body_drained_default,
   middleware_miniflare3_json_error_default
@@ -4019,7 +4051,7 @@ var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
 var middleware_insertion_facade_default = src_default;
 
 // node_modules/wrangler/templates/middleware/common.ts
-var import_checked_fetch31 = __toESM(require_checked_fetch());
+var import_checked_fetch32 = __toESM(require_checked_fetch());
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());
@@ -4044,7 +4076,7 @@ function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
 }
 __name(__facade_invoke__, "__facade_invoke__");
 
-// .wrangler/tmp/bundle-RBuCXb/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-uqpkna/middleware-loader.entry.ts
 var __Facade_ScheduledController__ = class ___Facade_ScheduledController__ {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;

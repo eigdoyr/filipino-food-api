@@ -1,3 +1,8 @@
 name = "filipino-food-api"
 main = "packages/api/src/index.ts"
 compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "placeholder"
+preview_id = "placeholder"

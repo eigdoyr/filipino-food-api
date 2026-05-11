@@ -30,7 +30,7 @@ export const Occasion = z.enum([
   "lent",
   "party",
   "potluck",
-  "inuman",
+  "pulutan",
   "cold_weather",
   "street_food",
 ]);

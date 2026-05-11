@@ -56,16 +56,16 @@ var require_checked_fetch = __commonJS({
 });
 
 // .wrangler/tmp/bundle-uqpkna/middleware-loader.entry.ts
-var import_checked_fetch33 = __toESM(require_checked_fetch());
+var import_checked_fetch36 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
 // .wrangler/tmp/bundle-uqpkna/middleware-insertion-facade.js
-var import_checked_fetch31 = __toESM(require_checked_fetch());
+var import_checked_fetch34 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
-var import_checked_fetch28 = __toESM(require_checked_fetch());
+var import_checked_fetch31 = __toESM(require_checked_fetch());
 
 // node_modules/hono/dist/index.js
 var import_checked_fetch25 = __toESM(require_checked_fetch(), 1);
@@ -78,7 +78,7 @@ var import_checked_fetch12 = __toESM(require_checked_fetch(), 1);
 
 // node_modules/hono/dist/compose.js
 var import_checked_fetch2 = __toESM(require_checked_fetch(), 1);
-var compose = /* @__PURE__ */ __name((middleware, onError, onNotFound) => {
+var compose = /* @__PURE__ */ __name((middleware2, onError, onNotFound) => {
   return (context, next) => {
     let index = -1;
     return dispatch(0);
@@ -90,11 +90,11 @@ var compose = /* @__PURE__ */ __name((middleware, onError, onNotFound) => {
       let res;
       let isError = false;
       let handler;
-      if (middleware[i]) {
-        handler = middleware[i][0][0];
+      if (middleware2[i]) {
+        handler = middleware2[i][0][0];
         context.req.routeIndex = i;
       } else {
-        handler = i === middleware.length && next || void 0;
+        handler = i === middleware2.length && next || void 0;
       }
       if (handler) {
         try {
@@ -699,6 +699,80 @@ var raw = /* @__PURE__ */ __name((value, callbacks) => {
   escapedString.callbacks = callbacks;
   return escapedString;
 }, "raw");
+var escapeRe = /[&<>'"]/;
+var stringBufferToString = /* @__PURE__ */ __name(async (buffer, callbacks) => {
+  let str = "";
+  callbacks ||= [];
+  const resolvedBuffer = await Promise.all(buffer);
+  for (let i = resolvedBuffer.length - 1; ; i--) {
+    str += resolvedBuffer[i];
+    i--;
+    if (i < 0) {
+      break;
+    }
+    let r = resolvedBuffer[i];
+    if (typeof r === "object") {
+      callbacks.push(...r.callbacks || []);
+    }
+    const isEscaped = r.isEscaped;
+    r = await (typeof r === "object" ? r.toString() : r);
+    if (typeof r === "object") {
+      callbacks.push(...r.callbacks || []);
+    }
+    if (r.isEscaped ?? isEscaped) {
+      str += r;
+    } else {
+      const buf = [str];
+      escapeToBuffer(r, buf);
+      str = buf[0];
+    }
+  }
+  return raw(str, callbacks);
+}, "stringBufferToString");
+var escapeToBuffer = /* @__PURE__ */ __name((str, buffer) => {
+  const match2 = str.search(escapeRe);
+  if (match2 === -1) {
+    buffer[0] += str;
+    return;
+  }
+  let escape;
+  let index;
+  let lastIndex = 0;
+  for (index = match2; index < str.length; index++) {
+    switch (str.charCodeAt(index)) {
+      case 34:
+        escape = "&quot;";
+        break;
+      case 39:
+        escape = "&#39;";
+        break;
+      case 38:
+        escape = "&amp;";
+        break;
+      case 60:
+        escape = "&lt;";
+        break;
+      case 62:
+        escape = "&gt;";
+        break;
+      default:
+        continue;
+    }
+    buffer[0] += str.substring(lastIndex, index) + escape;
+    lastIndex = index + 1;
+  }
+  buffer[0] += str.substring(lastIndex, index);
+}, "escapeToBuffer");
+var resolveCallbackSync = /* @__PURE__ */ __name((str) => {
+  const callbacks = str.callbacks;
+  if (!callbacks?.length) {
+    return str;
+  }
+  const buffer = [str];
+  const context = {};
+  callbacks.forEach((c) => c({ phase: HtmlEscapedCallbackPhase.Stringify, buffer, context }));
+  return buffer[0];
+}, "resolveCallbackSync");
 var resolveCallback = /* @__PURE__ */ __name(async (str, phase, preserveCallbacks, context, buffer) => {
   if (typeof str === "object" && !(str instanceof String)) {
     if (!(str instanceof Promise)) {
@@ -1092,9 +1166,9 @@ var Context = class {
       setDefaultContentType("application/json", headers)
     );
   }, "json");
-  html = /* @__PURE__ */ __name((html, arg, headers) => {
-    const res = /* @__PURE__ */ __name((html2) => this.#newResponse(html2, arg, setDefaultContentType("text/html; charset=UTF-8", headers)), "res");
-    return typeof html === "object" ? resolveCallback(html, HtmlEscapedCallbackPhase.Stringify, false, {}).then(res) : res(html);
+  html = /* @__PURE__ */ __name((html2, arg, headers) => {
+    const res = /* @__PURE__ */ __name((html22) => this.#newResponse(html22, arg, setDefaultContentType("text/html; charset=UTF-8", headers)), "res");
+    return typeof html2 === "object" ? resolveCallback(html2, HtmlEscapedCallbackPhase.Stringify, false, {}).then(res) : res(html2);
   }, "html");
   /**
    * `.redirect()` can Redirect, default status code is 302.
@@ -1805,13 +1879,13 @@ function buildMatcherFromPreprocessedRoutes(routes) {
   return [regexp, handlerMap, staticMap];
 }
 __name(buildMatcherFromPreprocessedRoutes, "buildMatcherFromPreprocessedRoutes");
-function findMiddleware(middleware, path) {
-  if (!middleware) {
+function findMiddleware(middleware2, path) {
+  if (!middleware2) {
     return void 0;
   }
-  for (const k of Object.keys(middleware).sort((a, b) => b.length - a.length)) {
+  for (const k of Object.keys(middleware2).sort((a, b) => b.length - a.length)) {
     if (buildWildcardRegExp(k).test(path)) {
-      return [...middleware[k]];
+      return [...middleware2[k]];
     }
   }
   return void 0;
@@ -1829,14 +1903,14 @@ var RegExpRouter = class {
     this.#routes = { [METHOD_NAME_ALL]: /* @__PURE__ */ Object.create(null) };
   }
   add(method, path, handler) {
-    const middleware = this.#middleware;
+    const middleware2 = this.#middleware;
     const routes = this.#routes;
-    if (!middleware || !routes) {
+    if (!middleware2 || !routes) {
       throw new Error(MESSAGE_MATCHER_IS_ALREADY_BUILT);
     }
-    if (!middleware[method]) {
+    if (!middleware2[method]) {
       ;
-      [middleware, routes].forEach((handlerMap) => {
+      [middleware2, routes].forEach((handlerMap) => {
         handlerMap[method] = /* @__PURE__ */ Object.create(null);
         Object.keys(handlerMap[METHOD_NAME_ALL]).forEach((p) => {
           handlerMap[method][p] = [...handlerMap[METHOD_NAME_ALL][p]];
@@ -1850,16 +1924,16 @@ var RegExpRouter = class {
     if (/\*$/.test(path)) {
       const re = buildWildcardRegExp(path);
       if (method === METHOD_NAME_ALL) {
-        Object.keys(middleware).forEach((m) => {
-          middleware[m][path] ||= findMiddleware(middleware[m], path) || findMiddleware(middleware[METHOD_NAME_ALL], path) || [];
+        Object.keys(middleware2).forEach((m) => {
+          middleware2[m][path] ||= findMiddleware(middleware2[m], path) || findMiddleware(middleware2[METHOD_NAME_ALL], path) || [];
         });
       } else {
-        middleware[method][path] ||= findMiddleware(middleware[method], path) || findMiddleware(middleware[METHOD_NAME_ALL], path) || [];
+        middleware2[method][path] ||= findMiddleware(middleware2[method], path) || findMiddleware(middleware2[METHOD_NAME_ALL], path) || [];
       }
-      Object.keys(middleware).forEach((m) => {
+      Object.keys(middleware2).forEach((m) => {
         if (method === METHOD_NAME_ALL || method === m) {
-          Object.keys(middleware[m]).forEach((p) => {
-            re.test(p) && middleware[m][p].push([handler, paramCount]);
+          Object.keys(middleware2[m]).forEach((p) => {
+            re.test(p) && middleware2[m][p].push([handler, paramCount]);
           });
         }
       });
@@ -1878,7 +1952,7 @@ var RegExpRouter = class {
       Object.keys(routes).forEach((m) => {
         if (method === METHOD_NAME_ALL || method === m) {
           routes[m][path2] ||= [
-            ...findMiddleware(middleware[m], path2) || findMiddleware(middleware[METHOD_NAME_ALL], path2) || []
+            ...findMiddleware(middleware2[m], path2) || findMiddleware(middleware2[METHOD_NAME_ALL], path2) || []
           ];
           routes[m][path2].push([handler, paramCount - len + i + 1]);
         }
@@ -1951,20 +2025,20 @@ var SmartRouter = class {
     let i = 0;
     let res;
     for (; i < len; i++) {
-      const router2 = routers[i];
+      const router3 = routers[i];
       try {
         for (let i2 = 0, len2 = routes.length; i2 < len2; i2++) {
-          router2.add(...routes[i2]);
+          router3.add(...routes[i2]);
         }
-        res = router2.match(method, path);
+        res = router3.match(method, path);
       } catch (e) {
         if (e instanceof UnsupportedPathError) {
           continue;
         }
         throw e;
       }
-      this.match = router2.match.bind(router2);
-      this.#routers = [router2];
+      this.match = router3.match.bind(router3);
+      this.#routers = [router3];
       this.#routes = void 0;
       break;
     }
@@ -3960,8 +4034,246 @@ router.get("/:id", (c) => {
 });
 var dishes_default2 = router;
 
+// packages/api/src/routes/docs.ts
+var import_checked_fetch29 = __toESM(require_checked_fetch());
+
+// node_modules/@hono/swagger-ui/dist/index.js
+var import_checked_fetch28 = __toESM(require_checked_fetch(), 1);
+
+// node_modules/hono/dist/helper/html/index.js
+var import_checked_fetch27 = __toESM(require_checked_fetch(), 1);
+var html = /* @__PURE__ */ __name((strings, ...values) => {
+  const buffer = [""];
+  for (let i = 0, len = strings.length - 1; i < len; i++) {
+    buffer[0] += strings[i];
+    const children = Array.isArray(values[i]) ? values[i].flat(Infinity) : [values[i]];
+    for (let i2 = 0, len2 = children.length; i2 < len2; i2++) {
+      const child = children[i2];
+      if (typeof child === "string") {
+        escapeToBuffer(child, buffer);
+      } else if (typeof child === "number") {
+        ;
+        buffer[0] += child;
+      } else if (typeof child === "boolean" || child === null || child === void 0) {
+        continue;
+      } else if (typeof child === "object" && child.isEscaped) {
+        if (child.callbacks) {
+          buffer.unshift("", child);
+        } else {
+          const tmp = child.toString();
+          if (tmp instanceof Promise) {
+            buffer.unshift("", tmp);
+          } else {
+            buffer[0] += tmp;
+          }
+        }
+      } else if (child instanceof Promise) {
+        buffer.unshift("", child);
+      } else {
+        escapeToBuffer(child.toString(), buffer);
+      }
+    }
+  }
+  buffer[0] += strings.at(-1);
+  return buffer.length === 1 ? "callbacks" in buffer ? raw(resolveCallbackSync(raw(buffer[0], buffer.callbacks))) : raw(buffer[0]) : stringBufferToString(buffer, buffer.callbacks);
+}, "html");
+
+// node_modules/@hono/swagger-ui/dist/index.js
+var RENDER_TYPE = {
+  STRING_ARRAY: "string_array",
+  STRING: "string",
+  JSON_STRING: "json_string",
+  RAW: "raw"
+};
+var RENDER_TYPE_MAP = {
+  configUrl: RENDER_TYPE.STRING,
+  deepLinking: RENDER_TYPE.RAW,
+  presets: RENDER_TYPE.STRING_ARRAY,
+  plugins: RENDER_TYPE.STRING_ARRAY,
+  spec: RENDER_TYPE.JSON_STRING,
+  url: RENDER_TYPE.STRING,
+  urls: RENDER_TYPE.JSON_STRING,
+  layout: RENDER_TYPE.STRING,
+  docExpansion: RENDER_TYPE.STRING,
+  maxDisplayedTags: RENDER_TYPE.RAW,
+  operationsSorter: RENDER_TYPE.RAW,
+  requestInterceptor: RENDER_TYPE.RAW,
+  responseInterceptor: RENDER_TYPE.RAW,
+  persistAuthorization: RENDER_TYPE.RAW,
+  defaultModelsExpandDepth: RENDER_TYPE.RAW,
+  defaultModelExpandDepth: RENDER_TYPE.RAW,
+  defaultModelRendering: RENDER_TYPE.STRING,
+  displayRequestDuration: RENDER_TYPE.RAW,
+  filter: RENDER_TYPE.RAW,
+  showExtensions: RENDER_TYPE.RAW,
+  showCommonExtensions: RENDER_TYPE.RAW,
+  queryConfigEnabled: RENDER_TYPE.RAW,
+  displayOperationId: RENDER_TYPE.RAW,
+  tagsSorter: RENDER_TYPE.RAW,
+  onComplete: RENDER_TYPE.RAW,
+  syntaxHighlight: RENDER_TYPE.JSON_STRING,
+  tryItOutEnabled: RENDER_TYPE.RAW,
+  requestSnippetsEnabled: RENDER_TYPE.RAW,
+  requestSnippets: RENDER_TYPE.JSON_STRING,
+  oauth2RedirectUrl: RENDER_TYPE.STRING,
+  showMutabledRequest: RENDER_TYPE.RAW,
+  request: RENDER_TYPE.JSON_STRING,
+  supportedSubmitMethods: RENDER_TYPE.JSON_STRING,
+  validatorUrl: RENDER_TYPE.STRING,
+  withCredentials: RENDER_TYPE.RAW,
+  modelPropertyMacro: RENDER_TYPE.RAW,
+  parameterMacro: RENDER_TYPE.RAW
+};
+var renderSwaggerUIOptions = /* @__PURE__ */ __name((options) => {
+  return Object.entries(options).map(([k, v]) => {
+    const key = k;
+    if (!RENDER_TYPE_MAP[key] || v === void 0) return "";
+    switch (RENDER_TYPE_MAP[key]) {
+      case RENDER_TYPE.STRING:
+        return `${key}: '${v}'`;
+      case RENDER_TYPE.STRING_ARRAY:
+        if (!Array.isArray(v)) return "";
+        return `${key}: [${v.map((ve) => `${ve}`).join(",")}]`;
+      case RENDER_TYPE.JSON_STRING:
+        return `${key}: ${JSON.stringify(v)}`;
+      case RENDER_TYPE.RAW:
+        return `${key}: ${v}`;
+      default:
+        return "";
+    }
+  }).filter((item) => item !== "").join(",");
+}, "renderSwaggerUIOptions");
+var DEFAULT_CDN_BASE = "https://cdn.jsdelivr.net/npm";
+var remoteAssets = /* @__PURE__ */ __name(({ baseUrl = DEFAULT_CDN_BASE, version }) => {
+  const url = `${baseUrl.replace(/\/$/, "")}/swagger-ui-dist${version !== void 0 ? `@${version}` : ""}`;
+  return {
+    css: [`${url}/swagger-ui.css`],
+    js: [`${url}/swagger-ui-bundle.js`]
+  };
+}, "remoteAssets");
+var SwaggerUI = /* @__PURE__ */ __name(({ baseUrl, version, ...options }) => {
+  const asset = remoteAssets({
+    baseUrl,
+    version
+  });
+  if (options.manuallySwaggerUIHtml) return options.manuallySwaggerUIHtml(asset);
+  const optionsStrings = renderSwaggerUIOptions(options);
+  return `
+    <div>
+      <div id="swagger-ui"></div>
+      ${asset.css.map((url) => html`<link rel="stylesheet" href="${url}" />`)}
+      ${asset.js.map((url) => html`<script src="${url}" crossorigin="anonymous"><\/script>`)}
+      <script>
+        window.onload = () => {
+          window.ui = SwaggerUIBundle({
+            dom_id: '#swagger-ui',${optionsStrings},
+          })
+        }
+      <\/script>
+    </div>
+  `;
+}, "SwaggerUI");
+var middleware = /* @__PURE__ */ __name((options) => async (c) => {
+  const title = options?.title ?? "SwaggerUI";
+  return c.html(`
+      <!doctype html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="description" content="SwaggerUI" />
+          <title>${title}</title>
+        </head>
+        <body>
+          ${SwaggerUI(options)}
+        </body>
+      </html>
+    `);
+}, "middleware");
+
+// packages/api/src/routes/docs.ts
+var router2 = new Hono2();
+var spec = {
+  openapi: "3.0.0",
+  info: {
+    title: "Filipino Food API",
+    version: "0.2.0",
+    description: "An open-source REST API for Filipino cuisine data."
+  },
+  paths: {
+    "/": {
+      get: {
+        summary: "Health check",
+        responses: {
+          "200": { description: "API is running" }
+        }
+      }
+    },
+    "/dishes": {
+      get: {
+        summary: "List all dishes",
+        parameters: [
+          { name: "page", in: "query", schema: { type: "integer" } },
+          { name: "limit", in: "query", schema: { type: "integer" } },
+          { name: "type", in: "query", schema: { type: "string" } },
+          { name: "occasion", in: "query", schema: { type: "string" } },
+          { name: "region", in: "query", schema: { type: "string" } }
+        ],
+        responses: {
+          "200": { description: "Paginated list of dishes" }
+        }
+      }
+    },
+    "/dishes/search": {
+      get: {
+        summary: "Search dishes",
+        parameters: [
+          {
+            name: "q",
+            in: "query",
+            required: true,
+            schema: { type: "string" }
+          }
+        ],
+        responses: {
+          "200": { description: "Matching dishes" },
+          "400": { description: "Missing query parameter" }
+        }
+      }
+    },
+    "/dishes/regions": {
+      get: {
+        summary: "List all regions with dish counts",
+        responses: {
+          "200": { description: "List of regions" }
+        }
+      }
+    },
+    "/dishes/{id}": {
+      get: {
+        summary: "Get a single dish by ID",
+        parameters: [
+          {
+            name: "id",
+            in: "path",
+            required: true,
+            schema: { type: "string" }
+          }
+        ],
+        responses: {
+          "200": { description: "Dish data" },
+          "404": { description: "Dish not found" }
+        }
+      }
+    }
+  }
+};
+router2.get("/", middleware({ url: "/docs/spec" }));
+router2.get("/spec", (c) => c.json(spec));
+var docs_default = router2;
+
 // packages/api/src/middleware/rateLimit.ts
-var import_checked_fetch27 = __toESM(require_checked_fetch());
+var import_checked_fetch30 = __toESM(require_checked_fetch());
 var WINDOW_MS = 60 * 1e3;
 var MAX_REQUESTS = 60;
 async function rateLimit(c, next) {
@@ -3998,10 +4310,11 @@ app.get("/", (c) => {
   return c.json({ status: "ok", message: "Filipino Food API" });
 });
 app.route("/dishes", dishes_default2);
+app.route("/docs", docs_default);
 var src_default = app;
 
 // node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
-var import_checked_fetch29 = __toESM(require_checked_fetch());
+var import_checked_fetch32 = __toESM(require_checked_fetch());
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -4020,7 +4333,7 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 var middleware_ensure_req_body_drained_default = drainBody;
 
 // node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
-var import_checked_fetch30 = __toESM(require_checked_fetch());
+var import_checked_fetch33 = __toESM(require_checked_fetch());
 function reduceError(e) {
   return {
     name: e?.name,
@@ -4051,7 +4364,7 @@ var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
 var middleware_insertion_facade_default = src_default;
 
 // node_modules/wrangler/templates/middleware/common.ts
-var import_checked_fetch32 = __toESM(require_checked_fetch());
+var import_checked_fetch35 = __toESM(require_checked_fetch());
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());
@@ -4098,8 +4411,8 @@ function wrapExportedHandler(worker) {
   if (__INTERNAL_WRANGLER_MIDDLEWARE__ === void 0 || __INTERNAL_WRANGLER_MIDDLEWARE__.length === 0) {
     return worker;
   }
-  for (const middleware of __INTERNAL_WRANGLER_MIDDLEWARE__) {
-    __facade_register__(middleware);
+  for (const middleware2 of __INTERNAL_WRANGLER_MIDDLEWARE__) {
+    __facade_register__(middleware2);
   }
   const fetchDispatcher = /* @__PURE__ */ __name(function(request, env, ctx) {
     if (worker.fetch === void 0) {
@@ -4130,8 +4443,8 @@ function wrapWorkerEntrypoint(klass) {
   if (__INTERNAL_WRANGLER_MIDDLEWARE__ === void 0 || __INTERNAL_WRANGLER_MIDDLEWARE__.length === 0) {
     return klass;
   }
-  for (const middleware of __INTERNAL_WRANGLER_MIDDLEWARE__) {
-    __facade_register__(middleware);
+  for (const middleware2 of __INTERNAL_WRANGLER_MIDDLEWARE__) {
+    __facade_register__(middleware2);
   }
   return class extends klass {
     #fetchDispatcher = /* @__PURE__ */ __name((request, env, ctx) => {

@@ -1,5 +1,6 @@
 import { Hono } from "hono";
 import dishes from "./routes/dishes";
+import docs from "./routes/docs";
 import { rateLimit } from "./middleware/rateLimit";
 
 const app = new Hono();
@@ -11,5 +12,6 @@ app.get("/", (c) => {
 });
 
 app.route("/dishes", dishes);
+app.route("/docs", docs);
 
 export default app;

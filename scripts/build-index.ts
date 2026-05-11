@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const dishesDir = path.join(__dirname, "../dishes");
+const dishesDir = path.join(__dirname, "../packages/data/dishes");
 const files = fs
   .readdirSync(dishesDir)
   .filter((f) => f.endsWith(".json") && f !== "index.json");

@@ -2,11 +2,17 @@
 
 An open-source REST API for Filipino cuisine data. Get structured information on Filipino dishes including ingredients, regional origins, occasion tags, flavor profiles, and AI-generated food photography.
 
+## API Documentation
+
+Interactive docs available at:
+
+[View API Docs](https://filipino-food-api.ryodgie.workers.dev/docs)
+
 ## Base URL
 
 ```text
 http://localhost:8787 (local)
-https://filipino-food-api.workers.dev (production — coming soon)
+https://filipino-food-api.workers.dev (production)
 ```
 
 ## Endpoints

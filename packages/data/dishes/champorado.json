@@ -1,0 +1,11 @@
+{
+  "id": "champorado",
+  "name": "Champorado",
+  "description": "A sweet chocolate rice porridge made with sticky rice and tablea cacao. Traditionally served for breakfast paired with tuyo dried fish for a sweet and salty contrast.",
+  "type": ["breakfast", "dessert"],
+  "main_ingredients": ["glutinous rice", "tablea", "sugar", "coconut milk"],
+  "occasion": ["breakfast", "merienda", "everyday"],
+  "flavor_profile": ["sweet"],
+  "cooking_method": ["boiled"],
+  "tags": ["chocolate", "porridge", "breakfast", "tablea"]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "empanada",
+  "name": "Empanada",
+  "description": "A deep-fried or baked pastry filled with seasoned ground pork, vegetables, and egg. The Vigan empanada from Ilocos is particularly famous for its thin, crispy orange shell.",
+  "type": ["snack", "street_food", "appetizer"],
+  "main_ingredients": ["flour", "ground pork", "egg", "vegetables"],
+  "occasion": ["merienda", "everyday"],
+  "flavor_profile": ["savory", "salty"],
+  "cooking_method": ["fried", "baked"],
+  "tags": ["pastry", "vigan", "ilocos", "street food"]
+}

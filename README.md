@@ -1,5 +1,10 @@
 # Filipino Food API
 
+![Build](https://github.com/eigdoyr/filipino-food-api/actions/workflows/validate.yml/badge.svg)
+![License](https://img.shields.io/github/license/eigdoyr/filipino-food-api)
+![Version](https://img.shields.io/badge/version-1.1.0-blue)
+![Dishes](https://img.shields.io/badge/dishes-100-green)
+
 An open-source REST API for Filipino cuisine data. Get structured information on Filipino dishes including ingredients, regional origins, occasion tags, flavor profiles, and AI-generated food photography.
 
 ## API Documentation

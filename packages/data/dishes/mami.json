@@ -1,0 +1,11 @@
+{
+  "id": "mami",
+  "name": "Mami",
+  "description": "A Filipino-Chinese noodle soup with chicken or beef in a clear savory broth, topped with scallions and fried garlic. A comfort food staple in Filipino eateries and carinderia.",
+  "type": ["soup", "noodle_dish"],
+  "main_ingredients": ["egg noodles", "chicken", "garlic", "scallions"],
+  "occasion": ["everyday", "cold_weather", "breakfast"],
+  "flavor_profile": ["savory", "umami"],
+  "cooking_method": ["boiled"],
+  "tags": ["noodles", "soup", "chinese influence", "carinderia"]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pinangat",
+  "name": "Pinangat",
+  "description": "A Bicolano dish of fish or shrimp wrapped in taro leaves and cooked in coconut milk with chili and shrimp paste. Not to be confused with the Tagalog pinangat which is a sour fish soup.",
+  "type": ["main_dish"],
+  "main_ingredients": [
+    "fish",
+    "taro leaves",
+    "coconut milk",
+    "chili",
+    "bagoong"
+  ],
+  "occasion": ["everyday", "fiesta"],
+  "flavor_profile": ["spicy", "savory", "umami"],
+  "cooking_method": ["stewed"],
+  "origin_region": "Bicol",
+  "tags": ["bicolano", "coconut milk", "taro leaves", "spicy"]
+}

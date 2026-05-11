@@ -56,16 +56,16 @@ var require_checked_fetch = __commonJS({
 });
 
 // .wrangler/tmp/bundle-NmcT8D/middleware-loader.entry.ts
-var import_checked_fetch39 = __toESM(require_checked_fetch());
+var import_checked_fetch40 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
 // .wrangler/tmp/bundle-NmcT8D/middleware-insertion-facade.js
-var import_checked_fetch37 = __toESM(require_checked_fetch());
+var import_checked_fetch38 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
-var import_checked_fetch34 = __toESM(require_checked_fetch());
+var import_checked_fetch35 = __toESM(require_checked_fetch());
 
 // node_modules/hono/dist/index.js
 var import_checked_fetch25 = __toESM(require_checked_fetch(), 1);
@@ -6296,6 +6296,27 @@ async function securityHeaders(c, next) {
 }
 __name(securityHeaders, "securityHeaders");
 
+// packages/api/src/middleware/queryLimit.ts
+var import_checked_fetch34 = __toESM(require_checked_fetch());
+var MAX_QUERY_LENGTH = 256;
+async function queryLimit(c, next) {
+  const queryString = c.req.url.split("?")[1] ?? "";
+  if (queryString.length > MAX_QUERY_LENGTH) {
+    return c.json(
+      {
+        error: {
+          message: "Query string exceeds maximum allowed length of 256 characters",
+          code: "QUERY_TOO_LONG",
+          status: 400
+        }
+      },
+      400
+    );
+  }
+  await next();
+}
+__name(queryLimit, "queryLimit");
+
 // packages/api/src/index.ts
 var app = new Hono2();
 app.use(
@@ -6308,6 +6329,7 @@ app.use(
 );
 app.use("*", rateLimit);
 app.use("*", securityHeaders);
+app.use("*", queryLimit);
 app.get("/", (c) => {
   return c.json({
     status: "ok",
@@ -6324,7 +6346,7 @@ app.route("/docs", docs_default);
 var src_default = app;
 
 // node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
-var import_checked_fetch35 = __toESM(require_checked_fetch());
+var import_checked_fetch36 = __toESM(require_checked_fetch());
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -6343,7 +6365,7 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 var middleware_ensure_req_body_drained_default = drainBody;
 
 // node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
-var import_checked_fetch36 = __toESM(require_checked_fetch());
+var import_checked_fetch37 = __toESM(require_checked_fetch());
 function reduceError(e) {
   return {
     name: e?.name,
@@ -6374,7 +6396,7 @@ var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
 var middleware_insertion_facade_default = src_default;
 
 // node_modules/wrangler/templates/middleware/common.ts
-var import_checked_fetch38 = __toESM(require_checked_fetch());
+var import_checked_fetch39 = __toESM(require_checked_fetch());
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());

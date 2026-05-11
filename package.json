@@ -1,0 +1,24 @@
+{
+  "name": "filipino-food-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eigdoyr/filipino-food-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/eigdoyr/filipino-food-api/issues"
+  },
+  "homepage": "https://github.com/eigdoyr/filipino-food-api#readme",
+  "dependencies": {
+    "zod": "^4.4.3"
+  }
+}

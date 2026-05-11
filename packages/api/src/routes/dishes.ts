@@ -6,18 +6,36 @@ const router = new Hono();
 router.get("/", (c) => {
   const page = Number(c.req.query("page") ?? 1);
   const limit = Number(c.req.query("limit") ?? 10);
+  const type = c.req.query("type");
+  const occasion = c.req.query("occasion");
+  const region = c.req.query("region");
+
+  let filtered = dishes;
+
+  if (type) {
+    filtered = filtered.filter((d) => d.type.includes(type));
+  }
+
+  if (occasion) {
+    filtered = filtered.filter((d) => d.occasion.includes(occasion));
+  }
+
+  if (region) {
+    filtered = filtered.filter(
+      (d) => d.origin_region?.toLowerCase() === region.toLowerCase(),
+    );
+  }
 
   const start = (page - 1) * limit;
-  const end = start + limit;
-  const paginated = dishes.slice(start, end);
+  const paginated = filtered.slice(start, start + limit);
 
   return c.json({
     data: paginated,
     meta: {
-      total: dishes.length,
+      total: filtered.length,
       page,
       limit,
-      pages: Math.ceil(dishes.length / limit),
+      pages: Math.ceil(filtered.length / limit),
     },
   });
 });

@@ -1,0 +1,17 @@
+{
+  "id": "menudo",
+  "name": "Menudo",
+  "description": "A tomato-based pork stew with liver, potatoes, carrots, and raisins. A sweet-savory dish often prepared for special occasions and fiestas.",
+  "type": ["main_dish"],
+  "main_ingredients": [
+    "pork",
+    "pork liver",
+    "tomato sauce",
+    "potatoes",
+    "carrots"
+  ],
+  "occasion": ["fiesta", "party", "everyday"],
+  "flavor_profile": ["savory", "sweet"],
+  "cooking_method": ["stewed"],
+  "tags": ["pork", "tomato", "liver", "fiesta"]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "kaldereta",
+  "name": "Kaldereta",
+  "description": "A rich tomato-based beef or goat stew with liver paste, olives, bell peppers, and potatoes. A Spanish-influenced dish commonly served at fiestas.",
+  "type": ["main_dish"],
+  "main_ingredients": [
+    "beef",
+    "tomato sauce",
+    "liver paste",
+    "potatoes",
+    "bell pepper"
+  ],
+  "occasion": ["fiesta", "party", "everyday"],
+  "flavor_profile": ["savory", "sour"],
+  "cooking_method": ["stewed"],
+  "tags": ["beef", "tomato", "spanish influence", "fiesta"]
+}

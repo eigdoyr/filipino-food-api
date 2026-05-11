@@ -1,0 +1,11 @@
+{
+  "id": "longganisa",
+  "name": "Longganisa",
+  "description": "Filipino cured sausage that varies by region — sweet Vigan longganisa, garlicky Lucban longganisa, and many more. A breakfast staple typically served with garlic rice and egg.",
+  "type": ["breakfast", "main_dish"],
+  "main_ingredients": ["pork", "garlic", "vinegar", "sugar"],
+  "occasion": ["breakfast", "everyday"],
+  "flavor_profile": ["sweet", "savory", "salty"],
+  "cooking_method": ["fried"],
+  "tags": ["sausage", "breakfast", "silog", "regional"]
+}

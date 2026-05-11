@@ -1,0 +1,11 @@
+{
+  "id": "nilaga",
+  "name": "Nilaga",
+  "description": "A simple boiled beef or pork soup with potatoes, cabbage, and peppercorns. A no-fuss everyday Filipino comfort dish.",
+  "type": ["soup", "main_dish"],
+  "main_ingredients": ["beef", "potatoes", "cabbage", "peppercorn"],
+  "occasion": ["everyday", "cold_weather"],
+  "flavor_profile": ["savory", "umami"],
+  "cooking_method": ["boiled"],
+  "tags": ["beef", "soup", "comfort food", "simple"]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "crispy-pata",
+  "name": "Crispy Pata",
+  "description": "Deep-fried pork leg with impossibly crispy skin and tender meat inside. A crowd favorite at parties and a classic pulutan dish.",
+  "type": ["main_dish", "appetizer"],
+  "main_ingredients": ["pork leg", "garlic", "peppercorn", "bay leaves"],
+  "occasion": ["party", "fiesta", "pulutan", "birthday"],
+  "flavor_profile": ["savory", "salty"],
+  "cooking_method": ["boiled", "fried"],
+  "tags": ["pork", "crispy", "pulutan", "party food"]
+}

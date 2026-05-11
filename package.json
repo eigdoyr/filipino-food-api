@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "validate": "ts-node packages/data/scripts/validate.ts"
+    "validate": "ts-node packages/data/scripts/validate.ts",
+    "dev": "wrangler dev"
   },
   "repository": {
     "type": "git",
@@ -20,11 +21,13 @@
   },
   "homepage": "https://github.com/eigdoyr/filipino-food-api#readme",
   "dependencies": {
+    "hono": "^4.12.18",
     "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^25.6.2",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "wrangler": "^4.90.0"
   }
 }

@@ -20,15 +20,16 @@ app.use("*", rateLimit);
 app.get("/", (c) => {
   return c.json({
     status: "ok",
-    message: "Filipino Food API",
-    version: "0.2.0",
+    name: "Filipino Food API",
+    version: "1.1.0",
     author: "ryodgie",
+    docs: "https://filipino-food-api.ryodgie.workers.dev/docs",
     repository: "https://github.com/eigdoyr/filipino-food-api",
     license: "MIT",
   });
 });
 
-app.route("/dishes", dishes);
+app.route("/v1/dishes", dishes);
 app.route("/docs", docs);
 
 export default app;

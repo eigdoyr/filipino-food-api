@@ -6161,7 +6161,7 @@ var spec = {
   openapi: "3.0.0",
   info: {
     title: "Filipino Food API",
-    version: "0.2.0",
+    version: "1.1.0",
     description: "An open-source REST API for Filipino cuisine data."
   },
   paths: {
@@ -6173,7 +6173,7 @@ var spec = {
         }
       }
     },
-    "/dishes": {
+    "/v1/dishes": {
       get: {
         summary: "List all dishes",
         parameters: [
@@ -6188,7 +6188,7 @@ var spec = {
         }
       }
     },
-    "/dishes/search": {
+    "/v1/dishes/search": {
       get: {
         summary: "Search dishes",
         parameters: [
@@ -6205,7 +6205,7 @@ var spec = {
         }
       }
     },
-    "/dishes/regions": {
+    "/v1/dishes/regions": {
       get: {
         summary: "List all regions with dish counts",
         responses: {
@@ -6213,7 +6213,7 @@ var spec = {
         }
       }
     },
-    "/dishes/{id}": {
+    "/v1/dishes/{id}": {
       get: {
         summary: "Get a single dish by ID",
         parameters: [
@@ -6281,14 +6281,15 @@ app.use("*", rateLimit);
 app.get("/", (c) => {
   return c.json({
     status: "ok",
-    message: "Filipino Food API",
-    version: "0.2.0",
+    name: "Filipino Food API",
+    version: "1.1.0",
     author: "ryodgie",
+    docs: "https://filipino-food-api.ryodgie.workers.dev/docs",
     repository: "https://github.com/eigdoyr/filipino-food-api",
     license: "MIT"
   });
 });
-app.route("/dishes", dishes_default2);
+app.route("/v1/dishes", dishes_default2);
 app.route("/docs", docs_default);
 var src_default = app;
 

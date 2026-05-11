@@ -7,7 +7,7 @@ const spec = {
   openapi: "3.0.0",
   info: {
     title: "Filipino Food API",
-    version: "0.2.0",
+    version: "1.1.0",
     description: "An open-source REST API for Filipino cuisine data.",
   },
   paths: {
@@ -19,7 +19,7 @@ const spec = {
         },
       },
     },
-    "/dishes": {
+    "/v1/dishes": {
       get: {
         summary: "List all dishes",
         parameters: [
@@ -34,7 +34,7 @@ const spec = {
         },
       },
     },
-    "/dishes/search": {
+    "/v1/dishes/search": {
       get: {
         summary: "Search dishes",
         parameters: [
@@ -51,7 +51,7 @@ const spec = {
         },
       },
     },
-    "/dishes/regions": {
+    "/v1/dishes/regions": {
       get: {
         summary: "List all regions with dish counts",
         responses: {
@@ -59,7 +59,7 @@ const spec = {
         },
       },
     },
-    "/dishes/{id}": {
+    "/v1/dishes/{id}": {
       get: {
         summary: "Get a single dish by ID",
         parameters: [

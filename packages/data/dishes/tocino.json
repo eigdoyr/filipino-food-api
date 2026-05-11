@@ -2,10 +2,33 @@
   "id": "tocino",
   "name": "Tocino",
   "description": "Sweet cured pork marinated in sugar, garlic, and annatto. A breakfast staple typically served as part of a silog meal with garlic rice and egg.",
-  "type": ["breakfast", "main_dish"],
-  "main_ingredients": ["pork", "sugar", "garlic", "annatto"],
-  "occasion": ["breakfast", "everyday"],
-  "flavor_profile": ["sweet", "savory"],
-  "cooking_method": ["fried"],
-  "tags": ["cured", "sweet pork", "silog", "breakfast"]
+  "type": [
+    "breakfast",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork",
+    "sugar",
+    "garlic",
+    "annatto"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "savory"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "cured",
+    "sweet pork",
+    "silog",
+    "breakfast"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Tocino%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

@@ -2,10 +2,34 @@
   "id": "ukoy",
   "name": "Ukoy",
   "description": "Crispy Filipino fritters made with shrimp and shredded vegetables fried in a light batter. Served with spiced vinegar dipping sauce as a street food or appetizer.",
-  "type": ["street_food", "appetizer", "snack"],
-  "main_ingredients": ["shrimp", "bean sprouts", "squash", "flour"],
-  "occasion": ["merienda", "everyday"],
-  "flavor_profile": ["savory", "salty"],
-  "cooking_method": ["fried"],
-  "tags": ["fritter", "shrimp", "street food", "crispy"]
+  "type": [
+    "street_food",
+    "appetizer",
+    "snack"
+  ],
+  "main_ingredients": [
+    "shrimp",
+    "bean sprouts",
+    "squash",
+    "flour"
+  ],
+  "occasion": [
+    "merienda",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "fritter",
+    "shrimp",
+    "street food",
+    "crispy"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Ukoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

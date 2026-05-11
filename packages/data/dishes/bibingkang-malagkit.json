@@ -2,10 +2,33 @@
   "id": "bibingkang-malagkit",
   "name": "Bibingkang Malagkit",
   "description": "A sticky rice cake cooked in coconut milk and topped with a rich coconut caramel sauce. A beloved kakanin commonly sold at markets and fiestas.",
-  "type": ["kakanin", "dessert"],
-  "main_ingredients": ["glutinous rice", "coconut milk", "brown sugar"],
-  "occasion": ["fiesta", "merienda", "everyday"],
-  "flavor_profile": ["sweet"],
-  "cooking_method": ["boiled", "baked"],
-  "tags": ["sticky rice", "kakanin", "coconut", "caramel"]
+  "type": [
+    "kakanin",
+    "dessert"
+  ],
+  "main_ingredients": [
+    "glutinous rice",
+    "coconut milk",
+    "brown sugar"
+  ],
+  "occasion": [
+    "fiesta",
+    "merienda",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "boiled",
+    "baked"
+  ],
+  "tags": [
+    "sticky rice",
+    "kakanin",
+    "coconut",
+    "caramel"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Bibingkang%20Malagkit%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

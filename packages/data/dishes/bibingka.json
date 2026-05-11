@@ -2,10 +2,35 @@
   "id": "bibingka",
   "name": "Bibingka",
   "description": "A soft baked rice cake made from rice flour and coconut milk, traditionally cooked in clay pots lined with banana leaves over charcoal. A staple during the Christmas season after Simbang Gabi.",
-  "type": ["kakanin", "dessert", "breakfast"],
-  "main_ingredients": ["rice flour", "coconut milk", "salted egg", "cheese"],
-  "occasion": ["christmas", "merienda", "fiesta"],
-  "flavor_profile": ["sweet", "salty"],
-  "cooking_method": ["baked"],
-  "tags": ["christmas", "kakanin", "rice cake", "simbang gabi"]
+  "type": [
+    "kakanin",
+    "dessert",
+    "breakfast"
+  ],
+  "main_ingredients": [
+    "rice flour",
+    "coconut milk",
+    "salted egg",
+    "cheese"
+  ],
+  "occasion": [
+    "christmas",
+    "merienda",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "salty"
+  ],
+  "cooking_method": [
+    "baked"
+  ],
+  "tags": [
+    "christmas",
+    "kakanin",
+    "rice cake",
+    "simbang gabi"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Bibingka%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

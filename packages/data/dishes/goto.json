@@ -2,10 +2,35 @@
   "id": "goto",
   "name": "Goto",
   "description": "A Filipino rice porridge cooked with beef tripe and ginger, topped with fried garlic, scallions, and calamansi. A heartier cousin of arroz caldo popular as street food.",
-  "type": ["breakfast", "main_dish", "street_food"],
-  "main_ingredients": ["rice", "beef tripe", "ginger", "garlic"],
-  "occasion": ["breakfast", "everyday", "cold_weather"],
-  "flavor_profile": ["savory", "umami"],
-  "cooking_method": ["boiled"],
-  "tags": ["porridge", "tripe", "street food", "congee"]
+  "type": [
+    "breakfast",
+    "main_dish",
+    "street_food"
+  ],
+  "main_ingredients": [
+    "rice",
+    "beef tripe",
+    "ginger",
+    "garlic"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday",
+    "cold_weather"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "porridge",
+    "tripe",
+    "street food",
+    "congee"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Goto%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

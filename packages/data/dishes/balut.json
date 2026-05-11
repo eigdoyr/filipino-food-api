@@ -2,10 +2,30 @@
   "id": "balut",
   "name": "Balut",
   "description": "A fertilized duck egg with a partially developed embryo, boiled and eaten from the shell. One of the most iconic and adventurous Filipino street foods, typically sold by vendors at night.",
-  "type": ["street_food", "snack"],
-  "main_ingredients": ["duck egg"],
-  "occasion": ["everyday", "pulutan"],
-  "flavor_profile": ["savory", "umami"],
-  "cooking_method": ["boiled"],
-  "tags": ["street food", "duck egg", "exotic", "night food"]
+  "type": [
+    "street_food",
+    "snack"
+  ],
+  "main_ingredients": [
+    "duck egg"
+  ],
+  "occasion": [
+    "everyday",
+    "pulutan"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "street food",
+    "duck egg",
+    "exotic",
+    "night food"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Balut%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

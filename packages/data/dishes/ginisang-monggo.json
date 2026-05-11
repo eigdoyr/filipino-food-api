@@ -2,10 +2,34 @@
   "id": "ginisang-monggo",
   "name": "Ginisang Monggo",
   "description": "Sauteed mung bean soup with pork, shrimp, and malunggay leaves. A nutritious everyday dish traditionally cooked every Friday in many Filipino households.",
-  "type": ["soup", "main_dish"],
-  "main_ingredients": ["mung beans", "pork", "shrimp", "malunggay", "garlic"],
-  "occasion": ["everyday"],
-  "flavor_profile": ["savory", "umami"],
-  "cooking_method": ["boiled", "sauteed"],
-  "tags": ["mung beans", "monggo", "friday dish", "healthy"]
+  "type": [
+    "soup",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "mung beans",
+    "pork",
+    "shrimp",
+    "malunggay",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled",
+    "sauteed"
+  ],
+  "tags": [
+    "mung beans",
+    "monggo",
+    "friday dish",
+    "healthy"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Ginisang%20Monggo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

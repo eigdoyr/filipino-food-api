@@ -2,10 +2,33 @@
   "id": "adobong-pusit",
   "name": "Adobong Pusit",
   "description": "Squid cooked in its own ink with vinegar, soy sauce, and garlic. A darker, briny variation of the classic adobo using fresh squid.",
-  "type": ["main_dish"],
-  "main_ingredients": ["squid", "squid ink", "vinegar", "soy sauce", "garlic"],
-  "occasion": ["everyday"],
-  "flavor_profile": ["savory", "salty", "sour"],
-  "cooking_method": ["stewed"],
-  "tags": ["squid", "seafood", "adobo", "ink"]
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "squid",
+    "squid ink",
+    "vinegar",
+    "soy sauce",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty",
+    "sour"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
+  "tags": [
+    "squid",
+    "seafood",
+    "adobo",
+    "ink"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Adobong%20Pusit%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

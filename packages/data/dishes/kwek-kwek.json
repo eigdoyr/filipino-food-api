@@ -2,10 +2,33 @@
   "id": "kwek-kwek",
   "name": "Kwek-Kwek",
   "description": "Deep-fried quail eggs coated in an orange batter made with annatto. A popular Filipino street food served with spiced vinegar dipping sauce.",
-  "type": ["street_food", "snack"],
-  "main_ingredients": ["quail eggs", "flour", "annatto", "cornstarch"],
-  "occasion": ["everyday", "merienda"],
-  "flavor_profile": ["savory", "salty"],
-  "cooking_method": ["fried"],
-  "tags": ["street food", "eggs", "annatto", "fried"]
+  "type": [
+    "street_food",
+    "snack"
+  ],
+  "main_ingredients": [
+    "quail eggs",
+    "flour",
+    "annatto",
+    "cornstarch"
+  ],
+  "occasion": [
+    "everyday",
+    "merienda"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "street food",
+    "eggs",
+    "annatto",
+    "fried"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Kwek-Kwek%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

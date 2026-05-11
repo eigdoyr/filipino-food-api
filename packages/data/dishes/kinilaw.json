@@ -2,10 +2,36 @@
   "id": "kinilaw",
   "name": "Kinilaw",
   "description": "A Filipino ceviche of raw fresh fish cured in vinegar or calamansi juice with ginger, onion, and chili. A light and refreshing dish common in coastal regions.",
-  "type": ["appetizer", "main_dish"],
-  "main_ingredients": ["fresh fish", "vinegar", "ginger", "onion", "chili"],
-  "occasion": ["everyday", "pulutan"],
-  "flavor_profile": ["sour", "spicy", "savory"],
-  "cooking_method": ["raw", "cured"],
-  "tags": ["ceviche", "seafood", "raw", "coastal"]
+  "type": [
+    "appetizer",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "fresh fish",
+    "vinegar",
+    "ginger",
+    "onion",
+    "chili"
+  ],
+  "occasion": [
+    "everyday",
+    "pulutan"
+  ],
+  "flavor_profile": [
+    "sour",
+    "spicy",
+    "savory"
+  ],
+  "cooking_method": [
+    "raw",
+    "cured"
+  ],
+  "tags": [
+    "ceviche",
+    "seafood",
+    "raw",
+    "coastal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Kinilaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

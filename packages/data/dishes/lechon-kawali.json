@@ -2,10 +2,35 @@
   "id": "lechon-kawali",
   "name": "Lechon Kawali",
   "description": "Deep-fried pork belly boiled until tender then fried until the skin is shatteringly crispy. A cheaper and more accessible everyday version of whole roasted lechon.",
-  "type": ["main_dish", "appetizer"],
-  "main_ingredients": ["pork belly", "garlic", "bay leaves", "peppercorn"],
-  "occasion": ["everyday", "party", "pulutan"],
-  "flavor_profile": ["savory", "salty"],
-  "cooking_method": ["boiled", "fried"],
-  "tags": ["pork belly", "crispy", "fried", "pulutan"]
+  "type": [
+    "main_dish",
+    "appetizer"
+  ],
+  "main_ingredients": [
+    "pork belly",
+    "garlic",
+    "bay leaves",
+    "peppercorn"
+  ],
+  "occasion": [
+    "everyday",
+    "party",
+    "pulutan"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "boiled",
+    "fried"
+  ],
+  "tags": [
+    "pork belly",
+    "crispy",
+    "fried",
+    "pulutan"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Lechon%20Kawali%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

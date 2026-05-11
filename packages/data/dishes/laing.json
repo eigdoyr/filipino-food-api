@@ -2,11 +2,34 @@
   "id": "laing",
   "name": "Laing",
   "description": "Dried taro leaves slow-cooked in coconut milk with pork and chili. A signature Bicolano dish known for its creamy, spicy, and deeply savory flavor.",
-  "type": ["main_dish"],
-  "main_ingredients": ["dried taro leaves", "coconut milk", "pork", "chili"],
-  "occasion": ["everyday", "fiesta"],
-  "flavor_profile": ["spicy", "savory", "umami"],
-  "cooking_method": ["stewed"],
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "dried taro leaves",
+    "coconut milk",
+    "pork",
+    "chili"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "spicy",
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
   "origin_region": "Bicol",
-  "tags": ["taro", "coconut milk", "bicolano", "spicy"]
+  "tags": [
+    "taro",
+    "coconut milk",
+    "bicolano",
+    "spicy"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Laing%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

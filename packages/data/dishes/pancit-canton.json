@@ -2,10 +2,36 @@
   "id": "pancit-canton",
   "name": "Pancit Canton",
   "description": "Stir-fried egg noodles with pork, shrimp, and vegetables seasoned with soy sauce and oyster sauce. A heartier noodle dish compared to bihon.",
-  "type": ["noodle_dish", "main_dish"],
-  "main_ingredients": ["egg noodles", "pork", "shrimp", "cabbage", "soy sauce"],
-  "occasion": ["birthday", "party", "everyday"],
-  "flavor_profile": ["savory", "salty", "umami"],
-  "cooking_method": ["sauteed"],
-  "tags": ["noodles", "egg noodles", "birthday", "pancit"]
+  "type": [
+    "noodle_dish",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "egg noodles",
+    "pork",
+    "shrimp",
+    "cabbage",
+    "soy sauce"
+  ],
+  "occasion": [
+    "birthday",
+    "party",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty",
+    "umami"
+  ],
+  "cooking_method": [
+    "sauteed"
+  ],
+  "tags": [
+    "noodles",
+    "egg noodles",
+    "birthday",
+    "pancit"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pancit%20Canton%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

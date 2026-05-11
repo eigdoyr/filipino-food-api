@@ -2,10 +2,33 @@
   "id": "taho",
   "name": "Taho",
   "description": "A warm street food snack of soft silken tofu, arnibal brown sugar syrup, and sago pearls. Sold by vendors called magtataho who carry it in large aluminum containers.",
-  "type": ["street_food", "snack", "breakfast"],
-  "main_ingredients": ["silken tofu", "brown sugar syrup", "sago pearls"],
-  "occasion": ["breakfast", "merienda", "everyday"],
-  "flavor_profile": ["sweet"],
-  "cooking_method": ["steamed"],
-  "tags": ["tofu", "street food", "magtataho", "sago"]
+  "type": [
+    "street_food",
+    "snack",
+    "breakfast"
+  ],
+  "main_ingredients": [
+    "silken tofu",
+    "brown sugar syrup",
+    "sago pearls"
+  ],
+  "occasion": [
+    "breakfast",
+    "merienda",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "tags": [
+    "tofu",
+    "street food",
+    "magtataho",
+    "sago"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Taho%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

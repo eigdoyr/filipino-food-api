@@ -2,7 +2,9 @@
   "id": "kare-kare",
   "name": "Kare-Kare",
   "description": "A rich peanut-based stew made with oxtail, tripe, and vegetables, traditionally served with bagoong alamang on the side. A staple at fiestas and special occasions.",
-  "type": ["main_dish"],
+  "type": [
+    "main_dish"
+  ],
   "main_ingredients": [
     "oxtail",
     "peanut sauce",
@@ -10,8 +12,25 @@
     "banana blossom",
     "eggplant"
   ],
-  "occasion": ["fiesta", "party", "birthday"],
-  "flavor_profile": ["savory", "umami"],
-  "cooking_method": ["stewed", "boiled"],
-  "tags": ["peanut", "oxtail", "bagoong", "fiesta"]
+  "occasion": [
+    "fiesta",
+    "party",
+    "birthday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "stewed",
+    "boiled"
+  ],
+  "tags": [
+    "peanut",
+    "oxtail",
+    "bagoong",
+    "fiesta"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Kare-Kare%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

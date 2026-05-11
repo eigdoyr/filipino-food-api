@@ -2,7 +2,10 @@
   "id": "batchoy",
   "name": "La Paz Batchoy",
   "description": "A rich pork noodle soup from Iloilo topped with pork organs, crushed chicharon, and a raw egg. One of the most iconic noodle soups in the Visayas region.",
-  "type": ["soup", "noodle_dish"],
+  "type": [
+    "soup",
+    "noodle_dish"
+  ],
   "main_ingredients": [
     "egg noodles",
     "pork",
@@ -10,9 +13,25 @@
     "chicharon",
     "shrimp paste"
   ],
-  "occasion": ["everyday", "cold_weather"],
-  "flavor_profile": ["savory", "umami", "salty"],
-  "cooking_method": ["boiled"],
+  "occasion": [
+    "everyday",
+    "cold_weather"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami",
+    "salty"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
   "origin_region": "Iloilo",
-  "tags": ["noodles", "visayas", "iloilo", "pork soup"]
+  "tags": [
+    "noodles",
+    "visayas",
+    "iloilo",
+    "pork soup"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/La%20Paz%20Batchoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

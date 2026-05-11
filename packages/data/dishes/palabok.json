@@ -2,10 +2,37 @@
   "id": "palabok",
   "name": "Pancit Palabok",
   "description": "Rice noodles topped with a rich shrimp-based orange sauce, crushed chicharon, hard boiled eggs, and calamansi. A festive noodle dish strongly associated with birthdays.",
-  "type": ["noodle_dish", "main_dish"],
-  "main_ingredients": ["rice noodles", "shrimp", "chicharon", "tinapa", "eggs"],
-  "occasion": ["birthday", "fiesta", "party"],
-  "flavor_profile": ["savory", "umami", "salty"],
-  "cooking_method": ["boiled", "sauteed"],
-  "tags": ["noodles", "shrimp sauce", "birthday", "pancit"]
+  "type": [
+    "noodle_dish",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "rice noodles",
+    "shrimp",
+    "chicharon",
+    "tinapa",
+    "eggs"
+  ],
+  "occasion": [
+    "birthday",
+    "fiesta",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami",
+    "salty"
+  ],
+  "cooking_method": [
+    "boiled",
+    "sauteed"
+  ],
+  "tags": [
+    "noodles",
+    "shrimp sauce",
+    "birthday",
+    "pancit"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pancit%20Palabok%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

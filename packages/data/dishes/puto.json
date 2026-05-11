@@ -2,10 +2,35 @@
   "id": "puto",
   "name": "Puto",
   "description": "Soft steamed rice cakes made from rice flour, often topped with cheese or salted egg. A versatile kakanin eaten as a snack or paired with dinuguan.",
-  "type": ["kakanin", "snack", "breakfast"],
-  "main_ingredients": ["rice flour", "sugar", "coconut milk", "baking powder"],
-  "occasion": ["merienda", "fiesta", "everyday"],
-  "flavor_profile": ["sweet", "salty"],
-  "cooking_method": ["steamed"],
-  "tags": ["rice cake", "kakanin", "dinuguan pairing", "steamed"]
+  "type": [
+    "kakanin",
+    "snack",
+    "breakfast"
+  ],
+  "main_ingredients": [
+    "rice flour",
+    "sugar",
+    "coconut milk",
+    "baking powder"
+  ],
+  "occasion": [
+    "merienda",
+    "fiesta",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "salty"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "tags": [
+    "rice cake",
+    "kakanin",
+    "dinuguan pairing",
+    "steamed"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Puto%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

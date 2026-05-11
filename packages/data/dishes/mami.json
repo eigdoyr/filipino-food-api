@@ -2,10 +2,34 @@
   "id": "mami",
   "name": "Mami",
   "description": "A Filipino-Chinese noodle soup with chicken or beef in a clear savory broth, topped with scallions and fried garlic. A comfort food staple in Filipino eateries and carinderia.",
-  "type": ["soup", "noodle_dish"],
-  "main_ingredients": ["egg noodles", "chicken", "garlic", "scallions"],
-  "occasion": ["everyday", "cold_weather", "breakfast"],
-  "flavor_profile": ["savory", "umami"],
-  "cooking_method": ["boiled"],
-  "tags": ["noodles", "soup", "chinese influence", "carinderia"]
+  "type": [
+    "soup",
+    "noodle_dish"
+  ],
+  "main_ingredients": [
+    "egg noodles",
+    "chicken",
+    "garlic",
+    "scallions"
+  ],
+  "occasion": [
+    "everyday",
+    "cold_weather",
+    "breakfast"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "noodles",
+    "soup",
+    "chinese influence",
+    "carinderia"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Mami%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

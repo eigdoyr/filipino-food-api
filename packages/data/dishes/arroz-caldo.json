@@ -2,10 +2,35 @@
   "id": "arroz-caldo",
   "name": "Arroz Caldo",
   "description": "A thick Filipino rice porridge with chicken and ginger, topped with fried garlic, scallions, and calamansi. A go-to comfort food when sick or during cold weather.",
-  "type": ["breakfast", "main_dish"],
-  "main_ingredients": ["rice", "chicken", "ginger", "garlic"],
-  "occasion": ["breakfast", "cold_weather", "everyday", "merienda"],
-  "flavor_profile": ["savory", "umami"],
-  "cooking_method": ["boiled"],
-  "tags": ["porridge", "congee", "comfort food", "sick food"]
+  "type": [
+    "breakfast",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "rice",
+    "chicken",
+    "ginger",
+    "garlic"
+  ],
+  "occasion": [
+    "breakfast",
+    "cold_weather",
+    "everyday",
+    "merienda"
+  ],
+  "flavor_profile": [
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "boiled"
+  ],
+  "tags": [
+    "porridge",
+    "congee",
+    "comfort food",
+    "sick food"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Arroz%20Caldo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

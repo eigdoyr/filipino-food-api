@@ -2,7 +2,10 @@
   "id": "pork-bbq",
   "name": "Pork BBQ",
   "description": "Marinated pork slices on skewers grilled over charcoal. A Filipino street food staple with a distinctly sweet and savory marinade of soy sauce, banana ketchup, and calamansi.",
-  "type": ["street_food", "main_dish"],
+  "type": [
+    "street_food",
+    "main_dish"
+  ],
   "main_ingredients": [
     "pork",
     "soy sauce",
@@ -10,8 +13,26 @@
     "calamansi",
     "garlic"
   ],
-  "occasion": ["everyday", "party", "pulutan", "street_food"],
-  "flavor_profile": ["sweet", "savory", "salty"],
-  "cooking_method": ["grilled"],
-  "tags": ["skewer", "street food", "charcoal", "bbq"]
+  "occasion": [
+    "everyday",
+    "party",
+    "pulutan",
+    "street_food"
+  ],
+  "flavor_profile": [
+    "sweet",
+    "savory",
+    "salty"
+  ],
+  "cooking_method": [
+    "grilled"
+  ],
+  "tags": [
+    "skewer",
+    "street food",
+    "charcoal",
+    "bbq"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pork%20BBQ%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

@@ -2,11 +2,38 @@
   "id": "sisig",
   "name": "Sisig",
   "description": "A sizzling Kapampangan dish of chopped pork parts seasoned with calamansi, onions, and chili peppers. Originally invented by Lucia Cunanan using pig heads from Clark Air Base in Angeles City.",
-  "type": ["main_dish", "appetizer"],
-  "main_ingredients": ["pork", "calamansi", "onion", "chili", "chicken liver"],
-  "occasion": ["pulutan", "everyday", "party"],
-  "flavor_profile": ["savory", "sour", "spicy"],
-  "cooking_method": ["boiled", "grilled"],
+  "type": [
+    "main_dish",
+    "appetizer"
+  ],
+  "main_ingredients": [
+    "pork",
+    "calamansi",
+    "onion",
+    "chili",
+    "chicken liver"
+  ],
+  "occasion": [
+    "pulutan",
+    "everyday",
+    "party"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "spicy"
+  ],
+  "cooking_method": [
+    "boiled",
+    "grilled"
+  ],
   "origin_region": "Pampanga",
-  "tags": ["kapampangan", "sizzling", "pulutan", "pork"]
+  "tags": [
+    "kapampangan",
+    "sizzling",
+    "pulutan",
+    "pork"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Sisig%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

@@ -2321,7 +2321,9 @@ var dishes_default = [
       "chicken",
       "classic",
       "national dish"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Adobo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "adobong-pusit",
@@ -2353,7 +2355,9 @@ var dishes_default = [
       "seafood",
       "adobo",
       "ink"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Adobong%20Pusit%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "arroz-caldo",
@@ -2387,7 +2391,9 @@ var dishes_default = [
       "congee",
       "comfort food",
       "sick food"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Arroz%20Caldo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "balut",
@@ -2416,7 +2422,9 @@ var dishes_default = [
       "duck egg",
       "exotic",
       "night food"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Balut%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "batchoy",
@@ -2451,7 +2459,9 @@ var dishes_default = [
       "visayas",
       "iloilo",
       "pork soup"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/La%20Paz%20Batchoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "bibingka",
@@ -2485,7 +2495,9 @@ var dishes_default = [
       "kakanin",
       "rice cake",
       "simbang gabi"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bibingka%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "bibingkang-malagkit",
@@ -2517,7 +2529,9 @@ var dishes_default = [
       "kakanin",
       "coconut",
       "caramel"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bibingkang%20Malagkit%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "bicol-express",
@@ -2550,7 +2564,9 @@ var dishes_default = [
       "coconut milk",
       "bicolano",
       "chili"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bicol%20Express%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "bulalo",
@@ -2583,7 +2599,9 @@ var dishes_default = [
       "bone marrow",
       "soup",
       "batangas"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Bulalo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "champorado",
@@ -2615,7 +2633,9 @@ var dishes_default = [
       "porridge",
       "breakfast",
       "tablea"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Champorado%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "crispy-pata",
@@ -2650,7 +2670,9 @@ var dishes_default = [
       "crispy",
       "pulutan",
       "party food"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Crispy%20Pata%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "dinakdakan",
@@ -2686,7 +2708,9 @@ var dishes_default = [
       "pork",
       "pulutan",
       "grilled"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Dinakdakan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "dinuguan",
@@ -2718,7 +2742,9 @@ var dishes_default = [
       "pork blood",
       "offal",
       "puto pairing"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Dinuguan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "empanada",
@@ -2752,7 +2778,9 @@ var dishes_default = [
       "vigan",
       "ilocos",
       "street food"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Empanada%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "ginisang-monggo",
@@ -2785,7 +2813,9 @@ var dishes_default = [
       "monggo",
       "friday dish",
       "healthy"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Ginisang%20Monggo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "goto",
@@ -2819,7 +2849,9 @@ var dishes_default = [
       "tripe",
       "street food",
       "congee"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Goto%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "halo-halo",
@@ -2852,7 +2884,9 @@ var dishes_default = [
       "summer",
       "shaved ice",
       "ube"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Halo-Halo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "isaw",
@@ -2885,7 +2919,9 @@ var dishes_default = [
       "skewer",
       "street food",
       "charcoal"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Isaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "kaldereta",
@@ -2918,7 +2954,9 @@ var dishes_default = [
       "tomato",
       "spanish influence",
       "fiesta"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Kaldereta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "kare-kare",
@@ -2952,7 +2990,9 @@ var dishes_default = [
       "oxtail",
       "bagoong",
       "fiesta"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Kare-Kare%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "kinilaw",
@@ -2987,7 +3027,9 @@ var dishes_default = [
       "seafood",
       "raw",
       "coastal"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Kinilaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "kwek-kwek",
@@ -3019,7 +3061,9 @@ var dishes_default = [
       "eggs",
       "annatto",
       "fried"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Kwek-Kwek%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "laing",
@@ -3052,7 +3096,9 @@ var dishes_default = [
       "coconut milk",
       "bicolano",
       "spicy"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Laing%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "leche-flan",
@@ -3084,7 +3130,9 @@ var dishes_default = [
       "caramel",
       "spanish influence",
       "celebration"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Leche%20Flan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "lechon-kawali",
@@ -3118,7 +3166,9 @@ var dishes_default = [
       "crispy",
       "fried",
       "pulutan"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lechon%20Kawali%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "lechon",
@@ -3152,7 +3202,9 @@ var dishes_default = [
       "crispy skin",
       "celebration",
       "cebu"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lechon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "longganisa",
@@ -3185,7 +3237,9 @@ var dishes_default = [
       "breakfast",
       "silog",
       "regional"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Longganisa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "lumpia-shanghai",
@@ -3221,7 +3275,9 @@ var dishes_default = [
       "fried",
       "party food",
       "lumpia"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Lumpia%20Shanghai%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "mami",
@@ -3254,7 +3310,9 @@ var dishes_default = [
       "soup",
       "chinese influence",
       "carinderia"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Mami%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "menudo",
@@ -3287,7 +3345,9 @@ var dishes_default = [
       "tomato",
       "liver",
       "fiesta"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Menudo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "nilaga",
@@ -3319,7 +3379,9 @@ var dishes_default = [
       "soup",
       "comfort food",
       "simple"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Nilaga%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "palabok",
@@ -3355,7 +3417,9 @@ var dishes_default = [
       "shrimp sauce",
       "birthday",
       "pancit"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pancit%20Palabok%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "palitaw",
@@ -3386,7 +3450,9 @@ var dishes_default = [
       "kakanin",
       "coconut",
       "sesame"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Palitaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pancit-bihon",
@@ -3421,7 +3487,9 @@ var dishes_default = [
       "birthday",
       "long life",
       "pancit"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pancit%20Bihon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pancit-canton",
@@ -3456,7 +3524,9 @@ var dishes_default = [
       "egg noodles",
       "birthday",
       "pancit"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pancit%20Canton%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pinakbet",
@@ -3492,7 +3562,9 @@ var dishes_default = [
       "vegetables",
       "bagoong",
       "ilocano"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pinakbet%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pinangat",
@@ -3526,7 +3598,9 @@ var dishes_default = [
       "coconut milk",
       "taro leaves",
       "spicy"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pinangat%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pinaputok",
@@ -3557,7 +3631,9 @@ var dishes_default = [
       "tilapia",
       "stuffed",
       "grilled"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pinaputok%20na%20Tilapia%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pochero",
@@ -3592,7 +3668,9 @@ var dishes_default = [
       "beef",
       "chorizo",
       "fiesta"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pochero%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "pork-bbq",
@@ -3628,7 +3706,9 @@ var dishes_default = [
       "street food",
       "charcoal",
       "bbq"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Pork%20BBQ%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "puto",
@@ -3662,7 +3742,9 @@ var dishes_default = [
       "kakanin",
       "dinuguan pairing",
       "steamed"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Puto%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "sinigang",
@@ -3695,7 +3777,9 @@ var dishes_default = [
       "tamarind",
       "soup",
       "comfort food"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sinigang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "sisig",
@@ -3732,7 +3816,9 @@ var dishes_default = [
       "sizzling",
       "pulutan",
       "pork"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Sisig%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "suman",
@@ -3765,7 +3851,9 @@ var dishes_default = [
       "banana leaf",
       "kakanin",
       "mango pairing"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Suman%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "taho",
@@ -3797,7 +3885,9 @@ var dishes_default = [
       "street food",
       "magtataho",
       "sago"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Taho%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "tapsilog",
@@ -3829,7 +3919,9 @@ var dishes_default = [
       "breakfast",
       "tapa",
       "garlic rice"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tapsilog%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "tinola",
@@ -3862,7 +3954,9 @@ var dishes_default = [
       "soup",
       "chicken",
       "comfort food"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tinola%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "tocino",
@@ -3894,7 +3988,9 @@ var dishes_default = [
       "sweet pork",
       "silog",
       "breakfast"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tocino%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "tortang-talong",
@@ -3926,7 +4022,9 @@ var dishes_default = [
       "omelette",
       "budget meal",
       "everyday"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Tortang%20Talong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   },
   {
     id: "ukoy",
@@ -3959,7 +4057,9 @@ var dishes_default = [
       "shrimp",
       "street food",
       "crispy"
-    ]
+    ],
+    image_url: "https://image.pollinations.ai/prompt/Ukoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+    image_credit: "AI Generated (prototype - Pollinations.ai)"
   }
 ];
 

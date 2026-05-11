@@ -2,7 +2,10 @@
   "id": "pochero",
   "name": "Pochero",
   "description": "A Spanish-influenced Filipino stew of beef or pork with chorizo, vegetables, and banana. A hearty dish commonly served at family gatherings and fiestas.",
-  "type": ["main_dish", "soup"],
+  "type": [
+    "main_dish",
+    "soup"
+  ],
   "main_ingredients": [
     "beef",
     "chorizo",
@@ -10,8 +13,25 @@
     "cabbage",
     "tomato sauce"
   ],
-  "occasion": ["fiesta", "party", "everyday"],
-  "flavor_profile": ["savory", "sweet"],
-  "cooking_method": ["stewed", "boiled"],
-  "tags": ["spanish influence", "beef", "chorizo", "fiesta"]
+  "occasion": [
+    "fiesta",
+    "party",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sweet"
+  ],
+  "cooking_method": [
+    "stewed",
+    "boiled"
+  ],
+  "tags": [
+    "spanish influence",
+    "beef",
+    "chorizo",
+    "fiesta"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Pochero%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "ts-node packages/data/scripts/validate.ts",
     "dev": "wrangler dev",
-    "build:index": "ts-node packages/data/scripts/build-index.ts"
+    "build:index": "ts-node packages/data/scripts/build-index.ts",
+    "add:images": "ts-node packages/data/scripts/add-images.ts"
   },
   "repository": {
     "type": "git",

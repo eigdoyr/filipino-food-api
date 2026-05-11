@@ -2,7 +2,10 @@
   "id": "halo-halo",
   "name": "Halo-Halo",
   "description": "A popular cold Filipino dessert of shaved ice, evaporated milk, and a colorful mix of sweet beans, jellies, fruits, ube halaya, and leche flan. The name means mix-mix in Filipino.",
-  "type": ["dessert", "beverage"],
+  "type": [
+    "dessert",
+    "beverage"
+  ],
   "main_ingredients": [
     "shaved ice",
     "evaporated milk",
@@ -10,8 +13,23 @@
     "leche flan",
     "sweetened beans"
   ],
-  "occasion": ["everyday", "party", "merienda"],
-  "flavor_profile": ["sweet"],
-  "cooking_method": ["raw"],
-  "tags": ["cold dessert", "summer", "shaved ice", "ube"]
+  "occasion": [
+    "everyday",
+    "party",
+    "merienda"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "raw"
+  ],
+  "tags": [
+    "cold dessert",
+    "summer",
+    "shaved ice",
+    "ube"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Halo-Halo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

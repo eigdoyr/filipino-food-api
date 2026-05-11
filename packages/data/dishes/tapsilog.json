@@ -2,10 +2,33 @@
   "id": "tapsilog",
   "name": "Tapsilog",
   "description": "A classic Filipino breakfast of cured beef tapa, garlic fried rice, and a fried egg. One of the most iconic silog meals in Filipino food culture.",
-  "type": ["breakfast", "main_dish"],
-  "main_ingredients": ["beef tapa", "garlic rice", "egg"],
-  "occasion": ["breakfast", "everyday"],
-  "flavor_profile": ["savory", "salty", "sweet"],
-  "cooking_method": ["fried"],
-  "tags": ["silog", "breakfast", "tapa", "garlic rice"]
+  "type": [
+    "breakfast",
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "beef tapa",
+    "garlic rice",
+    "egg"
+  ],
+  "occasion": [
+    "breakfast",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty",
+    "sweet"
+  ],
+  "cooking_method": [
+    "fried"
+  ],
+  "tags": [
+    "silog",
+    "breakfast",
+    "tapa",
+    "garlic rice"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Tapsilog%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

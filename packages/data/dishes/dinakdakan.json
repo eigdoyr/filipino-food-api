@@ -2,7 +2,10 @@
   "id": "dinakdakan",
   "name": "Dinakdakan",
   "description": "An Ilocano dish of grilled pork parts including ears and face, chopped and mixed with calamansi, chili, and pig brain or mayonnaise. Similar to sisig but distinctly Ilocano.",
-  "type": ["main_dish", "appetizer"],
+  "type": [
+    "main_dish",
+    "appetizer"
+  ],
   "main_ingredients": [
     "pork ears",
     "pork face",
@@ -10,9 +13,26 @@
     "chili",
     "ginger"
   ],
-  "occasion": ["pulutan", "everyday"],
-  "flavor_profile": ["sour", "savory", "spicy"],
-  "cooking_method": ["grilled", "boiled"],
+  "occasion": [
+    "pulutan",
+    "everyday"
+  ],
+  "flavor_profile": [
+    "sour",
+    "savory",
+    "spicy"
+  ],
+  "cooking_method": [
+    "grilled",
+    "boiled"
+  ],
   "origin_region": "Ilocos",
-  "tags": ["ilocano", "pork", "pulutan", "grilled"]
+  "tags": [
+    "ilocano",
+    "pork",
+    "pulutan",
+    "grilled"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Dinakdakan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

@@ -2,15 +2,33 @@
   "id": "leche-flan",
   "name": "Leche Flan",
   "description": "A rich and creamy caramel custard made with egg yolks and condensed milk. A Spanish-influenced dessert and a staple at every Filipino celebration.",
-  "type": ["dessert"],
+  "type": [
+    "dessert"
+  ],
   "main_ingredients": [
     "egg yolks",
     "condensed milk",
     "evaporated milk",
     "sugar"
   ],
-  "occasion": ["fiesta", "christmas", "birthday", "party"],
-  "flavor_profile": ["sweet"],
-  "cooking_method": ["steamed"],
-  "tags": ["custard", "caramel", "spanish influence", "celebration"]
+  "occasion": [
+    "fiesta",
+    "christmas",
+    "birthday",
+    "party"
+  ],
+  "flavor_profile": [
+    "sweet"
+  ],
+  "cooking_method": [
+    "steamed"
+  ],
+  "tags": [
+    "custard",
+    "caramel",
+    "spanish influence",
+    "celebration"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Leche%20Flan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

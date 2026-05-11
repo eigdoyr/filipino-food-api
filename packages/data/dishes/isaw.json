@@ -2,10 +2,34 @@
   "id": "isaw",
   "name": "Isaw",
   "description": "Grilled chicken or pork intestines on skewers, marinated in a sweet and savory sauce and cooked over charcoal. One of the most popular and beloved Filipino street foods.",
-  "type": ["street_food", "snack"],
-  "main_ingredients": ["chicken intestines", "soy sauce", "vinegar", "garlic"],
-  "occasion": ["everyday", "pulutan"],
-  "flavor_profile": ["savory", "salty", "sweet"],
-  "cooking_method": ["grilled"],
-  "tags": ["offal", "skewer", "street food", "charcoal"]
+  "type": [
+    "street_food",
+    "snack"
+  ],
+  "main_ingredients": [
+    "chicken intestines",
+    "soy sauce",
+    "vinegar",
+    "garlic"
+  ],
+  "occasion": [
+    "everyday",
+    "pulutan"
+  ],
+  "flavor_profile": [
+    "savory",
+    "salty",
+    "sweet"
+  ],
+  "cooking_method": [
+    "grilled"
+  ],
+  "tags": [
+    "offal",
+    "skewer",
+    "street food",
+    "charcoal"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Isaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

@@ -2,10 +2,35 @@
   "id": "adobo",
   "name": "Adobo",
   "description": "A savory Filipino dish of meat braised in vinegar, soy sauce, garlic, and bay leaves. Considered the unofficial national dish of the Philippines.",
-  "type": ["main_dish"],
-  "main_ingredients": ["pork", "vinegar", "soy sauce", "garlic", "bay leaves"],
-  "occasion": ["everyday", "party", "potluck"],
-  "flavor_profile": ["savory", "sour", "salty"],
-  "cooking_method": ["stewed"],
-  "tags": ["pork", "chicken", "classic", "national dish"]
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork",
+    "vinegar",
+    "soy sauce",
+    "garlic",
+    "bay leaves"
+  ],
+  "occasion": [
+    "everyday",
+    "party",
+    "potluck"
+  ],
+  "flavor_profile": [
+    "savory",
+    "sour",
+    "salty"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
+  "tags": [
+    "pork",
+    "chicken",
+    "classic",
+    "national dish"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Adobo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

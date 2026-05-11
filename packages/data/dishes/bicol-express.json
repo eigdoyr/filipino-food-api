@@ -2,11 +2,34 @@
   "id": "bicol-express",
   "name": "Bicol Express",
   "description": "A fiery Bicolano stew of pork cooked in coconut milk with lots of chili peppers and shrimp paste. One of the spiciest dishes in Filipino cuisine.",
-  "type": ["main_dish"],
-  "main_ingredients": ["pork", "coconut milk", "chili peppers", "bagoong"],
-  "occasion": ["everyday", "fiesta"],
-  "flavor_profile": ["spicy", "savory", "umami"],
-  "cooking_method": ["stewed"],
+  "type": [
+    "main_dish"
+  ],
+  "main_ingredients": [
+    "pork",
+    "coconut milk",
+    "chili peppers",
+    "bagoong"
+  ],
+  "occasion": [
+    "everyday",
+    "fiesta"
+  ],
+  "flavor_profile": [
+    "spicy",
+    "savory",
+    "umami"
+  ],
+  "cooking_method": [
+    "stewed"
+  ],
   "origin_region": "Bicol",
-  "tags": ["spicy", "coconut milk", "bicolano", "chili"]
+  "tags": [
+    "spicy",
+    "coconut milk",
+    "bicolano",
+    "chili"
+  ],
+  "image_url": "https://image.pollinations.ai/prompt/Bicol%20Express%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
+  "image_credit": "AI Generated (prototype - Pollinations.ai)"
 }

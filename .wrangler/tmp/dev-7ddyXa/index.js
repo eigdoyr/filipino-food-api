@@ -56,16 +56,16 @@ var require_checked_fetch = __commonJS({
 });
 
 // .wrangler/tmp/bundle-NmcT8D/middleware-loader.entry.ts
-var import_checked_fetch36 = __toESM(require_checked_fetch());
+var import_checked_fetch37 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
 // .wrangler/tmp/bundle-NmcT8D/middleware-insertion-facade.js
-var import_checked_fetch34 = __toESM(require_checked_fetch());
+var import_checked_fetch35 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
-var import_checked_fetch31 = __toESM(require_checked_fetch());
+var import_checked_fetch32 = __toESM(require_checked_fetch());
 
 // node_modules/hono/dist/index.js
 var import_checked_fetch25 = __toESM(require_checked_fetch(), 1);
@@ -2284,8 +2284,95 @@ var Hono2 = class extends Hono {
   }
 };
 
+// node_modules/hono/dist/middleware/cors/index.js
+var import_checked_fetch26 = __toESM(require_checked_fetch(), 1);
+var cors = /* @__PURE__ */ __name((options) => {
+  const opts = {
+    origin: "*",
+    allowMethods: ["GET", "HEAD", "PUT", "POST", "DELETE", "PATCH"],
+    allowHeaders: [],
+    exposeHeaders: [],
+    ...options
+  };
+  const findAllowOrigin = ((optsOrigin) => {
+    if (typeof optsOrigin === "string") {
+      if (optsOrigin === "*") {
+        if (opts.credentials) {
+          return (origin) => origin || null;
+        }
+        return () => optsOrigin;
+      } else {
+        return (origin) => optsOrigin === origin ? origin : null;
+      }
+    } else if (typeof optsOrigin === "function") {
+      return optsOrigin;
+    } else {
+      return (origin) => optsOrigin.includes(origin) ? origin : null;
+    }
+  })(opts.origin);
+  const findAllowMethods = ((optsAllowMethods) => {
+    if (typeof optsAllowMethods === "function") {
+      return optsAllowMethods;
+    } else if (Array.isArray(optsAllowMethods)) {
+      return () => optsAllowMethods;
+    } else {
+      return () => [];
+    }
+  })(opts.allowMethods);
+  return /* @__PURE__ */ __name(async function cors2(c, next) {
+    function set(key, value) {
+      c.res.headers.set(key, value);
+    }
+    __name(set, "set");
+    const allowOrigin = await findAllowOrigin(c.req.header("origin") || "", c);
+    if (allowOrigin) {
+      set("Access-Control-Allow-Origin", allowOrigin);
+    }
+    if (opts.credentials) {
+      set("Access-Control-Allow-Credentials", "true");
+    }
+    if (opts.exposeHeaders?.length) {
+      set("Access-Control-Expose-Headers", opts.exposeHeaders.join(","));
+    }
+    if (c.req.method === "OPTIONS") {
+      if (opts.origin !== "*" || opts.credentials) {
+        set("Vary", "Origin");
+      }
+      if (opts.maxAge != null) {
+        set("Access-Control-Max-Age", opts.maxAge.toString());
+      }
+      const allowMethods = await findAllowMethods(c.req.header("origin") || "", c);
+      if (allowMethods.length) {
+        set("Access-Control-Allow-Methods", allowMethods.join(","));
+      }
+      let headers = opts.allowHeaders;
+      if (!headers?.length) {
+        const requestHeaders = c.req.header("Access-Control-Request-Headers");
+        if (requestHeaders) {
+          headers = requestHeaders.split(/\s*,\s*/);
+        }
+      }
+      if (headers?.length) {
+        set("Access-Control-Allow-Headers", headers.join(","));
+        c.res.headers.append("Vary", "Access-Control-Request-Headers");
+      }
+      c.res.headers.delete("Content-Length");
+      c.res.headers.delete("Content-Type");
+      return new Response(null, {
+        headers: c.res.headers,
+        status: 204,
+        statusText: "No Content"
+      });
+    }
+    await next();
+    if (opts.origin !== "*" || opts.credentials) {
+      c.header("Vary", "Origin", { append: true });
+    }
+  }, "cors2");
+}, "cors");
+
 // packages/api/src/routes/dishes.ts
-var import_checked_fetch26 = __toESM(require_checked_fetch());
+var import_checked_fetch27 = __toESM(require_checked_fetch());
 
 // packages/data/dishes/index.json
 var dishes_default = [
@@ -5912,13 +5999,13 @@ router.get("/:id", (c) => {
 var dishes_default2 = router;
 
 // packages/api/src/routes/docs.ts
-var import_checked_fetch29 = __toESM(require_checked_fetch());
+var import_checked_fetch30 = __toESM(require_checked_fetch());
 
 // node_modules/@hono/swagger-ui/dist/index.js
-var import_checked_fetch28 = __toESM(require_checked_fetch(), 1);
+var import_checked_fetch29 = __toESM(require_checked_fetch(), 1);
 
 // node_modules/hono/dist/helper/html/index.js
-var import_checked_fetch27 = __toESM(require_checked_fetch(), 1);
+var import_checked_fetch28 = __toESM(require_checked_fetch(), 1);
 var html = /* @__PURE__ */ __name((strings, ...values) => {
   const buffer = [""];
   for (let i = 0, len = strings.length - 1; i < len; i++) {
@@ -6150,7 +6237,7 @@ router2.get("/spec", (c) => c.json(spec));
 var docs_default = router2;
 
 // packages/api/src/middleware/rateLimit.ts
-var import_checked_fetch30 = __toESM(require_checked_fetch());
+var import_checked_fetch31 = __toESM(require_checked_fetch());
 var WINDOW_MS = 60 * 1e3;
 var MAX_REQUESTS = 60;
 async function rateLimit(c, next) {
@@ -6182,6 +6269,14 @@ __name(rateLimit, "rateLimit");
 
 // packages/api/src/index.ts
 var app = new Hono2();
+app.use(
+  "*",
+  cors({
+    origin: "*",
+    allowMethods: ["GET"],
+    allowHeaders: ["Content-Type"]
+  })
+);
 app.use("*", rateLimit);
 app.get("/", (c) => {
   return c.json({
@@ -6198,7 +6293,7 @@ app.route("/docs", docs_default);
 var src_default = app;
 
 // node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
-var import_checked_fetch32 = __toESM(require_checked_fetch());
+var import_checked_fetch33 = __toESM(require_checked_fetch());
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -6217,7 +6312,7 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 var middleware_ensure_req_body_drained_default = drainBody;
 
 // node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
-var import_checked_fetch33 = __toESM(require_checked_fetch());
+var import_checked_fetch34 = __toESM(require_checked_fetch());
 function reduceError(e) {
   return {
     name: e?.name,
@@ -6248,7 +6343,7 @@ var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
 var middleware_insertion_facade_default = src_default;
 
 // node_modules/wrangler/templates/middleware/common.ts
-var import_checked_fetch35 = __toESM(require_checked_fetch());
+var import_checked_fetch36 = __toESM(require_checked_fetch());
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());

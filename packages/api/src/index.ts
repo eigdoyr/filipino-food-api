@@ -3,6 +3,7 @@ import { cors } from "hono/cors";
 import dishes from "./routes/dishes";
 import docs from "./routes/docs";
 import { rateLimit } from "./middleware/rateLimit";
+import { securityHeaders } from "./middleware/securityHeaders";
 
 const app = new Hono();
 
@@ -16,6 +17,7 @@ app.use(
 );
 
 app.use("*", rateLimit);
+app.use("*", securityHeaders);
 
 app.get("/", (c) => {
   return c.json({

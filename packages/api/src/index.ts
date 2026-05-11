@@ -8,7 +8,14 @@ const app = new Hono();
 app.use("*", rateLimit);
 
 app.get("/", (c) => {
-  return c.json({ status: "ok", message: "Filipino Food API" });
+  return c.json({
+    status: "ok",
+    message: "Filipino Food API",
+    version: "0.2.0",
+    author: "ryodgie",
+    repository: "https://github.com/eigdoyr/filipino-food-api",
+    license: "MIT",
+  });
 });
 
 app.route("/dishes", dishes);

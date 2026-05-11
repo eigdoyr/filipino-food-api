@@ -4307,7 +4307,14 @@ __name(rateLimit, "rateLimit");
 var app = new Hono2();
 app.use("*", rateLimit);
 app.get("/", (c) => {
-  return c.json({ status: "ok", message: "Filipino Food API" });
+  return c.json({
+    status: "ok",
+    message: "Filipino Food API",
+    version: "0.2.0",
+    author: "ryodgie",
+    repository: "https://github.com/eigdoyr/filipino-food-api",
+    license: "MIT"
+  });
 });
 app.route("/dishes", dishes_default2);
 app.route("/docs", docs_default);

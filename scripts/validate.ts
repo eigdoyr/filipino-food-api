@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
-import { DishSchema } from "../schema/dish.schema";
+import { DishSchema } from "../packages/data/schema/dish.schema";
 
-const dishesDir = path.join(__dirname, "../dishes");
+const dishesDir = path.join(__dirname, "../packages/data/dishes");
 const files = fs
   .readdirSync(dishesDir)
   .filter((f) => f.endsWith(".json") && f !== "index.json");

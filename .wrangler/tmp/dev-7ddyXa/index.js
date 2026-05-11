@@ -56,16 +56,16 @@ var require_checked_fetch = __commonJS({
 });
 
 // .wrangler/tmp/bundle-NmcT8D/middleware-loader.entry.ts
-var import_checked_fetch37 = __toESM(require_checked_fetch());
+var import_checked_fetch38 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
 // .wrangler/tmp/bundle-NmcT8D/middleware-insertion-facade.js
-var import_checked_fetch35 = __toESM(require_checked_fetch());
+var import_checked_fetch36 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
-var import_checked_fetch32 = __toESM(require_checked_fetch());
+var import_checked_fetch33 = __toESM(require_checked_fetch());
 
 // node_modules/hono/dist/index.js
 var import_checked_fetch25 = __toESM(require_checked_fetch(), 1);
@@ -2372,7 +2372,7 @@ var cors = /* @__PURE__ */ __name((options) => {
 }, "cors");
 
 // packages/api/src/routes/dishes.ts
-var import_checked_fetch27 = __toESM(require_checked_fetch());
+var import_checked_fetch28 = __toESM(require_checked_fetch());
 
 // packages/data/dishes/index.json
 var dishes_default = [
@@ -5927,6 +5927,19 @@ var dishes_default = [
   }
 ];
 
+// packages/api/src/middleware/error.ts
+var import_checked_fetch27 = __toESM(require_checked_fetch());
+function errorResponse(message, code, status) {
+  return {
+    error: {
+      message,
+      code,
+      status
+    }
+  };
+}
+__name(errorResponse, "errorResponse");
+
 // packages/api/src/routes/dishes.ts
 var router = new Hono2();
 router.get("/", (c) => {
@@ -5962,7 +5975,10 @@ router.get("/", (c) => {
 router.get("/search", (c) => {
   const q = c.req.query("q")?.toLowerCase();
   if (!q) {
-    return c.json({ error: "Query parameter q is required" }, 400);
+    return c.json(
+      errorResponse("Query parameter q is required", "MISSING_QUERY", 400),
+      400
+    );
   }
   const results = dishes_default.filter((d) => {
     return d.name.toLowerCase().includes(q) || d.description.toLowerCase().includes(q) || d.tags.some((t) => t.toLowerCase().includes(q)) || d.main_ingredients.some((i) => i.toLowerCase().includes(q));
@@ -5992,20 +6008,20 @@ router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes_default.find((d) => d.id === id);
   if (!dish) {
-    return c.json({ error: `Dish not found: ${id}` }, 404);
+    return c.json(errorResponse("Dish not found", "NOT_FOUND", 404), 404);
   }
   return c.json({ data: dish });
 });
 var dishes_default2 = router;
 
 // packages/api/src/routes/docs.ts
-var import_checked_fetch30 = __toESM(require_checked_fetch());
+var import_checked_fetch31 = __toESM(require_checked_fetch());
 
 // node_modules/@hono/swagger-ui/dist/index.js
-var import_checked_fetch29 = __toESM(require_checked_fetch(), 1);
+var import_checked_fetch30 = __toESM(require_checked_fetch(), 1);
 
 // node_modules/hono/dist/helper/html/index.js
-var import_checked_fetch28 = __toESM(require_checked_fetch(), 1);
+var import_checked_fetch29 = __toESM(require_checked_fetch(), 1);
 var html = /* @__PURE__ */ __name((strings, ...values) => {
   const buffer = [""];
   for (let i = 0, len = strings.length - 1; i < len; i++) {
@@ -6237,7 +6253,7 @@ router2.get("/spec", (c) => c.json(spec));
 var docs_default = router2;
 
 // packages/api/src/middleware/rateLimit.ts
-var import_checked_fetch31 = __toESM(require_checked_fetch());
+var import_checked_fetch32 = __toESM(require_checked_fetch());
 var WINDOW_MS = 60 * 1e3;
 var MAX_REQUESTS = 60;
 async function rateLimit(c, next) {
@@ -6257,9 +6273,11 @@ async function rateLimit(c, next) {
   }
   if (data.count >= MAX_REQUESTS) {
     const retryAfter = Math.ceil((WINDOW_MS - (now - data.start)) / 1e3);
-    return c.json({ error: "Rate limit exceeded" }, 429, {
-      "Retry-After": String(retryAfter)
-    });
+    return c.json(
+      errorResponse("Rate limit exceeded", "RATE_LIMITED", 429),
+      429,
+      { "Retry-After": String(retryAfter) }
+    );
   }
   data.count++;
   await kv.put(key, JSON.stringify(data), { expirationTtl: 60 });
@@ -6294,7 +6312,7 @@ app.route("/docs", docs_default);
 var src_default = app;
 
 // node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
-var import_checked_fetch33 = __toESM(require_checked_fetch());
+var import_checked_fetch34 = __toESM(require_checked_fetch());
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -6313,7 +6331,7 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 var middleware_ensure_req_body_drained_default = drainBody;
 
 // node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
-var import_checked_fetch34 = __toESM(require_checked_fetch());
+var import_checked_fetch35 = __toESM(require_checked_fetch());
 function reduceError(e) {
   return {
     name: e?.name,
@@ -6344,7 +6362,7 @@ var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
 var middleware_insertion_facade_default = src_default;
 
 // node_modules/wrangler/templates/middleware/common.ts
-var import_checked_fetch36 = __toESM(require_checked_fetch());
+var import_checked_fetch37 = __toESM(require_checked_fetch());
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());

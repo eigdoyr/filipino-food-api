@@ -1,4 +1,5 @@
 import { Context, Next } from "hono";
+import { errorResponse } from "../middleware/error";
 
 const WINDOW_MS = 60 * 1000;
 const MAX_REQUESTS = 60;
@@ -25,9 +26,11 @@ export async function rateLimit(c: Context, next: Next) {
 
   if (data.count >= MAX_REQUESTS) {
     const retryAfter = Math.ceil((WINDOW_MS - (now - data.start)) / 1000);
-    return c.json({ error: "Rate limit exceeded" }, 429, {
-      "Retry-After": String(retryAfter),
-    });
+    return c.json(
+      errorResponse("Rate limit exceeded", "RATE_LIMITED", 429),
+      429,
+      { "Retry-After": String(retryAfter) },
+    );
   }
 
   data.count++;

@@ -1,5 +1,6 @@
 import { Hono } from "hono";
 import dishes from "../../../data/dishes/index.json";
+import { errorResponse } from "../middleware/error";
 
 const router = new Hono();
 
@@ -44,7 +45,10 @@ router.get("/search", (c) => {
   const q = c.req.query("q")?.toLowerCase();
 
   if (!q) {
-    return c.json({ error: "Query parameter q is required" }, 400);
+    return c.json(
+      errorResponse("Query parameter q is required", "MISSING_QUERY", 400),
+      400,
+    );
   }
 
   const results = dishes.filter((d) => {
@@ -88,7 +92,7 @@ router.get("/:id", (c) => {
   const dish = dishes.find((d) => d.id === id);
 
   if (!dish) {
-    return c.json({ error: `Dish not found: ${id}` }, 404);
+    return c.json(errorResponse("Dish not found", "NOT_FOUND", 404), 404);
   }
 
   return c.json({ data: dish });

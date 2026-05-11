@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "ts-node packages/data/scripts/validate.ts",
-    "dev": "wrangler dev"
+    "dev": "wrangler dev",
+    "build:index": "ts-node packages/data/scripts/build-index.ts"
   },
   "repository": {
     "type": "git",

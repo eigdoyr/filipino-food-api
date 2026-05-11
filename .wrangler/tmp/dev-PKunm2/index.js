@@ -25,9 +25,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// .wrangler/tmp/bundle-EncXBG/checked-fetch.js
+// .wrangler/tmp/bundle-RBuCXb/checked-fetch.js
 var require_checked_fetch = __commonJS({
-  ".wrangler/tmp/bundle-EncXBG/checked-fetch.js"() {
+  ".wrangler/tmp/bundle-RBuCXb/checked-fetch.js"() {
     var urls = /* @__PURE__ */ new Set();
     function checkURL(request, init) {
       const url = request instanceof URL ? request : new URL(
@@ -55,17 +55,17 @@ var require_checked_fetch = __commonJS({
   }
 });
 
-// .wrangler/tmp/bundle-EncXBG/middleware-loader.entry.ts
-var import_checked_fetch31 = __toESM(require_checked_fetch());
+// .wrangler/tmp/bundle-RBuCXb/middleware-loader.entry.ts
+var import_checked_fetch32 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
-// .wrangler/tmp/bundle-EncXBG/middleware-insertion-facade.js
-var import_checked_fetch29 = __toESM(require_checked_fetch());
+// .wrangler/tmp/bundle-RBuCXb/middleware-insertion-facade.js
+var import_checked_fetch30 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
-var import_checked_fetch26 = __toESM(require_checked_fetch());
+var import_checked_fetch27 = __toESM(require_checked_fetch());
 
 // node_modules/hono/dist/index.js
 var import_checked_fetch25 = __toESM(require_checked_fetch(), 1);
@@ -1951,20 +1951,20 @@ var SmartRouter = class {
     let i = 0;
     let res;
     for (; i < len; i++) {
-      const router = routers[i];
+      const router2 = routers[i];
       try {
         for (let i2 = 0, len2 = routes.length; i2 < len2; i2++) {
-          router.add(...routes[i2]);
+          router2.add(...routes[i2]);
         }
-        res = router.match(method, path);
+        res = router2.match(method, path);
       } catch (e) {
         if (e instanceof UnsupportedPathError) {
           continue;
         }
         throw e;
       }
-      this.match = router.match.bind(router);
-      this.#routers = [router];
+      this.match = router2.match.bind(router2);
+      this.#routers = [router2];
       this.#routes = void 0;
       break;
     }
@@ -2210,15 +2210,1715 @@ var Hono2 = class extends Hono {
   }
 };
 
+// packages/api/src/routes/dishes.ts
+var import_checked_fetch26 = __toESM(require_checked_fetch());
+
+// packages/data/dishes/index.json
+var dishes_default = [
+  {
+    id: "adobo",
+    name: "Adobo",
+    description: "A savory Filipino dish of meat braised in vinegar, soy sauce, garlic, and bay leaves. Considered the unofficial national dish of the Philippines.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "vinegar",
+      "soy sauce",
+      "garlic",
+      "bay leaves"
+    ],
+    occasion: [
+      "everyday",
+      "party",
+      "potluck"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "salty"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    tags: [
+      "pork",
+      "chicken",
+      "classic",
+      "national dish"
+    ]
+  },
+  {
+    id: "adobong-pusit",
+    name: "Adobong Pusit",
+    description: "Squid cooked in its own ink with vinegar, soy sauce, and garlic. A darker, briny variation of the classic adobo using fresh squid.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "squid",
+      "squid ink",
+      "vinegar",
+      "soy sauce",
+      "garlic"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty",
+      "sour"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    tags: [
+      "squid",
+      "seafood",
+      "adobo",
+      "ink"
+    ]
+  },
+  {
+    id: "arroz-caldo",
+    name: "Arroz Caldo",
+    description: "A thick Filipino rice porridge with chicken and ginger, topped with fried garlic, scallions, and calamansi. A go-to comfort food when sick or during cold weather.",
+    type: [
+      "breakfast",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "rice",
+      "chicken",
+      "ginger",
+      "garlic"
+    ],
+    occasion: [
+      "breakfast",
+      "cold_weather",
+      "everyday",
+      "merienda"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "porridge",
+      "congee",
+      "comfort food",
+      "sick food"
+    ]
+  },
+  {
+    id: "balut",
+    name: "Balut",
+    description: "A fertilized duck egg with a partially developed embryo, boiled and eaten from the shell. One of the most iconic and adventurous Filipino street foods, typically sold by vendors at night.",
+    type: [
+      "street_food",
+      "snack"
+    ],
+    main_ingredients: [
+      "duck egg"
+    ],
+    occasion: [
+      "everyday",
+      "pulutan"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "street food",
+      "duck egg",
+      "exotic",
+      "night food"
+    ]
+  },
+  {
+    id: "batchoy",
+    name: "La Paz Batchoy",
+    description: "A rich pork noodle soup from Iloilo topped with pork organs, crushed chicharon, and a raw egg. One of the most iconic noodle soups in the Visayas region.",
+    type: [
+      "soup",
+      "noodle_dish"
+    ],
+    main_ingredients: [
+      "egg noodles",
+      "pork",
+      "pork liver",
+      "chicharon",
+      "shrimp paste"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    origin_region: "Iloilo",
+    tags: [
+      "noodles",
+      "visayas",
+      "iloilo",
+      "pork soup"
+    ]
+  },
+  {
+    id: "bibingka",
+    name: "Bibingka",
+    description: "A soft baked rice cake made from rice flour and coconut milk, traditionally cooked in clay pots lined with banana leaves over charcoal. A staple during the Christmas season after Simbang Gabi.",
+    type: [
+      "kakanin",
+      "dessert",
+      "breakfast"
+    ],
+    main_ingredients: [
+      "rice flour",
+      "coconut milk",
+      "salted egg",
+      "cheese"
+    ],
+    occasion: [
+      "christmas",
+      "merienda",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "sweet",
+      "salty"
+    ],
+    cooking_method: [
+      "baked"
+    ],
+    tags: [
+      "christmas",
+      "kakanin",
+      "rice cake",
+      "simbang gabi"
+    ]
+  },
+  {
+    id: "bibingkang-malagkit",
+    name: "Bibingkang Malagkit",
+    description: "A sticky rice cake cooked in coconut milk and topped with a rich coconut caramel sauce. A beloved kakanin commonly sold at markets and fiestas.",
+    type: [
+      "kakanin",
+      "dessert"
+    ],
+    main_ingredients: [
+      "glutinous rice",
+      "coconut milk",
+      "brown sugar"
+    ],
+    occasion: [
+      "fiesta",
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled",
+      "baked"
+    ],
+    tags: [
+      "sticky rice",
+      "kakanin",
+      "coconut",
+      "caramel"
+    ]
+  },
+  {
+    id: "bicol-express",
+    name: "Bicol Express",
+    description: "A fiery Bicolano stew of pork cooked in coconut milk with lots of chili peppers and shrimp paste. One of the spiciest dishes in Filipino cuisine.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "coconut milk",
+      "chili peppers",
+      "bagoong"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "spicy",
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    origin_region: "Bicol",
+    tags: [
+      "spicy",
+      "coconut milk",
+      "bicolano",
+      "chili"
+    ]
+  },
+  {
+    id: "bulalo",
+    name: "Bulalo",
+    description: "A rich beef bone marrow soup from Batangas made by slow-boiling beef shanks until the collagen and fat dissolve into a deeply flavorful broth. Best enjoyed during cold weather.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef shank",
+      "bone marrow",
+      "cabbage",
+      "corn"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    origin_region: "Batangas",
+    tags: [
+      "beef",
+      "bone marrow",
+      "soup",
+      "batangas"
+    ]
+  },
+  {
+    id: "champorado",
+    name: "Champorado",
+    description: "A sweet chocolate rice porridge made with sticky rice and tablea cacao. Traditionally served for breakfast paired with tuyo dried fish for a sweet and salty contrast.",
+    type: [
+      "breakfast",
+      "dessert"
+    ],
+    main_ingredients: [
+      "glutinous rice",
+      "tablea",
+      "sugar",
+      "coconut milk"
+    ],
+    occasion: [
+      "breakfast",
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "chocolate",
+      "porridge",
+      "breakfast",
+      "tablea"
+    ]
+  },
+  {
+    id: "crispy-pata",
+    name: "Crispy Pata",
+    description: "Deep-fried pork leg with impossibly crispy skin and tender meat inside. A crowd favorite at parties and a classic pulutan dish.",
+    type: [
+      "main_dish",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "pork leg",
+      "garlic",
+      "peppercorn",
+      "bay leaves"
+    ],
+    occasion: [
+      "party",
+      "fiesta",
+      "pulutan",
+      "birthday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled",
+      "fried"
+    ],
+    tags: [
+      "pork",
+      "crispy",
+      "pulutan",
+      "party food"
+    ]
+  },
+  {
+    id: "dinakdakan",
+    name: "Dinakdakan",
+    description: "An Ilocano dish of grilled pork parts including ears and face, chopped and mixed with calamansi, chili, and pig brain or mayonnaise. Similar to sisig but distinctly Ilocano.",
+    type: [
+      "main_dish",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "pork ears",
+      "pork face",
+      "calamansi",
+      "chili",
+      "ginger"
+    ],
+    occasion: [
+      "pulutan",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory",
+      "spicy"
+    ],
+    cooking_method: [
+      "grilled",
+      "boiled"
+    ],
+    origin_region: "Ilocos",
+    tags: [
+      "ilocano",
+      "pork",
+      "pulutan",
+      "grilled"
+    ]
+  },
+  {
+    id: "dinuguan",
+    name: "Dinuguan",
+    description: "A savory pork blood stew cooked with vinegar, garlic, and chili. Often called chocolate meat by those unfamiliar with the dish. Traditionally paired with puto.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "pork blood",
+      "vinegar",
+      "garlic",
+      "chili"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "salty"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    tags: [
+      "pork blood",
+      "offal",
+      "puto pairing"
+    ]
+  },
+  {
+    id: "empanada",
+    name: "Empanada",
+    description: "A deep-fried or baked pastry filled with seasoned ground pork, vegetables, and egg. The Vigan empanada from Ilocos is particularly famous for its thin, crispy orange shell.",
+    type: [
+      "snack",
+      "street_food",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "flour",
+      "ground pork",
+      "egg",
+      "vegetables"
+    ],
+    occasion: [
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried",
+      "baked"
+    ],
+    tags: [
+      "pastry",
+      "vigan",
+      "ilocos",
+      "street food"
+    ]
+  },
+  {
+    id: "ginisang-monggo",
+    name: "Ginisang Monggo",
+    description: "Sauteed mung bean soup with pork, shrimp, and malunggay leaves. A nutritious everyday dish traditionally cooked every Friday in many Filipino households.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "mung beans",
+      "pork",
+      "shrimp",
+      "malunggay",
+      "garlic"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled",
+      "sauteed"
+    ],
+    tags: [
+      "mung beans",
+      "monggo",
+      "friday dish",
+      "healthy"
+    ]
+  },
+  {
+    id: "goto",
+    name: "Goto",
+    description: "A Filipino rice porridge cooked with beef tripe and ginger, topped with fried garlic, scallions, and calamansi. A heartier cousin of arroz caldo popular as street food.",
+    type: [
+      "breakfast",
+      "main_dish",
+      "street_food"
+    ],
+    main_ingredients: [
+      "rice",
+      "beef tripe",
+      "ginger",
+      "garlic"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "porridge",
+      "tripe",
+      "street food",
+      "congee"
+    ]
+  },
+  {
+    id: "halo-halo",
+    name: "Halo-Halo",
+    description: "A popular cold Filipino dessert of shaved ice, evaporated milk, and a colorful mix of sweet beans, jellies, fruits, ube halaya, and leche flan. The name means mix-mix in Filipino.",
+    type: [
+      "dessert",
+      "beverage"
+    ],
+    main_ingredients: [
+      "shaved ice",
+      "evaporated milk",
+      "ube",
+      "leche flan",
+      "sweetened beans"
+    ],
+    occasion: [
+      "everyday",
+      "party",
+      "merienda"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "raw"
+    ],
+    tags: [
+      "cold dessert",
+      "summer",
+      "shaved ice",
+      "ube"
+    ]
+  },
+  {
+    id: "isaw",
+    name: "Isaw",
+    description: "Grilled chicken or pork intestines on skewers, marinated in a sweet and savory sauce and cooked over charcoal. One of the most popular and beloved Filipino street foods.",
+    type: [
+      "street_food",
+      "snack"
+    ],
+    main_ingredients: [
+      "chicken intestines",
+      "soy sauce",
+      "vinegar",
+      "garlic"
+    ],
+    occasion: [
+      "everyday",
+      "pulutan"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty",
+      "sweet"
+    ],
+    cooking_method: [
+      "grilled"
+    ],
+    tags: [
+      "offal",
+      "skewer",
+      "street food",
+      "charcoal"
+    ]
+  },
+  {
+    id: "kaldereta",
+    name: "Kaldereta",
+    description: "A rich tomato-based beef or goat stew with liver paste, olives, bell peppers, and potatoes. A Spanish-influenced dish commonly served at fiestas.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef",
+      "tomato sauce",
+      "liver paste",
+      "potatoes",
+      "bell pepper"
+    ],
+    occasion: [
+      "fiesta",
+      "party",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    tags: [
+      "beef",
+      "tomato",
+      "spanish influence",
+      "fiesta"
+    ]
+  },
+  {
+    id: "kare-kare",
+    name: "Kare-Kare",
+    description: "A rich peanut-based stew made with oxtail, tripe, and vegetables, traditionally served with bagoong alamang on the side. A staple at fiestas and special occasions.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "oxtail",
+      "peanut sauce",
+      "bagoong",
+      "banana blossom",
+      "eggplant"
+    ],
+    occasion: [
+      "fiesta",
+      "party",
+      "birthday"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "stewed",
+      "boiled"
+    ],
+    tags: [
+      "peanut",
+      "oxtail",
+      "bagoong",
+      "fiesta"
+    ]
+  },
+  {
+    id: "kinilaw",
+    name: "Kinilaw",
+    description: "A Filipino ceviche of raw fresh fish cured in vinegar or calamansi juice with ginger, onion, and chili. A light and refreshing dish common in coastal regions.",
+    type: [
+      "appetizer",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "fresh fish",
+      "vinegar",
+      "ginger",
+      "onion",
+      "chili"
+    ],
+    occasion: [
+      "everyday",
+      "pulutan"
+    ],
+    flavor_profile: [
+      "sour",
+      "spicy",
+      "savory"
+    ],
+    cooking_method: [
+      "raw",
+      "cured"
+    ],
+    tags: [
+      "ceviche",
+      "seafood",
+      "raw",
+      "coastal"
+    ]
+  },
+  {
+    id: "kwek-kwek",
+    name: "Kwek-Kwek",
+    description: "Deep-fried quail eggs coated in an orange batter made with annatto. A popular Filipino street food served with spiced vinegar dipping sauce.",
+    type: [
+      "street_food",
+      "snack"
+    ],
+    main_ingredients: [
+      "quail eggs",
+      "flour",
+      "annatto",
+      "cornstarch"
+    ],
+    occasion: [
+      "everyday",
+      "merienda"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "street food",
+      "eggs",
+      "annatto",
+      "fried"
+    ]
+  },
+  {
+    id: "laing",
+    name: "Laing",
+    description: "Dried taro leaves slow-cooked in coconut milk with pork and chili. A signature Bicolano dish known for its creamy, spicy, and deeply savory flavor.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "dried taro leaves",
+      "coconut milk",
+      "pork",
+      "chili"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "spicy",
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    origin_region: "Bicol",
+    tags: [
+      "taro",
+      "coconut milk",
+      "bicolano",
+      "spicy"
+    ]
+  },
+  {
+    id: "leche-flan",
+    name: "Leche Flan",
+    description: "A rich and creamy caramel custard made with egg yolks and condensed milk. A Spanish-influenced dessert and a staple at every Filipino celebration.",
+    type: [
+      "dessert"
+    ],
+    main_ingredients: [
+      "egg yolks",
+      "condensed milk",
+      "evaporated milk",
+      "sugar"
+    ],
+    occasion: [
+      "fiesta",
+      "christmas",
+      "birthday",
+      "party"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "custard",
+      "caramel",
+      "spanish influence",
+      "celebration"
+    ]
+  },
+  {
+    id: "lechon-kawali",
+    name: "Lechon Kawali",
+    description: "Deep-fried pork belly boiled until tender then fried until the skin is shatteringly crispy. A cheaper and more accessible everyday version of whole roasted lechon.",
+    type: [
+      "main_dish",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "pork belly",
+      "garlic",
+      "bay leaves",
+      "peppercorn"
+    ],
+    occasion: [
+      "everyday",
+      "party",
+      "pulutan"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled",
+      "fried"
+    ],
+    tags: [
+      "pork belly",
+      "crispy",
+      "fried",
+      "pulutan"
+    ]
+  },
+  {
+    id: "lechon",
+    name: "Lechon",
+    description: "A whole roasted pig slow-cooked over charcoal until the skin is crispy and the meat is tender. The centerpiece of Filipino celebrations and considered one of the best roasted pigs in the world.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "whole pig",
+      "lemongrass",
+      "garlic",
+      "onion"
+    ],
+    occasion: [
+      "fiesta",
+      "christmas",
+      "birthday",
+      "wedding",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "roasted"
+    ],
+    tags: [
+      "whole pig",
+      "crispy skin",
+      "celebration",
+      "cebu"
+    ]
+  },
+  {
+    id: "longganisa",
+    name: "Longganisa",
+    description: "Filipino cured sausage that varies by region \u2014 sweet Vigan longganisa, garlicky Lucban longganisa, and many more. A breakfast staple typically served with garlic rice and egg.",
+    type: [
+      "breakfast",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "garlic",
+      "vinegar",
+      "sugar"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet",
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "sausage",
+      "breakfast",
+      "silog",
+      "regional"
+    ]
+  },
+  {
+    id: "lumpia-shanghai",
+    name: "Lumpia Shanghai",
+    description: "Crispy deep-fried spring rolls filled with seasoned ground pork, carrots, and onions. A staple at every Filipino party and celebration, served with sweet and sour dipping sauce.",
+    type: [
+      "appetizer",
+      "snack",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "ground pork",
+      "carrots",
+      "onion",
+      "spring roll wrapper"
+    ],
+    occasion: [
+      "party",
+      "birthday",
+      "christmas",
+      "fiesta",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "spring roll",
+      "fried",
+      "party food",
+      "lumpia"
+    ]
+  },
+  {
+    id: "mami",
+    name: "Mami",
+    description: "A Filipino-Chinese noodle soup with chicken or beef in a clear savory broth, topped with scallions and fried garlic. A comfort food staple in Filipino eateries and carinderia.",
+    type: [
+      "soup",
+      "noodle_dish"
+    ],
+    main_ingredients: [
+      "egg noodles",
+      "chicken",
+      "garlic",
+      "scallions"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather",
+      "breakfast"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "noodles",
+      "soup",
+      "chinese influence",
+      "carinderia"
+    ]
+  },
+  {
+    id: "menudo",
+    name: "Menudo",
+    description: "A tomato-based pork stew with liver, potatoes, carrots, and raisins. A sweet-savory dish often prepared for special occasions and fiestas.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "pork liver",
+      "tomato sauce",
+      "potatoes",
+      "carrots"
+    ],
+    occasion: [
+      "fiesta",
+      "party",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "sweet"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    tags: [
+      "pork",
+      "tomato",
+      "liver",
+      "fiesta"
+    ]
+  },
+  {
+    id: "nilaga",
+    name: "Nilaga",
+    description: "A simple boiled beef or pork soup with potatoes, cabbage, and peppercorns. A no-fuss everyday Filipino comfort dish.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef",
+      "potatoes",
+      "cabbage",
+      "peppercorn"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "beef",
+      "soup",
+      "comfort food",
+      "simple"
+    ]
+  },
+  {
+    id: "palabok",
+    name: "Pancit Palabok",
+    description: "Rice noodles topped with a rich shrimp-based orange sauce, crushed chicharon, hard boiled eggs, and calamansi. A festive noodle dish strongly associated with birthdays.",
+    type: [
+      "noodle_dish",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "rice noodles",
+      "shrimp",
+      "chicharon",
+      "tinapa",
+      "eggs"
+    ],
+    occasion: [
+      "birthday",
+      "fiesta",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami",
+      "salty"
+    ],
+    cooking_method: [
+      "boiled",
+      "sauteed"
+    ],
+    tags: [
+      "noodles",
+      "shrimp sauce",
+      "birthday",
+      "pancit"
+    ]
+  },
+  {
+    id: "palitaw",
+    name: "Palitaw",
+    description: "Flat glutinous rice cakes boiled until they float, then rolled in grated coconut, sugar, and sesame seeds. The name comes from the Tagalog word litaw meaning to float.",
+    type: [
+      "kakanin",
+      "snack"
+    ],
+    main_ingredients: [
+      "glutinous rice flour",
+      "grated coconut",
+      "sugar",
+      "sesame seeds"
+    ],
+    occasion: [
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "boiled"
+    ],
+    tags: [
+      "rice cake",
+      "kakanin",
+      "coconut",
+      "sesame"
+    ]
+  },
+  {
+    id: "pancit-bihon",
+    name: "Pancit Bihon",
+    description: "Stir-fried rice noodles with vegetables, chicken, and pork seasoned with soy sauce and calamansi. Traditionally served at birthdays as noodles symbolize long life.",
+    type: [
+      "noodle_dish",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "rice noodles",
+      "chicken",
+      "cabbage",
+      "carrots",
+      "soy sauce"
+    ],
+    occasion: [
+      "birthday",
+      "fiesta",
+      "party",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "sauteed"
+    ],
+    tags: [
+      "noodles",
+      "birthday",
+      "long life",
+      "pancit"
+    ]
+  },
+  {
+    id: "pancit-canton",
+    name: "Pancit Canton",
+    description: "Stir-fried egg noodles with pork, shrimp, and vegetables seasoned with soy sauce and oyster sauce. A heartier noodle dish compared to bihon.",
+    type: [
+      "noodle_dish",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "egg noodles",
+      "pork",
+      "shrimp",
+      "cabbage",
+      "soy sauce"
+    ],
+    occasion: [
+      "birthday",
+      "party",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty",
+      "umami"
+    ],
+    cooking_method: [
+      "sauteed"
+    ],
+    tags: [
+      "noodles",
+      "egg noodles",
+      "birthday",
+      "pancit"
+    ]
+  },
+  {
+    id: "pinakbet",
+    name: "Pinakbet",
+    local_name: "Pakbet",
+    description: "An Ilocano vegetable dish of bitter melon, eggplant, okra, and string beans cooked with bagoong and pork. Named from the Ilocano word pinakebbet meaning shriveled.",
+    type: [
+      "main_dish",
+      "side_dish"
+    ],
+    main_ingredients: [
+      "bitter melon",
+      "eggplant",
+      "bagoong",
+      "okra",
+      "pork"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "bitter",
+      "salty",
+      "umami"
+    ],
+    cooking_method: [
+      "stewed",
+      "sauteed"
+    ],
+    origin_region: "Ilocos",
+    tags: [
+      "vegetables",
+      "bagoong",
+      "ilocano"
+    ]
+  },
+  {
+    id: "pinangat",
+    name: "Pinangat",
+    description: "A Bicolano dish of fish or shrimp wrapped in taro leaves and cooked in coconut milk with chili and shrimp paste. Not to be confused with the Tagalog pinangat which is a sour fish soup.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "fish",
+      "taro leaves",
+      "coconut milk",
+      "chili",
+      "bagoong"
+    ],
+    occasion: [
+      "everyday",
+      "fiesta"
+    ],
+    flavor_profile: [
+      "spicy",
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "stewed"
+    ],
+    origin_region: "Bicol",
+    tags: [
+      "bicolano",
+      "coconut milk",
+      "taro leaves",
+      "spicy"
+    ]
+  },
+  {
+    id: "pinaputok",
+    name: "Pinaputok na Tilapia",
+    description: "Whole tilapia stuffed with tomatoes, onions, and ginger then grilled or baked until the skin bursts open. A simple and flavorful Filipino fish dish.",
+    type: [
+      "main_dish"
+    ],
+    main_ingredients: [
+      "tilapia",
+      "tomato",
+      "onion",
+      "ginger"
+    ],
+    occasion: [
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "grilled",
+      "baked"
+    ],
+    tags: [
+      "fish",
+      "tilapia",
+      "stuffed",
+      "grilled"
+    ]
+  },
+  {
+    id: "pochero",
+    name: "Pochero",
+    description: "A Spanish-influenced Filipino stew of beef or pork with chorizo, vegetables, and banana. A hearty dish commonly served at family gatherings and fiestas.",
+    type: [
+      "main_dish",
+      "soup"
+    ],
+    main_ingredients: [
+      "beef",
+      "chorizo",
+      "saging na saba",
+      "cabbage",
+      "tomato sauce"
+    ],
+    occasion: [
+      "fiesta",
+      "party",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "sweet"
+    ],
+    cooking_method: [
+      "stewed",
+      "boiled"
+    ],
+    tags: [
+      "spanish influence",
+      "beef",
+      "chorizo",
+      "fiesta"
+    ]
+  },
+  {
+    id: "pork-bbq",
+    name: "Pork BBQ",
+    description: "Marinated pork slices on skewers grilled over charcoal. A Filipino street food staple with a distinctly sweet and savory marinade of soy sauce, banana ketchup, and calamansi.",
+    type: [
+      "street_food",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "soy sauce",
+      "banana ketchup",
+      "calamansi",
+      "garlic"
+    ],
+    occasion: [
+      "everyday",
+      "party",
+      "pulutan",
+      "street_food"
+    ],
+    flavor_profile: [
+      "sweet",
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "grilled"
+    ],
+    tags: [
+      "skewer",
+      "street food",
+      "charcoal",
+      "bbq"
+    ]
+  },
+  {
+    id: "puto",
+    name: "Puto",
+    description: "Soft steamed rice cakes made from rice flour, often topped with cheese or salted egg. A versatile kakanin eaten as a snack or paired with dinuguan.",
+    type: [
+      "kakanin",
+      "snack",
+      "breakfast"
+    ],
+    main_ingredients: [
+      "rice flour",
+      "sugar",
+      "coconut milk",
+      "baking powder"
+    ],
+    occasion: [
+      "merienda",
+      "fiesta",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet",
+      "salty"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "rice cake",
+      "kakanin",
+      "dinuguan pairing",
+      "steamed"
+    ]
+  },
+  {
+    id: "sinigang",
+    name: "Sinigang",
+    description: "A sour tamarind-based soup with pork, shrimp, or fish cooked with vegetables like kangkong, radish, and eggplant. One of the most beloved soups in Filipino cuisine.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "tamarind",
+      "kangkong",
+      "radish",
+      "eggplant"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "sour",
+      "savory"
+    ],
+    cooking_method: [
+      "boiled",
+      "stewed"
+    ],
+    tags: [
+      "tamarind",
+      "soup",
+      "comfort food"
+    ]
+  },
+  {
+    id: "sisig",
+    name: "Sisig",
+    description: "A sizzling Kapampangan dish of chopped pork parts seasoned with calamansi, onions, and chili peppers. Originally invented by Lucia Cunanan using pig heads from Clark Air Base in Angeles City.",
+    type: [
+      "main_dish",
+      "appetizer"
+    ],
+    main_ingredients: [
+      "pork",
+      "calamansi",
+      "onion",
+      "chili",
+      "chicken liver"
+    ],
+    occasion: [
+      "pulutan",
+      "everyday",
+      "party"
+    ],
+    flavor_profile: [
+      "savory",
+      "sour",
+      "spicy"
+    ],
+    cooking_method: [
+      "boiled",
+      "grilled"
+    ],
+    origin_region: "Pampanga",
+    tags: [
+      "kapampangan",
+      "sizzling",
+      "pulutan",
+      "pork"
+    ]
+  },
+  {
+    id: "suman",
+    name: "Suman",
+    description: "Sticky rice cooked in coconut milk and wrapped in banana leaves or palm leaves, then steamed. A classic kakanin enjoyed with ripe mango or sugar.",
+    type: [
+      "kakanin",
+      "snack",
+      "breakfast"
+    ],
+    main_ingredients: [
+      "glutinous rice",
+      "coconut milk",
+      "banana leaves"
+    ],
+    occasion: [
+      "merienda",
+      "fiesta",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet",
+      "savory"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "sticky rice",
+      "banana leaf",
+      "kakanin",
+      "mango pairing"
+    ]
+  },
+  {
+    id: "taho",
+    name: "Taho",
+    description: "A warm street food snack of soft silken tofu, arnibal brown sugar syrup, and sago pearls. Sold by vendors called magtataho who carry it in large aluminum containers.",
+    type: [
+      "street_food",
+      "snack",
+      "breakfast"
+    ],
+    main_ingredients: [
+      "silken tofu",
+      "brown sugar syrup",
+      "sago pearls"
+    ],
+    occasion: [
+      "breakfast",
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet"
+    ],
+    cooking_method: [
+      "steamed"
+    ],
+    tags: [
+      "tofu",
+      "street food",
+      "magtataho",
+      "sago"
+    ]
+  },
+  {
+    id: "tapsilog",
+    name: "Tapsilog",
+    description: "A classic Filipino breakfast of cured beef tapa, garlic fried rice, and a fried egg. One of the most iconic silog meals in Filipino food culture.",
+    type: [
+      "breakfast",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "beef tapa",
+      "garlic rice",
+      "egg"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty",
+      "sweet"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "silog",
+      "breakfast",
+      "tapa",
+      "garlic rice"
+    ]
+  },
+  {
+    id: "tinola",
+    name: "Tinola",
+    description: "A light ginger-based chicken soup with green papaya and chili leaves. A comforting everyday dish and one of the oldest recorded Filipino recipes.",
+    type: [
+      "soup",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "chicken",
+      "ginger",
+      "green papaya",
+      "chili leaves"
+    ],
+    occasion: [
+      "everyday",
+      "cold_weather"
+    ],
+    flavor_profile: [
+      "savory",
+      "umami"
+    ],
+    cooking_method: [
+      "boiled",
+      "stewed"
+    ],
+    tags: [
+      "ginger",
+      "soup",
+      "chicken",
+      "comfort food"
+    ]
+  },
+  {
+    id: "tocino",
+    name: "Tocino",
+    description: "Sweet cured pork marinated in sugar, garlic, and annatto. A breakfast staple typically served as part of a silog meal with garlic rice and egg.",
+    type: [
+      "breakfast",
+      "main_dish"
+    ],
+    main_ingredients: [
+      "pork",
+      "sugar",
+      "garlic",
+      "annatto"
+    ],
+    occasion: [
+      "breakfast",
+      "everyday"
+    ],
+    flavor_profile: [
+      "sweet",
+      "savory"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "cured",
+      "sweet pork",
+      "silog",
+      "breakfast"
+    ]
+  },
+  {
+    id: "tortang-talong",
+    name: "Tortang Talong",
+    description: "A Filipino omelette made with grilled eggplant dipped in egg and pan-fried until golden. A simple, budget-friendly everyday dish often served with rice and banana ketchup.",
+    type: [
+      "main_dish",
+      "breakfast"
+    ],
+    main_ingredients: [
+      "eggplant",
+      "egg",
+      "garlic",
+      "onion"
+    ],
+    occasion: [
+      "everyday",
+      "breakfast"
+    ],
+    flavor_profile: [
+      "savory"
+    ],
+    cooking_method: [
+      "grilled",
+      "fried"
+    ],
+    tags: [
+      "eggplant",
+      "omelette",
+      "budget meal",
+      "everyday"
+    ]
+  },
+  {
+    id: "ukoy",
+    name: "Ukoy",
+    description: "Crispy Filipino fritters made with shrimp and shredded vegetables fried in a light batter. Served with spiced vinegar dipping sauce as a street food or appetizer.",
+    type: [
+      "street_food",
+      "appetizer",
+      "snack"
+    ],
+    main_ingredients: [
+      "shrimp",
+      "bean sprouts",
+      "squash",
+      "flour"
+    ],
+    occasion: [
+      "merienda",
+      "everyday"
+    ],
+    flavor_profile: [
+      "savory",
+      "salty"
+    ],
+    cooking_method: [
+      "fried"
+    ],
+    tags: [
+      "fritter",
+      "shrimp",
+      "street food",
+      "crispy"
+    ]
+  }
+];
+
+// packages/api/src/routes/dishes.ts
+var router = new Hono2();
+router.get("/", (c) => {
+  const page = Number(c.req.query("page") ?? 1);
+  const limit = Number(c.req.query("limit") ?? 10);
+  const start = (page - 1) * limit;
+  const end = start + limit;
+  const paginated = dishes_default.slice(start, end);
+  return c.json({
+    data: paginated,
+    meta: {
+      total: dishes_default.length,
+      page,
+      limit,
+      pages: Math.ceil(dishes_default.length / limit)
+    }
+  });
+});
+var dishes_default2 = router;
+
 // packages/api/src/index.ts
 var app = new Hono2();
 app.get("/", (c) => {
   return c.json({ status: "ok", message: "Filipino Food API" });
 });
+app.route("/dishes", dishes_default2);
 var src_default = app;
 
 // node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
-var import_checked_fetch27 = __toESM(require_checked_fetch());
+var import_checked_fetch28 = __toESM(require_checked_fetch());
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -2237,7 +3937,7 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 var middleware_ensure_req_body_drained_default = drainBody;
 
 // node_modules/wrangler/templates/middleware/middleware-miniflare3-json-error.ts
-var import_checked_fetch28 = __toESM(require_checked_fetch());
+var import_checked_fetch29 = __toESM(require_checked_fetch());
 function reduceError(e) {
   return {
     name: e?.name,
@@ -2260,7 +3960,7 @@ var jsonError = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 }, "jsonError");
 var middleware_miniflare3_json_error_default = jsonError;
 
-// .wrangler/tmp/bundle-EncXBG/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-RBuCXb/middleware-insertion-facade.js
 var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
   middleware_ensure_req_body_drained_default,
   middleware_miniflare3_json_error_default
@@ -2268,7 +3968,7 @@ var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
 var middleware_insertion_facade_default = src_default;
 
 // node_modules/wrangler/templates/middleware/common.ts
-var import_checked_fetch30 = __toESM(require_checked_fetch());
+var import_checked_fetch31 = __toESM(require_checked_fetch());
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());
@@ -2293,7 +3993,7 @@ function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
 }
 __name(__facade_invoke__, "__facade_invoke__");
 
-// .wrangler/tmp/bundle-EncXBG/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-RBuCXb/middleware-loader.entry.ts
 var __Facade_ScheduledController__ = class ___Facade_ScheduledController__ {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;

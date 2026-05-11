@@ -1,0 +1,11 @@
+{
+  "id": "sinigang",
+  "name": "Sinigang",
+  "description": "A sour tamarind-based soup with pork, shrimp, or fish cooked with vegetables like kangkong, radish, and eggplant. One of the most beloved soups in Filipino cuisine.",
+  "type": ["soup", "main_dish"],
+  "main_ingredients": ["pork", "tamarind", "kangkong", "radish", "eggplant"],
+  "occasion": ["everyday", "cold_weather"],
+  "flavor_profile": ["sour", "savory"],
+  "cooking_method": ["boiled", "stewed"],
+  "tags": ["tamarind", "soup", "comfort food"]
+}

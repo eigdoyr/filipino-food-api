@@ -1,0 +1,11 @@
+{
+  "id": "tinola",
+  "name": "Tinola",
+  "description": "A light ginger-based chicken soup with green papaya and chili leaves. A comforting everyday dish and one of the oldest recorded Filipino recipes.",
+  "type": ["soup", "main_dish"],
+  "main_ingredients": ["chicken", "ginger", "green papaya", "chili leaves"],
+  "occasion": ["everyday", "cold_weather"],
+  "flavor_profile": ["savory", "umami"],
+  "cooking_method": ["boiled", "stewed"],
+  "tags": ["ginger", "soup", "chicken", "comfort food"]
+}

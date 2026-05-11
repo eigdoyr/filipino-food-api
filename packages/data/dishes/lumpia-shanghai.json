@@ -1,0 +1,16 @@
+{
+  "id": "lumpia-shanghai",
+  "name": "Lumpia Shanghai",
+  "description": "Crispy deep-fried spring rolls filled with seasoned ground pork, carrots, and onions. A staple at every Filipino party and celebration, served with sweet and sour dipping sauce.",
+  "type": ["appetizer", "snack", "main_dish"],
+  "main_ingredients": [
+    "ground pork",
+    "carrots",
+    "onion",
+    "spring roll wrapper"
+  ],
+  "occasion": ["party", "birthday", "christmas", "fiesta", "everyday"],
+  "flavor_profile": ["savory", "salty"],
+  "cooking_method": ["fried"],
+  "tags": ["spring roll", "fried", "party food", "lumpia"]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "dinuguan",
+  "name": "Dinuguan",
+  "description": "A savory pork blood stew cooked with vinegar, garlic, and chili. Often called chocolate meat by those unfamiliar with the dish. Traditionally paired with puto.",
+  "type": ["main_dish"],
+  "main_ingredients": ["pork", "pork blood", "vinegar", "garlic", "chili"],
+  "occasion": ["everyday", "fiesta"],
+  "flavor_profile": ["savory", "sour", "salty"],
+  "cooking_method": ["stewed"],
+  "tags": ["pork blood", "offal", "puto pairing"]
+}

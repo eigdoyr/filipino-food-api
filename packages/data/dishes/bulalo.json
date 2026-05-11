@@ -1,0 +1,12 @@
+{
+  "id": "bulalo",
+  "name": "Bulalo",
+  "description": "A rich beef bone marrow soup from Batangas made by slow-boiling beef shanks until the collagen and fat dissolve into a deeply flavorful broth. Best enjoyed during cold weather.",
+  "type": ["soup", "main_dish"],
+  "main_ingredients": ["beef shank", "bone marrow", "cabbage", "corn"],
+  "occasion": ["everyday", "cold_weather"],
+  "flavor_profile": ["savory", "umami"],
+  "cooking_method": ["boiled"],
+  "origin_region": "Batangas",
+  "tags": ["beef", "bone marrow", "soup", "batangas"]
+}

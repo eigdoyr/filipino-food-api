@@ -1,0 +1,17 @@
+{
+  "id": "pancit-bihon",
+  "name": "Pancit Bihon",
+  "description": "Stir-fried rice noodles with vegetables, chicken, and pork seasoned with soy sauce and calamansi. Traditionally served at birthdays as noodles symbolize long life.",
+  "type": ["noodle_dish", "main_dish"],
+  "main_ingredients": [
+    "rice noodles",
+    "chicken",
+    "cabbage",
+    "carrots",
+    "soy sauce"
+  ],
+  "occasion": ["birthday", "fiesta", "party", "everyday"],
+  "flavor_profile": ["savory", "salty"],
+  "cooking_method": ["sauteed"],
+  "tags": ["noodles", "birthday", "long life", "pancit"]
+}

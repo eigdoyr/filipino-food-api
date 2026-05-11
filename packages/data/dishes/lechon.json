@@ -1,0 +1,11 @@
+{
+  "id": "lechon",
+  "name": "Lechon",
+  "description": "A whole roasted pig slow-cooked over charcoal until the skin is crispy and the meat is tender. The centerpiece of Filipino celebrations and considered one of the best roasted pigs in the world.",
+  "type": ["main_dish"],
+  "main_ingredients": ["whole pig", "lemongrass", "garlic", "onion"],
+  "occasion": ["fiesta", "christmas", "birthday", "wedding", "party"],
+  "flavor_profile": ["savory", "umami"],
+  "cooking_method": ["roasted"],
+  "tags": ["whole pig", "crispy skin", "celebration", "cebu"]
+}

@@ -3907,6 +3907,14 @@ router.get("/", (c) => {
     }
   });
 });
+router.get("/:id", (c) => {
+  const id = c.req.param("id");
+  const dish = dishes_default.find((d) => d.id === id);
+  if (!dish) {
+    return c.json({ error: `Dish not found: ${id}` }, 404);
+  }
+  return c.json({ data: dish });
+});
 var dishes_default2 = router;
 
 // packages/api/src/index.ts

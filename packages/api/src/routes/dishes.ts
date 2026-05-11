@@ -63,6 +63,26 @@ router.get("/search", (c) => {
   });
 });
 
+router.get("/regions", (c) => {
+  const regions = dishes
+    .filter((d) => d.origin_region)
+    .reduce(
+      (acc, d) => {
+        const region = d.origin_region as string;
+        acc[region] = (acc[region] ?? 0) + 1;
+        return acc;
+      },
+      {} as Record<string, number>,
+    );
+
+  const data = Object.entries(regions).map(([name, dish_count]) => ({
+    name,
+    dish_count,
+  }));
+
+  return c.json({ data, total: data.length });
+});
+
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes.find((d) => d.id === id);

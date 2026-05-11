@@ -3935,6 +3935,21 @@ router.get("/search", (c) => {
     total: results.length
   });
 });
+router.get("/regions", (c) => {
+  const regions = dishes_default.filter((d) => d.origin_region).reduce(
+    (acc, d) => {
+      const region = d.origin_region;
+      acc[region] = (acc[region] ?? 0) + 1;
+      return acc;
+    },
+    {}
+  );
+  const data = Object.entries(regions).map(([name, dish_count]) => ({
+    name,
+    dish_count
+  }));
+  return c.json({ data, total: data.length });
+});
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes_default.find((d) => d.id === id);

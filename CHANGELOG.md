@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented here.
 
+## [1.2.0] — May 2026
+
+### Added
+
+- AI-generated food photography for all 100 dishes via fal.ai Realistic Vision
+- Cloudflare R2 bucket for permanent image hosting
+- Images served via public CDN — no expiry, no third-party dependency
+- `upload-to-r2.ts` script for bulk image uploads
+- `update-r2-urls.ts` script for URL migration
+
 ## [1.1.0] — May 2026
 
 ### Added

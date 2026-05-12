@@ -25,9 +25,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// .wrangler/tmp/bundle-NmcT8D/checked-fetch.js
+// .wrangler/tmp/bundle-urmcKC/checked-fetch.js
 var require_checked_fetch = __commonJS({
-  ".wrangler/tmp/bundle-NmcT8D/checked-fetch.js"() {
+  ".wrangler/tmp/bundle-urmcKC/checked-fetch.js"() {
     var urls = /* @__PURE__ */ new Set();
     function checkURL(request, init) {
       const url = request instanceof URL ? request : new URL(
@@ -55,13 +55,13 @@ var require_checked_fetch = __commonJS({
   }
 });
 
-// .wrangler/tmp/bundle-NmcT8D/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-urmcKC/middleware-loader.entry.ts
 var import_checked_fetch40 = __toESM(require_checked_fetch());
 
 // wrangler-modules-watch:wrangler:modules-watch
 var import_checked_fetch = __toESM(require_checked_fetch());
 
-// .wrangler/tmp/bundle-NmcT8D/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-urmcKC/middleware-insertion-facade.js
 var import_checked_fetch38 = __toESM(require_checked_fetch());
 
 // packages/api/src/index.ts
@@ -2409,8 +2409,8 @@ var dishes_default = [
       "classic",
       "national dish"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Adobo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "adobong-kangkong",
@@ -2443,8 +2443,8 @@ var dishes_default = [
       "kangkong",
       "budget meal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Adobong%20Kangkong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobong-kangkong.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "adobong-manok-sa-gata",
@@ -2479,8 +2479,8 @@ var dishes_default = [
       "bicolano",
       "chicken"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Adobong%20Manok%20sa%20Gata%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobong-manok-sa-gata.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "adobong-pusit",
@@ -2513,8 +2513,8 @@ var dishes_default = [
       "adobo",
       "ink"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Adobong%20Pusit%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobong-pusit.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "arroz-caldo",
@@ -2549,8 +2549,8 @@ var dishes_default = [
       "comfort food",
       "sick food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Arroz%20Caldo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/arroz-caldo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "bagnet",
@@ -2586,8 +2586,8 @@ var dishes_default = [
       "fried",
       "pulutan"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bagnet%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bagnet.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "balut",
@@ -2617,8 +2617,8 @@ var dishes_default = [
       "exotic",
       "night food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Balut%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/balut.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "batchoy",
@@ -2654,8 +2654,8 @@ var dishes_default = [
       "iloilo",
       "pork soup"
     ],
-    image_url: "https://image.pollinations.ai/prompt/La%20Paz%20Batchoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/batchoy.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "beef-caldereta",
@@ -2691,8 +2691,8 @@ var dishes_default = [
       "fiesta",
       "tomato"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Beef%20Caldereta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/beef-caldereta.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "beef-steak",
@@ -2725,8 +2725,8 @@ var dishes_default = [
       "soy sauce",
       "onion"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bistek%20Tagalog%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/beef-steak.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "bibingka",
@@ -2761,8 +2761,8 @@ var dishes_default = [
       "rice cake",
       "simbang gabi"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bibingka%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bibingka.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "bibingkang-malagkit",
@@ -2795,8 +2795,8 @@ var dishes_default = [
       "coconut",
       "caramel"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bibingkang%20Malagkit%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bibingkang-malagkit.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "bicol-express",
@@ -2830,8 +2830,8 @@ var dishes_default = [
       "bicolano",
       "chili"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bicol%20Express%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bicol-express.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "biko",
@@ -2866,8 +2866,8 @@ var dishes_default = [
       "coconut",
       "brown sugar"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Biko%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/biko.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "binagoongan",
@@ -2901,8 +2901,8 @@ var dishes_default = [
       "pork",
       "salty"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Binagoongan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/binagoongan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "bringhe",
@@ -2938,8 +2938,8 @@ var dishes_default = [
       "banana leaf",
       "turmeric"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bringhe%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bringhe.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "buko-pandan",
@@ -2972,8 +2972,8 @@ var dishes_default = [
       "green",
       "cold dessert"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Buko%20Pandan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/buko-pandan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "buko-salad",
@@ -3006,8 +3006,8 @@ var dishes_default = [
       "creamy",
       "cold dessert"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Buko%20Salad%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/buko-salad.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "bulalo",
@@ -3041,8 +3041,8 @@ var dishes_default = [
       "soup",
       "batangas"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Bulalo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bulalo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "carioca",
@@ -3074,8 +3074,8 @@ var dishes_default = [
       "street food",
       "coconut"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Carioca%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/carioca.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "cassava-cake",
@@ -3109,8 +3109,8 @@ var dishes_default = [
       "baked",
       "custard"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Cassava%20Cake%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/cassava-cake.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "champorado",
@@ -3143,8 +3143,8 @@ var dishes_default = [
       "breakfast",
       "tablea"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Champorado%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/champorado.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "chicken-inasal",
@@ -3178,8 +3178,8 @@ var dishes_default = [
       "annatto",
       "inasal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Chicken%20Inasal%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/chicken-inasal.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "crispy-pata",
@@ -3215,8 +3215,8 @@ var dishes_default = [
       "pulutan",
       "party food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Crispy%20Pata%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/crispy-pata.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "daing-na-bangus",
@@ -3251,8 +3251,8 @@ var dishes_default = [
       "breakfast",
       "crispy"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Daing%20na%20Bangus%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/daing-na-bangus.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "dinakdakan",
@@ -3289,8 +3289,8 @@ var dishes_default = [
       "pulutan",
       "grilled"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Dinakdakan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/dinakdakan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "dinuguan",
@@ -3323,8 +3323,8 @@ var dishes_default = [
       "offal",
       "puto pairing"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Dinuguan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/dinuguan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "empanada",
@@ -3359,8 +3359,8 @@ var dishes_default = [
       "ilocos",
       "street food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Empanada%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/empanada.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "escabeche",
@@ -3396,8 +3396,8 @@ var dishes_default = [
       "fiesta",
       "ginger"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Escabeche%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/escabeche.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "espasol",
@@ -3430,8 +3430,8 @@ var dishes_default = [
       "laguna",
       "coconut"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Espasol%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/espasol.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "fried-lumpia",
@@ -3466,8 +3466,8 @@ var dishes_default = [
       "fried",
       "vegetarian"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lumpiang%20Gulay%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/fried-lumpia.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "ginataan",
@@ -3501,8 +3501,8 @@ var dishes_default = [
       "warm dessert",
       "kakanin"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Ginataan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ginataan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "ginisang-monggo",
@@ -3536,8 +3536,8 @@ var dishes_default = [
       "friday dish",
       "healthy"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Ginisang%20Monggo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ginisang-monggo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "goto",
@@ -3572,8 +3572,8 @@ var dishes_default = [
       "street food",
       "congee"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Goto%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/goto.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "halo-halo",
@@ -3607,8 +3607,8 @@ var dishes_default = [
       "shaved ice",
       "ube"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Halo-Halo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/halo-halo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "igado",
@@ -3644,8 +3644,8 @@ var dishes_default = [
       "offal",
       "vinegar"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Igado%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/igado.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "inihaw-na-liempo",
@@ -3681,8 +3681,8 @@ var dishes_default = [
       "liempo",
       "inihaw"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Inihaw%20na%20Liempo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/inihaw-na-liempo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "isaw",
@@ -3716,8 +3716,8 @@ var dishes_default = [
       "street food",
       "charcoal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Isaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/isaw.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "kaldereta",
@@ -3751,8 +3751,8 @@ var dishes_default = [
       "spanish influence",
       "fiesta"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Kaldereta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kaldereta.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "kare-kare",
@@ -3787,8 +3787,8 @@ var dishes_default = [
       "bagoong",
       "fiesta"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Kare-Kare%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kare-kare.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "kinalas",
@@ -3824,8 +3824,8 @@ var dishes_default = [
       "pork",
       "spicy"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Kinalas%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kinalas.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "kinilaw",
@@ -3861,8 +3861,8 @@ var dishes_default = [
       "raw",
       "coastal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Kinilaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kinilaw.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "kutsinta",
@@ -3894,8 +3894,8 @@ var dishes_default = [
       "chewy",
       "coconut"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Kutsinta%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kutsinta.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "kwek-kwek",
@@ -3928,8 +3928,8 @@ var dishes_default = [
       "annatto",
       "fried"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Kwek-Kwek%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kwek-kwek.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "laing",
@@ -3963,8 +3963,8 @@ var dishes_default = [
       "bicolano",
       "spicy"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Laing%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/laing.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "leche-flan",
@@ -3997,8 +3997,8 @@ var dishes_default = [
       "spanish influence",
       "celebration"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Leche%20Flan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/leche-flan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "lechon-de-leche",
@@ -4032,8 +4032,8 @@ var dishes_default = [
       "celebration",
       "roasted"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lechon%20de%20Leche%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lechon-de-leche.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "lechon-kawali",
@@ -4068,8 +4068,8 @@ var dishes_default = [
       "fried",
       "pulutan"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lechon%20Kawali%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lechon-kawali.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "lechon",
@@ -4104,8 +4104,8 @@ var dishes_default = [
       "celebration",
       "cebu"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lechon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lechon.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "lomi",
@@ -4142,8 +4142,8 @@ var dishes_default = [
       "batangas",
       "egg noodles"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lomi%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lomi.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "longganisa",
@@ -4177,8 +4177,8 @@ var dishes_default = [
       "silog",
       "regional"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Longganisa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/longganisa.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "lumpia-shanghai",
@@ -4215,8 +4215,8 @@ var dishes_default = [
       "party food",
       "lumpia"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lumpia%20Shanghai%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lumpia-shanghai.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "lumpiang-sariwa",
@@ -4253,8 +4253,8 @@ var dishes_default = [
       "tofu",
       "sweet sauce"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Lumpiang%20Sariwa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lumpiang-sariwa.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "macaroni-salad",
@@ -4290,8 +4290,8 @@ var dishes_default = [
       "mayonnaise",
       "party food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Macaroni%20Salad%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/macaroni-salad.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "maja-blanca",
@@ -4325,8 +4325,8 @@ var dishes_default = [
       "fiesta",
       "latik"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Maja%20Blanca%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/maja-blanca.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "mami",
@@ -4360,8 +4360,8 @@ var dishes_default = [
       "chinese influence",
       "carinderia"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Mami%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/mami.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "menudo",
@@ -4395,8 +4395,8 @@ var dishes_default = [
       "liver",
       "fiesta"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Menudo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/menudo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "misua-soup",
@@ -4429,8 +4429,8 @@ var dishes_default = [
       "comfort food",
       "patola"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Misua%20Soup%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/misua-soup.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "monggo-with-tinapa",
@@ -4465,8 +4465,8 @@ var dishes_default = [
       "smoked fish",
       "friday dish"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Monggo%20with%20Tinapa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/monggo-with-tinapa.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "morcon",
@@ -4502,8 +4502,8 @@ var dishes_default = [
       "stuffed",
       "fiesta"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Morcon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/morcon.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "nilaga",
@@ -4536,8 +4536,8 @@ var dishes_default = [
       "comfort food",
       "simple"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Nilaga%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/nilaga.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "paksiw-na-isda",
@@ -4572,8 +4572,8 @@ var dishes_default = [
       "simple",
       "budget meal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Paksiw%20na%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/paksiw-na-isda.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "palabok",
@@ -4610,8 +4610,8 @@ var dishes_default = [
       "birthday",
       "pancit"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pancit%20Palabok%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/palabok.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "palitaw",
@@ -4643,8 +4643,8 @@ var dishes_default = [
       "coconut",
       "sesame"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Palitaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/palitaw.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pancit-bihon",
@@ -4680,8 +4680,8 @@ var dishes_default = [
       "long life",
       "pancit"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pancit%20Bihon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pancit-bihon.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pancit-canton",
@@ -4717,8 +4717,8 @@ var dishes_default = [
       "birthday",
       "pancit"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pancit%20Canton%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pancit-canton.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pancit-malabon",
@@ -4756,8 +4756,8 @@ var dishes_default = [
       "malabon",
       "pancit"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pancit%20Malabon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pancit-malabon.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pinakbet",
@@ -4794,8 +4794,8 @@ var dishes_default = [
       "bagoong",
       "ilocano"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pinakbet%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinakbet.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pinangat",
@@ -4830,8 +4830,8 @@ var dishes_default = [
       "taro leaves",
       "spicy"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pinangat%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinangat.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pinaputok",
@@ -4863,8 +4863,8 @@ var dishes_default = [
       "stuffed",
       "grilled"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pinaputok%20na%20Tilapia%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinaputok.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pinikpikan",
@@ -4899,8 +4899,8 @@ var dishes_default = [
       "smoked meat",
       "highland"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pinikpikan%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinikpikan.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pinoy-spaghetti",
@@ -4936,8 +4936,8 @@ var dishes_default = [
       "party food",
       "kids"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pinoy%20Spaghetti%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinoy-spaghetti.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pochero",
@@ -4973,8 +4973,8 @@ var dishes_default = [
       "chorizo",
       "fiesta"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pochero%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pochero.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "poqui-poqui",
@@ -5008,8 +5008,8 @@ var dishes_default = [
       "eggs",
       "simple"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Poqui-Poqui%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/poqui-poqui.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pork-bbq",
@@ -5046,8 +5046,8 @@ var dishes_default = [
       "charcoal",
       "bbq"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pork%20BBQ%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pork-bbq.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pork-sinigang",
@@ -5082,8 +5082,8 @@ var dishes_default = [
       "tamarind",
       "comfort food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pork%20Sinigang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pork-sinigang.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pritong-isda",
@@ -5115,8 +5115,8 @@ var dishes_default = [
       "everyday",
       "budget meal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pritong%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pritong-isda.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "puto-bumbong",
@@ -5149,8 +5149,8 @@ var dishes_default = [
       "bamboo",
       "purple rice"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Puto%20Bumbong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/puto-bumbong.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "puto",
@@ -5185,8 +5185,8 @@ var dishes_default = [
       "dinuguan pairing",
       "steamed"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Puto%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/puto.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "pyanggang",
@@ -5221,8 +5221,8 @@ var dishes_default = [
       "muslim filipino",
       "coconut"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Pyanggang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pyanggang.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sapin-sapin",
@@ -5255,8 +5255,8 @@ var dishes_default = [
       "ube",
       "colorful"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sapin-Sapin%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sapin-sapin.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sinampalukang-manok",
@@ -5289,8 +5289,8 @@ var dishes_default = [
       "sour",
       "herbal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sinampalukang%20Manok%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinampalukang-manok.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sinangag",
@@ -5324,8 +5324,8 @@ var dishes_default = [
       "breakfast",
       "fried rice"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sinangag%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinangag.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sinigang-na-hipon",
@@ -5358,8 +5358,8 @@ var dishes_default = [
       "tamarind",
       "seafood"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sinigang%20na%20Hipon%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinigang-na-hipon.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sinigang",
@@ -5393,8 +5393,8 @@ var dishes_default = [
       "soup",
       "comfort food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sinigang%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinigang.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sinuglaw",
@@ -5432,8 +5432,8 @@ var dishes_default = [
       "grilled",
       "ceviche"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sinuglaw%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinuglaw.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sisig",
@@ -5471,8 +5471,8 @@ var dishes_default = [
       "pulutan",
       "pork"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sisig%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sisig.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "sopas",
@@ -5507,8 +5507,8 @@ var dishes_default = [
       "comfort food",
       "chicken"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Sopas%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sopas.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "suman",
@@ -5542,8 +5542,8 @@ var dishes_default = [
       "kakanin",
       "mango pairing"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Suman%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/suman.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "taho",
@@ -5576,8 +5576,8 @@ var dishes_default = [
       "magtataho",
       "sago"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Taho%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/taho.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tapsilog",
@@ -5610,8 +5610,8 @@ var dishes_default = [
       "tapa",
       "garlic rice"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tapsilog%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tapsilog.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tinapa",
@@ -5645,8 +5645,8 @@ var dishes_default = [
       "breakfast",
       "preserved"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tinapa%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tinapa.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tinola",
@@ -5680,8 +5680,8 @@ var dishes_default = [
       "chicken",
       "comfort food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tinola%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tinola.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tinolang-isda",
@@ -5713,8 +5713,8 @@ var dishes_default = [
       "light",
       "comfort food"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tinolang%20Isda%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tinolang-isda.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tiyula-itum",
@@ -5750,8 +5750,8 @@ var dishes_default = [
       "muslim filipino",
       "black soup"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tiyula%20Itum%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tiyula-itum.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tocino",
@@ -5784,8 +5784,8 @@ var dishes_default = [
       "silog",
       "breakfast"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tocino%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tocino.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tortang-talong",
@@ -5818,8 +5818,8 @@ var dishes_default = [
       "budget meal",
       "everyday"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tortang%20Talong%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tortang-talong.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "tuyo",
@@ -5852,8 +5852,8 @@ var dishes_default = [
       "breakfast",
       "budget meal"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Tuyo%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tuyo.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "ube-halaya",
@@ -5887,8 +5887,8 @@ var dishes_default = [
       "jam",
       "dessert"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Ube%20Halaya%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ube-halaya.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   },
   {
     id: "ukoy",
@@ -5922,8 +5922,8 @@ var dishes_default = [
       "street food",
       "crispy"
     ],
-    image_url: "https://image.pollinations.ai/prompt/Ukoy%20Filipino%20food%20photography%20overhead%20shot%20natural%20lighting",
-    image_credit: "AI Generated (prototype - Pollinations.ai)"
+    image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ukoy.jpg",
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
   }
 ];
 
@@ -6388,7 +6388,7 @@ var jsonError = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 }, "jsonError");
 var middleware_miniflare3_json_error_default = jsonError;
 
-// .wrangler/tmp/bundle-NmcT8D/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-urmcKC/middleware-insertion-facade.js
 var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
   middleware_ensure_req_body_drained_default,
   middleware_miniflare3_json_error_default
@@ -6421,7 +6421,7 @@ function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
 }
 __name(__facade_invoke__, "__facade_invoke__");
 
-// .wrangler/tmp/bundle-NmcT8D/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-urmcKC/middleware-loader.entry.ts
 var __Facade_ScheduledController__ = class ___Facade_ScheduledController__ {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;

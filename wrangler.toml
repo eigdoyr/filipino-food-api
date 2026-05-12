@@ -6,3 +6,7 @@ compatibility_date = "2024-01-01"
 binding = "RATE_LIMIT"
 id = "69180902940f488ab2901437398f0e49"
 preview_id = "69180902940f488ab2901437398f0e49"
+
+[[r2_buckets]]
+bucket_name = "filipino-food-api-images"
+binding = "IMAGES"

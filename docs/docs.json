@@ -1,6 +1,7 @@
 {
-  "name": "Filipino Food API",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
+  "name": "Filipino Food API",
   "colors": {
     "primary": "#f59e0b",
     "light": "#fbbf24",

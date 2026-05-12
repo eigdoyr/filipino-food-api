@@ -7,14 +7,16 @@
     "light": "#fbbf24",
     "dark": "#d97706"
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": ["introduction", "quickstart"]
-    },
-    {
-      "group": "Endpoints",
-      "pages": ["endpoints/dishes", "endpoints/search", "endpoints/regions"]
-    }
-  ]
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": ["introduction", "quickstart"]
+      },
+      {
+        "group": "Endpoints",
+        "pages": ["endpoints/dishes", "endpoints/search", "endpoints/regions"]
+      }
+    ]
+  }
 }

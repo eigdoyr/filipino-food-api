@@ -1,0 +1,44 @@
+# Regions
+
+Retrieve Philippine regions that have dishes with confirmed regional origins.
+
+## List All Regions
+
+```
+GET /v1/dishes/regions
+```
+
+Returns all regions that have at least one dish with a confirmed `origin_region`, along with the dish count per region.
+
+### Example Request
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/regions
+```
+
+### Example Response
+
+```json
+{
+  "data": [
+    { "name": "Bicol", "dish_count": 4 },
+    { "name": "Ilocos", "dish_count": 3 },
+    { "name": "Pampanga", "dish_count": 2 },
+    { "name": "Batangas", "dish_count": 1 },
+    { "name": "Iloilo", "dish_count": 1 }
+  ],
+  "total": 5
+}
+```
+
+### Notes
+
+- Only dishes with a **confirmed regional origin** appear here
+- Nationwide dishes like Adobo have no `origin_region` and are excluded
+- Use the region name with the `/v1/dishes?region=` filter to get dishes from that region
+
+### Filter by Region
+
+```bash
+curl "https://filipino-food-api.ryodgie.workers.dev/v1/dishes?region=Bicol"
+```

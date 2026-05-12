@@ -1,0 +1,52 @@
+# Search
+
+Full-text search across the Filipino dish dataset.
+
+## Search Dishes
+
+```
+GET /v1/dishes/search
+```
+
+Searches across dish names, descriptions, ingredients, and tags.
+
+### Query Parameters
+
+| Parameter | Type   | Required | Description  |
+| --------- | ------ | -------- | ------------ |
+| `q`       | string | Yes      | Search query |
+
+### Example Request
+
+```bash
+curl "https://filipino-food-api.ryodgie.workers.dev/v1/dishes/search?q=coconut milk"
+```
+
+### Example Response
+
+```json
+{
+  "data": [...],
+  "query": "coconut milk",
+  "total": 6
+}
+```
+
+### Error Response
+
+```json
+{
+  "error": {
+    "message": "Query parameter q is required",
+    "code": "MISSING_QUERY",
+    "status": 400
+  }
+}
+```
+
+### Search Tips
+
+- Search is case insensitive
+- Searches across `name`, `description`, `tags`, and `main_ingredients`
+- Use specific ingredient names for best results: `pork`, `coconut milk`, `tamarind`
+- Use occasion tags: `christmas`, `pulutan`, `fiesta`

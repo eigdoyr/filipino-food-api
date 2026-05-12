@@ -1,0 +1,85 @@
+# Quickstart
+
+Get up and running with the Filipino Food API in under 2 minutes.
+
+## Make Your First Request
+
+No API key required for basic usage. Just make a GET request to any endpoint.
+
+### Fetch all dishes
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes
+```
+
+### Fetch a single dish
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/adobo
+```
+
+### Search for dishes
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/search?q=pork
+```
+
+## Example Response
+
+```json
+{
+  "data": {
+    "id": "adobo",
+    "name": "Adobo",
+    "description": "A savory Filipino dish of meat braised in vinegar, soy sauce, garlic, and bay leaves.",
+    "type": ["main_dish"],
+    "main_ingredients": [
+      "pork",
+      "vinegar",
+      "soy sauce",
+      "garlic",
+      "bay leaves"
+    ],
+    "occasion": ["everyday", "party", "potluck"],
+    "flavor_profile": ["savory", "sour", "salty"],
+    "cooking_method": ["stewed"],
+    "image_url": "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobo.jpg",
+    "image_credit": "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    "tags": ["pork", "chicken", "classic", "national dish"]
+  }
+}
+```
+
+## Using in JavaScript
+
+```javascript
+const response = await fetch(
+  "https://filipino-food-api.ryodgie.workers.dev/v1/dishes/adobo",
+);
+const { data } = await response.json();
+console.log(data.name); // "Adobo"
+```
+
+## Using in Python
+
+```python
+import requests
+
+response = requests.get(
+    'https://filipino-food-api.ryodgie.workers.dev/v1/dishes/adobo'
+)
+dish = response.json()['data']
+print(dish['name'])  # "Adobo"
+```
+
+## Rate Limits
+
+Anonymous requests are limited to **60 requests per minute** per IP address.
+
+Exceeded limits return a `429` response with a `Retry-After` header.
+
+## Next Steps
+
+- Browse the [Endpoints](/endpoints/dishes) reference
+- Try the [interactive Swagger UI](https://filipino-food-api.ryodgie.workers.dev/docs)
+- [Contribute a dish](https://github.com/eigdoyr/filipino-food-api/blob/main/CONTRIBUTING.md)

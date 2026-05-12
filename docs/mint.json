@@ -1,25 +1,10 @@
 {
   "name": "Filipino Food API",
-  "logo": {
-    "theme": "mint",
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
+  "theme": "mint",
   "colors": {
     "primary": "#f59e0b",
     "light": "#fbbf24",
     "dark": "#d97706"
-  },
-  "topbarLinks": [
-    {
-      "name": "GitHub",
-      "url": "https://github.com/eigdoyr/filipino-food-api"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Try the API",
-    "url": "https://filipino-food-api.ryodgie.workers.dev/docs"
   },
   "navigation": [
     {
@@ -30,8 +15,5 @@
       "group": "Endpoints",
       "pages": ["endpoints/dishes", "endpoints/search", "endpoints/regions"]
     }
-  ],
-  "footerSocials": {
-    "github": "https://github.com/eigdoyr/filipino-food-api"
-  }
+  ]
 }

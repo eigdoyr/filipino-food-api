@@ -13,6 +13,10 @@ Interactive docs available at:
 
 [View API Docs](https://filipino-food-api.ryodgie.workers.dev/docs)
 
+## Documentation
+
+[View full documentation →](https://ryodgie.mintlify.app/introduction)
+
 ## Base URL
 
 ```text

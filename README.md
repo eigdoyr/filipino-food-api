@@ -7,6 +7,12 @@
 
 An open-source REST API for Filipino cuisine data. Get structured information on Filipino dishes including ingredients, regional origins, occasion tags, flavor profiles, and AI-generated food photography.
 
+## Live Demo
+
+See the API in action: [filipino-food-api-showcase.ryodgie.workers.dev](https://filipino-food-api-showcase.ryodgie.workers.dev)
+
+Browse all 100 dishes with search, filters, and shareable URLs. Built with Astro and Tailwind, deployed on Cloudflare Workers.
+
 ## API Documentation
 
 Interactive docs available at:

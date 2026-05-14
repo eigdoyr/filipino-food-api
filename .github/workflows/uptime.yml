@@ -1,0 +1,49 @@
+name: Uptime Check
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check health endpoint
+        id: health
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://filipino-food-api.ryodgie.workers.dev/)
+          echo "status=$STATUS" >> $GITHUB_OUTPUT
+          if [ "$STATUS" != "200" ]; then
+            echo "Health check failed with status $STATUS"
+            exit 1
+          fi
+
+      - name: Check dishes endpoint
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://filipino-food-api.ryodgie.workers.dev/v1/dishes)
+          if [ "$STATUS" != "200" ]; then
+            echo "Dishes endpoint failed with status $STATUS"
+            exit 1
+          fi
+
+      - name: Check single dish endpoint
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://filipino-food-api.ryodgie.workers.dev/v1/dishes/adobo)
+          if [ "$STATUS" != "200" ]; then
+            echo "Single dish endpoint failed with status $STATUS"
+            exit 1
+          fi
+
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 API uptime check failed',
+              body: 'Automated uptime check failed. Check the workflow run for details.\n\nRun: ' + context.payload.repository.html_url + '/actions/runs/' + context.runId,
+              labels: ['bug', 'urgent']
+            })

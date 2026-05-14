@@ -32,6 +32,7 @@ async function uploadToR2(
       Key: key,
       Body: new Uint8Array(imageBuffer),
       ContentType: "image/jpeg",
+      CacheControl: "public, max-age=31536000, immutable",
     }),
   );
 

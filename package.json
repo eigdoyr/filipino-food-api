@@ -10,7 +10,8 @@
     "build:index": "ts-node scripts/build-index.ts",
     "add:images": "FAL_API_KEY=$(grep FAL_API_KEY .dev.vars | cut -d '=' -f2) ts-node scripts/add-images.ts",
     "upload:images": "ts-node -r dotenv/config scripts/upload-to-r2.ts dotenv_config_path=.dev.vars",
-    "update:r2urls": "ts-node scripts/update-r2-urls.ts"
+    "update:r2urls": "ts-node scripts/update-r2-urls.ts",
+    "backfill:cache": "ts-node -r dotenv/config scripts/backfill-r2-cache.ts dotenv_config_path=.dev.vars"
   },
   "repository": {
     "type": "git",

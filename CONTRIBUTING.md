@@ -29,6 +29,10 @@ Thanks for helping grow this project! Here's how to add a dish or improve existi
      "flavor_profile": ["savory"],
      "cooking_method": ["stewed"],
      "origin_region": "Region (only if the dish genuinely originates from there)",
+     "image_url": "",
+     "image_width": null,
+     "image_height": null,
+     "image_credit": "",
      "tags": ["tag1", "tag2"]
    }
    ```

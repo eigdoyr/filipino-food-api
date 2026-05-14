@@ -11,7 +11,8 @@
     "add:images": "FAL_API_KEY=$(grep FAL_API_KEY .dev.vars | cut -d '=' -f2) ts-node scripts/add-images.ts",
     "upload:images": "ts-node -r dotenv/config scripts/upload-to-r2.ts dotenv_config_path=.dev.vars",
     "update:r2urls": "ts-node scripts/update-r2-urls.ts",
-    "backfill:cache": "ts-node -r dotenv/config scripts/backfill-r2-cache.ts dotenv_config_path=.dev.vars"
+    "backfill:cache": "ts-node -r dotenv/config scripts/backfill-r2-cache.ts dotenv_config_path=.dev.vars",
+    "add:dimensions": "ts-node scripts/add-image-dimensions.ts"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "@fal-ai/client": "^1.10.1",
     "@hono/swagger-ui": "^0.6.1",
     "hono": "^4.12.18",
+    "image-size": "^2.0.2",
     "zod": "^4.4.3",
     "zod-to-json-schema": "^3.25.2"
   },

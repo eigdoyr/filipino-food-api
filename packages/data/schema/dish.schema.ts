@@ -74,6 +74,8 @@ export const DishSchema = z.object({
   cooking_method: z.array(CookingMethod).min(1),
   origin_region: z.string().optional(),
   image_url: z.string().url().optional(),
+  image_width: z.number().int().positive().optional(),
+  image_height: z.number().int().positive().optional(),
   image_credit: z.string().optional(),
   tags: z.array(z.string()).max(10),
 });

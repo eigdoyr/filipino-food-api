@@ -2410,7 +2410,9 @@ var dishes_default = [
       "national dish"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "adobong-kangkong",
@@ -2444,7 +2446,9 @@ var dishes_default = [
       "budget meal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobong-kangkong.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "adobong-manok-sa-gata",
@@ -2480,7 +2484,9 @@ var dishes_default = [
       "chicken"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobong-manok-sa-gata.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "adobong-pusit",
@@ -2514,7 +2520,9 @@ var dishes_default = [
       "ink"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/adobong-pusit.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "arroz-caldo",
@@ -2550,7 +2558,9 @@ var dishes_default = [
       "sick food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/arroz-caldo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "bagnet",
@@ -2587,7 +2597,9 @@ var dishes_default = [
       "pulutan"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bagnet.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "balut",
@@ -2618,7 +2630,9 @@ var dishes_default = [
       "night food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/balut.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "batchoy",
@@ -2655,7 +2669,9 @@ var dishes_default = [
       "pork soup"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/batchoy.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "beef-caldereta",
@@ -2692,7 +2708,9 @@ var dishes_default = [
       "tomato"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/beef-caldereta.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "beef-steak",
@@ -2726,7 +2744,9 @@ var dishes_default = [
       "onion"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/beef-steak.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "bibingka",
@@ -2762,7 +2782,9 @@ var dishes_default = [
       "simbang gabi"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bibingka.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "bibingkang-malagkit",
@@ -2796,7 +2818,9 @@ var dishes_default = [
       "caramel"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bibingkang-malagkit.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "bicol-express",
@@ -2831,7 +2855,9 @@ var dishes_default = [
       "chili"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bicol-express.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "biko",
@@ -2867,7 +2893,9 @@ var dishes_default = [
       "brown sugar"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/biko.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "binagoongan",
@@ -2902,7 +2930,9 @@ var dishes_default = [
       "salty"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/binagoongan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "bringhe",
@@ -2939,7 +2969,9 @@ var dishes_default = [
       "turmeric"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bringhe.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "buko-pandan",
@@ -2973,7 +3005,9 @@ var dishes_default = [
       "cold dessert"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/buko-pandan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "buko-salad",
@@ -3007,7 +3041,9 @@ var dishes_default = [
       "cold dessert"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/buko-salad.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "bulalo",
@@ -3042,7 +3078,9 @@ var dishes_default = [
       "batangas"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/bulalo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "carioca",
@@ -3075,7 +3113,9 @@ var dishes_default = [
       "coconut"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/carioca.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "cassava-cake",
@@ -3110,7 +3150,9 @@ var dishes_default = [
       "custard"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/cassava-cake.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "champorado",
@@ -3144,7 +3186,9 @@ var dishes_default = [
       "tablea"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/champorado.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "chicken-inasal",
@@ -3179,7 +3223,9 @@ var dishes_default = [
       "inasal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/chicken-inasal.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "crispy-pata",
@@ -3216,7 +3262,9 @@ var dishes_default = [
       "party food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/crispy-pata.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "daing-na-bangus",
@@ -3252,7 +3300,9 @@ var dishes_default = [
       "crispy"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/daing-na-bangus.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "dinakdakan",
@@ -3290,7 +3340,9 @@ var dishes_default = [
       "grilled"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/dinakdakan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "dinuguan",
@@ -3324,7 +3376,9 @@ var dishes_default = [
       "puto pairing"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/dinuguan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "empanada",
@@ -3360,7 +3414,9 @@ var dishes_default = [
       "street food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/empanada.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "escabeche",
@@ -3397,7 +3453,9 @@ var dishes_default = [
       "ginger"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/escabeche.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "espasol",
@@ -3431,7 +3489,9 @@ var dishes_default = [
       "coconut"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/espasol.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "fried-lumpia",
@@ -3467,7 +3527,9 @@ var dishes_default = [
       "vegetarian"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/fried-lumpia.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "ginataan",
@@ -3502,7 +3564,9 @@ var dishes_default = [
       "kakanin"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ginataan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "ginisang-monggo",
@@ -3537,7 +3601,9 @@ var dishes_default = [
       "healthy"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ginisang-monggo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "goto",
@@ -3573,7 +3639,9 @@ var dishes_default = [
       "congee"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/goto.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "halo-halo",
@@ -3608,7 +3676,9 @@ var dishes_default = [
       "ube"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/halo-halo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "igado",
@@ -3645,7 +3715,9 @@ var dishes_default = [
       "vinegar"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/igado.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "inihaw-na-liempo",
@@ -3682,7 +3754,9 @@ var dishes_default = [
       "inihaw"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/inihaw-na-liempo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "isaw",
@@ -3717,7 +3791,9 @@ var dishes_default = [
       "charcoal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/isaw.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "kaldereta",
@@ -3752,7 +3828,9 @@ var dishes_default = [
       "fiesta"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kaldereta.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "kare-kare",
@@ -3788,7 +3866,9 @@ var dishes_default = [
       "fiesta"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kare-kare.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "kinalas",
@@ -3825,7 +3905,9 @@ var dishes_default = [
       "spicy"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kinalas.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "kinilaw",
@@ -3862,7 +3944,9 @@ var dishes_default = [
       "coastal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kinilaw.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "kutsinta",
@@ -3895,7 +3979,9 @@ var dishes_default = [
       "coconut"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kutsinta.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "kwek-kwek",
@@ -3929,7 +4015,9 @@ var dishes_default = [
       "fried"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/kwek-kwek.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "laing",
@@ -3964,7 +4052,9 @@ var dishes_default = [
       "spicy"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/laing.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "leche-flan",
@@ -3998,7 +4088,9 @@ var dishes_default = [
       "celebration"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/leche-flan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "lechon-de-leche",
@@ -4033,7 +4125,9 @@ var dishes_default = [
       "roasted"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lechon-de-leche.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "lechon-kawali",
@@ -4069,7 +4163,9 @@ var dishes_default = [
       "pulutan"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lechon-kawali.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "lechon",
@@ -4105,7 +4201,9 @@ var dishes_default = [
       "cebu"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lechon.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "lomi",
@@ -4143,7 +4241,9 @@ var dishes_default = [
       "egg noodles"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lomi.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "longganisa",
@@ -4178,7 +4278,9 @@ var dishes_default = [
       "regional"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/longganisa.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "lumpia-shanghai",
@@ -4216,7 +4318,9 @@ var dishes_default = [
       "lumpia"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lumpia-shanghai.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "lumpiang-sariwa",
@@ -4254,7 +4358,9 @@ var dishes_default = [
       "sweet sauce"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/lumpiang-sariwa.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "macaroni-salad",
@@ -4291,7 +4397,9 @@ var dishes_default = [
       "party food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/macaroni-salad.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "maja-blanca",
@@ -4326,7 +4434,9 @@ var dishes_default = [
       "latik"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/maja-blanca.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "mami",
@@ -4361,7 +4471,9 @@ var dishes_default = [
       "carinderia"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/mami.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "menudo",
@@ -4396,7 +4508,9 @@ var dishes_default = [
       "fiesta"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/menudo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "misua-soup",
@@ -4430,7 +4544,9 @@ var dishes_default = [
       "patola"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/misua-soup.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "monggo-with-tinapa",
@@ -4466,7 +4582,9 @@ var dishes_default = [
       "friday dish"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/monggo-with-tinapa.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "morcon",
@@ -4503,7 +4621,9 @@ var dishes_default = [
       "fiesta"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/morcon.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "nilaga",
@@ -4537,7 +4657,9 @@ var dishes_default = [
       "simple"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/nilaga.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "paksiw-na-isda",
@@ -4573,7 +4695,9 @@ var dishes_default = [
       "budget meal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/paksiw-na-isda.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "palabok",
@@ -4611,7 +4735,9 @@ var dishes_default = [
       "pancit"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/palabok.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "palitaw",
@@ -4644,7 +4770,9 @@ var dishes_default = [
       "sesame"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/palitaw.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pancit-bihon",
@@ -4681,7 +4809,9 @@ var dishes_default = [
       "pancit"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pancit-bihon.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pancit-canton",
@@ -4718,7 +4848,9 @@ var dishes_default = [
       "pancit"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pancit-canton.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pancit-malabon",
@@ -4757,7 +4889,9 @@ var dishes_default = [
       "pancit"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pancit-malabon.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pinakbet",
@@ -4795,7 +4929,9 @@ var dishes_default = [
       "ilocano"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinakbet.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pinangat",
@@ -4831,7 +4967,9 @@ var dishes_default = [
       "spicy"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinangat.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pinaputok",
@@ -4864,7 +5002,9 @@ var dishes_default = [
       "grilled"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinaputok.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pinikpikan",
@@ -4900,7 +5040,9 @@ var dishes_default = [
       "highland"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinikpikan.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pinoy-spaghetti",
@@ -4937,7 +5079,9 @@ var dishes_default = [
       "kids"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pinoy-spaghetti.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pochero",
@@ -4974,7 +5118,9 @@ var dishes_default = [
       "fiesta"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pochero.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "poqui-poqui",
@@ -5009,7 +5155,9 @@ var dishes_default = [
       "simple"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/poqui-poqui.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pork-bbq",
@@ -5047,7 +5195,9 @@ var dishes_default = [
       "bbq"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pork-bbq.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pork-sinigang",
@@ -5083,7 +5233,9 @@ var dishes_default = [
       "comfort food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pork-sinigang.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pritong-isda",
@@ -5116,7 +5268,9 @@ var dishes_default = [
       "budget meal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pritong-isda.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "puto-bumbong",
@@ -5150,7 +5304,9 @@ var dishes_default = [
       "purple rice"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/puto-bumbong.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "puto",
@@ -5186,7 +5342,9 @@ var dishes_default = [
       "steamed"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/puto.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "pyanggang",
@@ -5222,7 +5380,9 @@ var dishes_default = [
       "coconut"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/pyanggang.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sapin-sapin",
@@ -5256,7 +5416,9 @@ var dishes_default = [
       "colorful"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sapin-sapin.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sinampalukang-manok",
@@ -5290,7 +5452,9 @@ var dishes_default = [
       "herbal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinampalukang-manok.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sinangag",
@@ -5325,7 +5489,9 @@ var dishes_default = [
       "fried rice"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinangag.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sinigang-na-hipon",
@@ -5359,7 +5525,9 @@ var dishes_default = [
       "seafood"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinigang-na-hipon.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sinigang",
@@ -5394,7 +5562,9 @@ var dishes_default = [
       "comfort food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinigang.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sinuglaw",
@@ -5433,7 +5603,9 @@ var dishes_default = [
       "ceviche"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinuglaw.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sisig",
@@ -5472,7 +5644,9 @@ var dishes_default = [
       "pork"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sisig.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "sopas",
@@ -5508,7 +5682,9 @@ var dishes_default = [
       "chicken"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sopas.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "suman",
@@ -5543,7 +5719,9 @@ var dishes_default = [
       "mango pairing"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/suman.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "taho",
@@ -5577,7 +5755,9 @@ var dishes_default = [
       "sago"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/taho.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tapsilog",
@@ -5611,7 +5791,9 @@ var dishes_default = [
       "garlic rice"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tapsilog.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tinapa",
@@ -5646,7 +5828,9 @@ var dishes_default = [
       "preserved"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tinapa.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tinola",
@@ -5681,7 +5865,9 @@ var dishes_default = [
       "comfort food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tinola.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tinolang-isda",
@@ -5714,7 +5900,9 @@ var dishes_default = [
       "comfort food"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tinolang-isda.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tiyula-itum",
@@ -5751,7 +5939,9 @@ var dishes_default = [
       "black soup"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tiyula-itum.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tocino",
@@ -5785,7 +5975,9 @@ var dishes_default = [
       "breakfast"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tocino.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tortang-talong",
@@ -5819,7 +6011,9 @@ var dishes_default = [
       "everyday"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tortang-talong.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "tuyo",
@@ -5853,7 +6047,9 @@ var dishes_default = [
       "budget meal"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/tuyo.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "ube-halaya",
@@ -5888,7 +6084,9 @@ var dishes_default = [
       "dessert"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ube-halaya.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   },
   {
     id: "ukoy",
@@ -5923,7 +6121,9 @@ var dishes_default = [
       "crispy"
     ],
     image_url: "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/ukoy.jpg",
-    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2"
+    image_credit: "AI Generated (fal.ai Realistic Vision) hosted on Cloudflare R2",
+    image_width: 1024,
+    image_height: 1024
   }
 ];
 

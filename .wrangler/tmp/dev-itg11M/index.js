@@ -6448,7 +6448,18 @@ var spec = {
     }
   }
 };
-router2.get("/", middleware({ url: "/docs/spec" }));
+router2.get("/", async (c) => {
+  const swaggerHandler = middleware({ url: "/docs/spec" });
+  const response = await swaggerHandler(c, async () => {
+  });
+  if (!response) return c.text("Not found", 404);
+  const html2 = await response.text();
+  const withAnalytics = html2.replace(
+    "</body>",
+    `<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "50ac57d98cf54a57aa19da94f48e6df2"}'><\/script></body>`
+  );
+  return c.html(withAnalytics);
+});
 router2.get("/spec", (c) => c.json(spec));
 var docs_default = router2;
 

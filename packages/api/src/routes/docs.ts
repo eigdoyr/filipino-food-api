@@ -79,7 +79,19 @@ const spec = {
   },
 };
 
-router.get("/", swaggerUI({ url: "/docs/spec" }));
+router.get("/", async (c) => {
+  const swaggerHandler = swaggerUI({ url: "/docs/spec" });
+  const response = await swaggerHandler(c, async () => {});
+  if (!response) return c.text("Not found", 404);
+
+  const html = await response.text();
+  const withAnalytics = html.replace(
+    "</body>",
+    `<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "50ac57d98cf54a57aa19da94f48e6df2"}'></script></body>`,
+  );
+
+  return c.html(withAnalytics);
+});
 router.get("/spec", (c) => c.json(spec));
 
 export default router;

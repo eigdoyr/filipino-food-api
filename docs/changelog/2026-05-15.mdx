@@ -1,0 +1,16 @@
+---
+title: "May 15, 2026"
+description: "Image dimensions on every dish and faster image delivery."
+---
+
+## New features
+
+**Image dimensions on every dish**
+
+Every dish object now includes `image_width` and `image_height` fields. You can use these to reserve layout space ahead of time and avoid cumulative layout shift when rendering dish images in grids or cards.
+
+See the updated response shape in the [dishes endpoint reference](/endpoints/dishes).
+
+## Bug fixes
+
+- **Faster image loads.** Dish images served from the CDN now return proper `Cache-Control` headers, so browsers and CDNs can cache them aggressively. Repeat visits and shared traffic should feel noticeably snappier.

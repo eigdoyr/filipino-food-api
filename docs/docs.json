@@ -16,6 +16,10 @@
       {
         "group": "Endpoints",
         "pages": ["endpoints/dishes", "endpoints/search", "endpoints/regions"]
+      },
+      {
+        "group": "Changelog",
+        "pages": ["changelog/2026-05-15"]
       }
     ]
   }

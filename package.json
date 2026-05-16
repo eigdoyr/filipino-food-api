@@ -43,13 +43,13 @@
     "zod-to-json-schema": "^3.25.2"
   },
   "devDependencies": {
-    "@types/node": "^25.6.2",
+    "@types/node": "^25.8.0",
     "dotenv": "^17.4.2",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.4",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
     "vitest": "^4.1.6",
-    "wrangler": "^4.90.0"
+    "wrangler": "^4.92.0"
   }
 }

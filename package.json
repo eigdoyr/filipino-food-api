@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
     "validate": "ts-node scripts/validate.ts",
     "dev": "wrangler dev",
     "build:index": "ts-node scripts/build-index.ts",
@@ -40,6 +40,7 @@
     "dotenv": "^17.4.2",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
+    "vitest": "^4.1.6",
     "wrangler": "^4.90.0"
   }
 }

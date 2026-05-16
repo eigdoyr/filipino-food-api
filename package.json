@@ -12,7 +12,14 @@
     "upload:images": "ts-node -r dotenv/config scripts/upload-to-r2.ts dotenv_config_path=.dev.vars",
     "update:r2urls": "ts-node scripts/update-r2-urls.ts",
     "backfill:cache": "ts-node -r dotenv/config scripts/backfill-r2-cache.ts dotenv_config_path=.dev.vars",
-    "add:dimensions": "ts-node scripts/add-image-dimensions.ts"
+    "add:dimensions": "ts-node scripts/add-image-dimensions.ts",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "packages/data/dishes/*.json": [
+      "npm run build:index",
+      "npm run validate"
+    ]
   },
   "repository": {
     "type": "git",
@@ -38,6 +45,8 @@
   "devDependencies": {
     "@types/node": "^25.6.2",
     "dotenv": "^17.4.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.4",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3",
     "vitest": "^4.1.6",

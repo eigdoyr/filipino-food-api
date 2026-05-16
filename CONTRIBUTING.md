@@ -2,6 +2,13 @@
 
 Thanks for helping grow this project! Here's how to add a dish or improve existing data.
 
+## Pre-commit Hooks
+
+This project uses Husky to run validation automatically when you commit a dish file.
+No setup needed — `npm install` configures it for you.
+
+If validation fails, the commit is blocked. Fix the issues and try again.
+
 ## Adding a Dish
 
 1. Fork the repo and create a branch:

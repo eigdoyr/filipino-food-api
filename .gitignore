@@ -2,6 +2,8 @@ packages/data/dishes/index.json
 
 .dev.vars
 
+.wrangler/
+
 # Logs
 logs
 *.log

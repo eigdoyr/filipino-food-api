@@ -15,7 +15,12 @@
       },
       {
         "group": "Endpoints",
-        "pages": ["endpoints/dishes", "endpoints/search", "endpoints/regions"]
+        "pages": [
+          "endpoints/dishes",
+          "endpoints/search",
+          "endpoints/regions",
+          "endpoints/stats"
+        ]
       },
       {
         "group": "Changelog",

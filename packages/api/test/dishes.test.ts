@@ -28,6 +28,28 @@ describe("GET /v1/dishes", () => {
   });
 });
 
+describe("GET /v1/dishes/stats", () => {
+  it("returns 200 with aggregate data", async () => {
+    const res = await app.request("/v1/dishes/stats");
+    expect(res.status).toBe(200);
+
+    const body = (await res.json()) as any;
+    expect(body.data.total_dishes).toBeGreaterThan(0);
+    expect(body.data.by_type).toBeDefined();
+    expect(body.data.by_region).toBeDefined();
+    expect(body.data.top_ingredients).toBeInstanceOf(Array);
+    expect(body.data.top_ingredients.length).toBeLessThanOrEqual(10);
+  });
+
+  it("top_ingredients are sorted by count descending", async () => {
+    const res = await app.request("/v1/dishes/stats");
+    const body = (await res.json()) as any;
+    const counts = body.data.top_ingredients.map((i: any) => i.count);
+    const sorted = [...counts].sort((a, b) => b - a);
+    expect(counts).toEqual(sorted);
+  });
+});
+
 describe("GET /v1/dishes/:id", () => {
   it("returns 200 for valid dish", async () => {
     const res = await app.request("/v1/dishes/adobo");

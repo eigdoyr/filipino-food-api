@@ -1,0 +1,64 @@
+# Stats
+
+Aggregate statistics about the entire dish dataset.
+
+## Get Dataset Stats
+
+```
+GET /v1/dishes/stats
+```
+
+Returns a live snapshot of the dataset — counts by type, occasion, region, flavor, and cooking method, plus the most common ingredients. Useful for dashboards, charts, or understanding the dataset without fetching all dishes.
+
+### Example Request
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/stats
+```
+
+### Example Response
+
+```json
+{
+  "data": {
+    "total_dishes": 100,
+    "by_type": {
+      "main_dish": 66,
+      "soup": 20,
+      "kakanin": 15
+    },
+    "by_occasion": {
+      "everyday": 81,
+      "fiesta": 42,
+      "party": 35
+    },
+    "by_region": {
+      "Bicol": 5,
+      "Ilocos": 5,
+      "Pampanga": 2
+    },
+    "by_flavor": {
+      "savory": 80,
+      "sweet": 34,
+      "salty": 33
+    },
+    "by_cooking_method": {
+      "boiled": 42,
+      "stewed": 23,
+      "fried": 18
+    },
+    "top_ingredients": [
+      { "name": "garlic", "count": 27 },
+      { "name": "coconut milk", "count": 17 },
+      { "name": "pork", "count": 16 }
+    ]
+  }
+}
+```
+
+### Notes
+
+- All counts are calculated live from the current dataset
+- `top_ingredients` returns the 10 most common ingredients, sorted by count
+- A dish can have multiple types, occasions, flavors — so category counts may total more than `total_dishes`
+- Only dishes with a confirmed `origin_region` are counted in `by_region`

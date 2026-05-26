@@ -59,6 +59,14 @@ const spec = {
         },
       },
     },
+    "/v1/dishes/stats": {
+      get: {
+        summary: "Get aggregate statistics about the dataset",
+        responses: {
+          "200": { description: "Dataset statistics" },
+        },
+      },
+    },
     "/v1/dishes/{id}": {
       get: {
         summary: "Get a single dish by ID",

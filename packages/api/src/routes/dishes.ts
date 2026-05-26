@@ -87,6 +87,51 @@ router.get("/regions", (c) => {
   return c.json({ data, total: data.length });
 });
 
+router.get("/stats", (c) => {
+  const countBy = (
+    key: "type" | "occasion" | "flavor_profile" | "cooking_method",
+  ) => {
+    const counts: Record<string, number> = {};
+    for (const dish of dishes) {
+      for (const value of dish[key]) {
+        counts[value] = (counts[value] ?? 0) + 1;
+      }
+    }
+    return counts;
+  };
+
+  const byRegion: Record<string, number> = {};
+  for (const dish of dishes) {
+    if (dish.origin_region) {
+      byRegion[dish.origin_region] = (byRegion[dish.origin_region] ?? 0) + 1;
+    }
+  }
+
+  const ingredientCounts: Record<string, number> = {};
+  for (const dish of dishes) {
+    for (const ingredient of dish.main_ingredients) {
+      ingredientCounts[ingredient] = (ingredientCounts[ingredient] ?? 0) + 1;
+    }
+  }
+
+  const topIngredients = Object.entries(ingredientCounts)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10);
+
+  return c.json({
+    data: {
+      total_dishes: dishes.length,
+      by_type: countBy("type"),
+      by_occasion: countBy("occasion"),
+      by_region: byRegion,
+      by_flavor: countBy("flavor_profile"),
+      by_cooking_method: countBy("cooking_method"),
+      top_ingredients: topIngredients,
+    },
+  });
+});
+
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes.find((d) => d.id === id);

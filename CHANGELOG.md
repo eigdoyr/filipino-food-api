@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented here.
 
+## [1.3.0] — May 2026
+
+### Added
+
+- `GET /v1/dishes/stats` endpoint with aggregate statistics
+- PR template for contributors
+- Pull-request based workflow with branch protection
+
+### Fixed
+
+- `.wrangler` build artifacts no longer tracked in git
+
 ## [1.2.0] — May 2026
 
 ### Added

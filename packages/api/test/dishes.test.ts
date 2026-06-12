@@ -99,3 +99,20 @@ describe("GET /v1/dishes/regions", () => {
     expect(body.data[0]).toHaveProperty("dish_count");
   });
 });
+
+describe("GET /v1/dishes/ingredients", () => {
+  it("returns 200 with ingredients sorted by count", async () => {
+    const res = await app.request("/v1/dishes/ingredients");
+    expect(res.status).toBe(200);
+
+    const body = (await res.json()) as any;
+    expect(body.data).toBeInstanceOf(Array);
+    expect(body.total).toBe(body.data.length);
+    expect(body.data[0]).toHaveProperty("name");
+    expect(body.data[0]).toHaveProperty("count");
+
+    const counts = body.data.map((i: any) => i.count);
+    const sorted = [...counts].sort((a, b) => b - a);
+    expect(counts).toEqual(sorted);
+  });
+});

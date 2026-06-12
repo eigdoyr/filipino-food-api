@@ -19,7 +19,8 @@
           "endpoints/dishes",
           "endpoints/search",
           "endpoints/regions",
-          "endpoints/stats"
+          "endpoints/stats",
+          "endpoints/ingredients"
         ]
       },
       {

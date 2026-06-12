@@ -132,6 +132,21 @@ router.get("/stats", (c) => {
   });
 });
 
+router.get("/ingredients", (c) => {
+  const ingredientCounts: Record<string, number> = {};
+  for (const dish of dishes) {
+    for (const ingredient of dish.main_ingredients) {
+      ingredientCounts[ingredient] = (ingredientCounts[ingredient] ?? 0) + 1;
+    }
+  }
+
+  const data = Object.entries(ingredientCounts)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count);
+
+  return c.json({ data, total: data.length });
+});
+
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes.find((d) => d.id === id);

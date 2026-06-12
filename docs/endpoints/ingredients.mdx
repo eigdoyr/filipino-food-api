@@ -1,0 +1,39 @@
+# Ingredients
+
+List all unique ingredients across the dish dataset with frequency counts.
+
+## List All Ingredients
+
+```
+GET /v1/dishes/ingredients
+```
+
+Returns every unique ingredient used across all dishes, sorted by frequency — most common first. Useful for ingredient browsers, autocomplete, or analyzing which ingredients define the cuisine.
+
+### Example Request
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/ingredients
+```
+
+### Example Response
+
+```json
+{
+  "data": [
+    { "name": "garlic", "count": 27 },
+    { "name": "coconut milk", "count": 17 },
+    { "name": "pork", "count": 16 },
+    { "name": "vinegar", "count": 14 },
+    { "name": "ginger", "count": 14 }
+  ],
+  "total": 85
+}
+```
+
+### Notes
+
+- Calculated live from the current dataset
+- `count` is the number of dishes that include this ingredient
+- Sorted by `count` descending — most used ingredients first
+- Ingredient names are exactly as they appear in dish entries

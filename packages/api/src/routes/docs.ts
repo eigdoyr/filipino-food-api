@@ -67,6 +67,14 @@ const spec = {
         },
       },
     },
+    "/v1/dishes/ingredients": {
+      get: {
+        summary: "List all unique ingredients with their dish counts",
+        responses: {
+          "200": { description: "List of ingredients sorted by frequency" },
+        },
+      },
+    },
     "/v1/dishes/{id}": {
       get: {
         summary: "Get a single dish by ID",

@@ -25,7 +25,7 @@ app.get("/", (c) => {
   return c.json({
     status: "ok",
     name: "Filipino Food API",
-    version: "1.1.0",
+    version: "1.3.0",
     author: "ryodgie",
     docs: "https://filipino-food-api.ryodgie.workers.dev/docs",
     repository: "https://github.com/eigdoyr/filipino-food-api",

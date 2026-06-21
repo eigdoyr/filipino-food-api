@@ -75,6 +75,14 @@ const spec = {
         },
       },
     },
+    "/v1/dishes/random": {
+      get: {
+        summary: "Get a single random dish",
+        responses: {
+          "200": { description: "A randomly selected dish" },
+        },
+      },
+    },
     "/v1/dishes/{id}": {
       get: {
         summary: "Get a single dish by ID",

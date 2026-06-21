@@ -1,0 +1,42 @@
+# Random
+
+Get one random Filipino dish from the dataset.
+
+## Get a Random Dish
+
+```
+GET /v1/dishes/random
+```
+
+Returns a single randomly selected dish. Useful for "dish of the day" features, surprise picks, or testing.
+
+### Example Request
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/random
+```
+
+### Example Response
+
+```json
+{
+  "data": {
+    "id": "sinigang",
+    "name": "Sinigang",
+    "description": "A sour tamarind-based soup with pork...",
+    "type": ["soup", "main_dish"],
+    "main_ingredients": ["pork", "tamarind", "kangkong", "radish", "eggplant"],
+    "occasion": ["everyday", "cold_weather"],
+    "flavor_profile": ["sour", "savory"],
+    "cooking_method": ["boiled", "stewed"],
+    "image_url": "https://pub-2e1172f9672f425f9d4a549a832fbd21.r2.dev/dishes/sinigang.jpg",
+    "tags": ["tamarind", "soup", "comfort food"]
+  }
+}
+```
+
+### Notes
+
+- Each call returns a different dish (with extremely high probability)
+- Returns the same response shape as `GET /v1/dishes/:id`
+- No filters or parameters — pure random selection from all dishes

@@ -147,6 +147,11 @@ router.get("/ingredients", (c) => {
   return c.json({ data, total: data.length });
 });
 
+router.get("/random", (c) => {
+  const randomDish = dishes[Math.floor(Math.random() * dishes.length)];
+  return c.json({ data: randomDish });
+});
+
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes.find((d) => d.id === id);

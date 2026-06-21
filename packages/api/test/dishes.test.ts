@@ -116,3 +116,25 @@ describe("GET /v1/dishes/ingredients", () => {
     expect(counts).toEqual(sorted);
   });
 });
+
+describe("GET /v1/dishes/random", () => {
+  it("returns 200 with a single dish", async () => {
+    const res = await app.request("/v1/dishes/random");
+    expect(res.status).toBe(200);
+
+    const body = (await res.json()) as any;
+    expect(body.data).toBeDefined();
+    expect(body.data.id).toBeDefined();
+    expect(body.data.name).toBeDefined();
+  });
+
+  it("returns different dishes across multiple calls", async () => {
+    const ids = new Set();
+    for (let i = 0; i < 20; i++) {
+      const res = await app.request("/v1/dishes/random");
+      const body = (await res.json()) as any;
+      ids.add(body.data.id);
+    }
+    expect(ids.size).toBeGreaterThan(1);
+  });
+});

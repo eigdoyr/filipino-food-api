@@ -1,0 +1,59 @@
+# Similar Dishes
+
+Find dishes similar to a given dish based on shared ingredients and type.
+
+## Get Similar Dishes
+
+```
+GET /v1/dishes/similar/:id
+```
+
+Returns up to 5 dishes most similar to the given dish. Similarity is scored by shared types and shared main ingredients — each matching type is worth 2 points, each matching ingredient is worth 1 point. Results are sorted by score, highest first.
+
+Useful for "you might also like" features, recommendation widgets, or exploring related dishes.
+
+### Path Parameters
+
+| Parameter | Type   | Description                                    |
+| --------- | ------ | ---------------------------------------------- |
+| `id`      | string | Reference dish slug (e.g. `adobo`, `sinigang`) |
+
+### Example Request
+
+```bash
+curl https://filipino-food-api.ryodgie.workers.dev/v1/dishes/similar/adobo
+```
+
+### Example Response
+
+```json
+{
+  "data": [
+    { "id": "adobong-pusit", "name": "Adobong Pusit", ... },
+    { "id": "adobong-kangkong", "name": "Adobong Kangkong", ... },
+    { "id": "dinuguan", "name": "Dinuguan", ... }
+  ],
+  "reference": "adobo",
+  "total": 3
+}
+```
+
+### Error Response
+
+```json
+{
+  "error": {
+    "message": "Dish not found",
+    "code": "NOT_FOUND",
+    "status": 404
+  }
+}
+```
+
+### Notes
+
+- Scoring: `2 × shared types + 1 × shared main ingredients`
+- Only dishes with a score greater than 0 are returned
+- Maximum 5 results
+- The reference dish itself is never included in results
+- Calculated live from the dataset

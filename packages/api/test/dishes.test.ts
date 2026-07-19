@@ -138,3 +138,30 @@ describe("GET /v1/dishes/random", () => {
     expect(ids.size).toBeGreaterThan(1);
   });
 });
+
+describe("GET /v1/dishes/similar/:id", () => {
+  it("returns 200 with similar dishes", async () => {
+    const res = await app.request("/v1/dishes/similar/adobo");
+    expect(res.status).toBe(200);
+
+    const body = (await res.json()) as any;
+    expect(body.reference).toBe("adobo");
+    expect(body.data).toBeInstanceOf(Array);
+    expect(body.data.length).toBeGreaterThan(0);
+    expect(body.data.length).toBeLessThanOrEqual(5);
+  });
+
+  it("does not include the reference dish in results", async () => {
+    const res = await app.request("/v1/dishes/similar/adobo");
+    const body = (await res.json()) as any;
+    expect(body.data.every((d: any) => d.id !== "adobo")).toBe(true);
+  });
+
+  it("returns 404 for unknown dish", async () => {
+    const res = await app.request("/v1/dishes/similar/not-real");
+    expect(res.status).toBe(404);
+
+    const body = (await res.json()) as any;
+    expect(body.error.code).toBe("NOT_FOUND");
+  });
+});

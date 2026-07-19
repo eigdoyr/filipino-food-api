@@ -83,6 +83,26 @@ const spec = {
         },
       },
     },
+    "/v1/dishes/similar/{id}": {
+      get: {
+        summary: "Get dishes similar to a given dish",
+        parameters: [
+          {
+            name: "id",
+            in: "path",
+            required: true,
+            schema: { type: "string" },
+          },
+        ],
+        responses: {
+          "200": {
+            description:
+              "Up to 5 similar dishes, scored by shared type and ingredients",
+          },
+          "404": { description: "Reference dish not found" },
+        },
+      },
+    },
     "/v1/dishes/{id}": {
       get: {
         summary: "Get a single dish by ID",

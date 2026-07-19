@@ -152,6 +152,35 @@ router.get("/random", (c) => {
   return c.json({ data: randomDish });
 });
 
+router.get("/similar/:id", (c) => {
+  const id = c.req.param("id");
+  const target = dishes.find((d) => d.id === id);
+
+  if (!target) {
+    return c.json(errorResponse("Dish not found", "NOT_FOUND", 404), 404);
+  }
+
+  const scored = dishes
+    .filter((d) => d.id !== target.id)
+    .map((d) => {
+      const typeMatches = d.type.filter((t) => target.type.includes(t)).length;
+      const ingredientMatches = d.main_ingredients.filter((i) =>
+        target.main_ingredients.includes(i),
+      ).length;
+      const score = typeMatches * 2 + ingredientMatches;
+      return { dish: d, score };
+    })
+    .filter((entry) => entry.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5);
+
+  return c.json({
+    data: scored.map((entry) => entry.dish),
+    reference: target.id,
+    total: scored.length,
+  });
+});
+
 router.get("/:id", (c) => {
   const id = c.req.param("id");
   const dish = dishes.find((d) => d.id === id);

@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented here.
 
+## [1.4.0](https://github.com/eigdoyr/filipino-food-api/compare/v1.3.0...v1.4.0) (2026-07-19)
+
+
+### Features
+
+* **api:** add GET /v1/dishes/ingredients endpoint ([#60](https://github.com/eigdoyr/filipino-food-api/issues/60)) ([cd53b32](https://github.com/eigdoyr/filipino-food-api/commit/cd53b329543f6e2646b4af8454bf3ca14abab6d0))
+* **api:** add GET /v1/dishes/random endpoint ([#63](https://github.com/eigdoyr/filipino-food-api/issues/63)) ([77a81af](https://github.com/eigdoyr/filipino-food-api/commit/77a81af7deff82c4a9d5c5ec6027f06b93b67894))
+
 ## [1.3.0] — June 2026
 
 ### Added

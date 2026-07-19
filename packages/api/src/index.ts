@@ -5,6 +5,7 @@ import docs from "./routes/docs";
 import { rateLimit } from "./middleware/rateLimit";
 import { securityHeaders } from "./middleware/securityHeaders";
 import { queryLimit } from "./middleware/queryLimit";
+import { version } from "../../../package.json";
 
 const app = new Hono();
 
@@ -25,7 +26,7 @@ app.get("/", (c) => {
   return c.json({
     status: "ok",
     name: "Filipino Food API",
-    version: "1.3.0",
+    version: version,
     author: "ryodgie",
     docs: "https://filipino-food-api.ryodgie.workers.dev/docs",
     repository: "https://github.com/eigdoyr/filipino-food-api",
